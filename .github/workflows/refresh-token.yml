@@ -1,0 +1,16 @@
+name: refresh-token
+on:
+  schedule:
+    - cron: "17 2 1,15 * *"   # 每月 1、15 號延長權杖
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - name: Check and refresh IG token
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          REFRESH: ${{ github.event_name == 'schedule' && '1' || '0' }}
+        run: python scripts/token.py
