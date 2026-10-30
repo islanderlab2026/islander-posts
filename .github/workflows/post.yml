@@ -12,6 +12,10 @@ on:
         description: "第幾支（1＝21:00 那支，2＝週末中午那支）"
         required: false
         default: "1"
+      account:
+        description: "哪個帳號（main＝島民 islanderlab2026，fur＝furfriend.tw）"
+        required: false
+        default: "main"
 permissions:
   contents: write
 concurrency: post-reel
@@ -19,12 +23,15 @@ jobs:
   post:
     runs-on: ubuntu-latest
     environment: ig-post
+    env:
+      HAS_FUR: ${{ secrets.IG_TOKEN_FUR != '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install requests
       - name: Post today's reel
+        if: inputs.account != 'fur'
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -32,7 +39,20 @@ jobs:
           SLOT: ${{ github.event.schedule == '0 4 * * 6,0' && '2' || inputs.slot || '1' }}
           PAGES_BASE: https://islanderlab2026.github.io/islander-posts
         run: python scripts/post.py
+      - name: Post furfriend.tw reel
+        # 每天 21:00 那次一起發 queue/fur/<日期>.mp4；還沒設 IG_TOKEN_FUR 就跳過
+        if: always() && env.HAS_FUR == 'true' && (inputs.account == 'fur' || (github.event_name == 'schedule' && github.event.schedule != '0 4 * * 6,0'))
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_FUR }}
+          POST_DATE: ${{ inputs.date }}
+          SLOT: "1"
+          QDIR: queue/fur
+          DONE: posted/fur
+          PAGES_BASE: https://islanderlab2026.github.io/islander-posts
+        run: python scripts/post.py
       - name: Move to posted/ and commit
+        if: always()
         run: |
           git config user.name "islander-bot"
           git config user.email "islander-bot@users.noreply.github.com"
