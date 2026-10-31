@@ -14,7 +14,7 @@ on:
         description: "要發哪天的片（YYYY-MM-DD，空白＝今天）"
         required: false
       slot:
-        description: "第幾支（1＝21:00 那支，2＝週末中午那支）"
+        description: "第幾支（1＝晚上那支，2＝週末中午那支）"
         required: false
         default: "1"
       account:
@@ -30,9 +30,10 @@ jobs:
     environment: ig-post
     env:
       HAS_FUR: ${{ secrets.IG_TOKEN_FUR != '' }}
-      NOON: ${{ contains(github.event.schedule, '6,0') }}
+      SLOT_NOW: ${{ contains(github.event.schedule, '6,0') && '2' || inputs.slot || '1' }}
     steps:
       - uses: actions/checkout@v4
+        with: { ref: main }   # 用最新的 main，避免前一次剛搬走的片又被發
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install requests
@@ -42,17 +43,17 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           POST_DATE: ${{ inputs.date }}
-          SLOT: ${{ contains(github.event.schedule, '6,0') && '2' || inputs.slot || '1' }}
+          SLOT: ${{ env.SLOT_NOW }}
           PAGES_BASE: https://islanderlab2026.github.io/islander-posts
         run: python scripts/post.py
       - name: Post furfriend.tw reel
-        # 每天晚上那次一起發 queue/fur/<日期>.mp4；還沒設 IG_TOKEN_FUR 就跳過
-        if: always() && env.HAS_FUR == 'true' && (inputs.account == 'fur' || (github.event_name == 'schedule' && env.NOON != 'true'))
+        # 跟島民同樣時段：平日晚上 1 支、週末中午＋晚上；檔名 queue/fur/<日期>[-2].mp4
+        if: always() && env.HAS_FUR == 'true' && (inputs.account == 'fur' || github.event_name == 'schedule')
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
           IG_USER_ID: ${{ secrets.IG_USER_ID_FUR }}
           POST_DATE: ${{ inputs.date }}
-          SLOT: "1"
+          SLOT: ${{ env.SLOT_NOW }}
           QDIR: queue/fur
           DONE: posted/fur
           PAGES_BASE: https://islanderlab2026.github.io/islander-posts
@@ -63,4 +64,5 @@ jobs:
           git config user.name "islander-bot"
           git config user.email "islander-bot@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet || git commit -m "posted $(date -u +%F)" && git push
+          git diff --cached --quiet || git commit -m "posted $(date -u +%F)"
+          git pull --rebase origin main && git push
