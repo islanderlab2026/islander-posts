@@ -1,8 +1,13 @@
 name: post-reel
 on:
   schedule:
-    - cron: "47 12 * * *"   # 20:47 台灣時間（第 1 支；避開整點延遲）
-    - cron: "0 4 * * 6,0"  # 週六日 12:00 台灣時間（第 2 支）
+    # GitHub 排程常延遲或跳過：每個時段觸發 3 次，第一次發完片就搬走，後面兩次找不到片自動結束
+    - cron: "47 12 * * *"   # 20:47 台灣（第 1 支）
+    - cron: "17 13 * * *"   # 21:17 補跑
+    - cron: "47 13 * * *"   # 21:47 補跑
+    - cron: "47 3 * * 6,0"  # 週末 11:47（第 2 支）
+    - cron: "17 4 * * 6,0"  # 12:17 補跑
+    - cron: "47 4 * * 6,0"  # 12:47 補跑
   workflow_dispatch:
     inputs:
       date:
@@ -25,6 +30,7 @@ jobs:
     environment: ig-post
     env:
       HAS_FUR: ${{ secrets.IG_TOKEN_FUR != '' }}
+      NOON: ${{ contains(github.event.schedule, '6,0') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -36,12 +42,12 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           POST_DATE: ${{ inputs.date }}
-          SLOT: ${{ github.event.schedule == '0 4 * * 6,0' && '2' || inputs.slot || '1' }}
+          SLOT: ${{ contains(github.event.schedule, '6,0') && '2' || inputs.slot || '1' }}
           PAGES_BASE: https://islanderlab2026.github.io/islander-posts
         run: python scripts/post.py
       - name: Post furfriend.tw reel
-        # 每天 21:00 那次一起發 queue/fur/<日期>.mp4；還沒設 IG_TOKEN_FUR 就跳過
-        if: always() && env.HAS_FUR == 'true' && (inputs.account == 'fur' || (github.event_name == 'schedule' && github.event.schedule != '0 4 * * 6,0'))
+        # 每天晚上那次一起發 queue/fur/<日期>.mp4；還沒設 IG_TOKEN_FUR 就跳過
+        if: always() && env.HAS_FUR == 'true' && (inputs.account == 'fur' || (github.event_name == 'schedule' && env.NOON != 'true'))
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
           IG_USER_ID: ${{ secrets.IG_USER_ID_FUR }}
