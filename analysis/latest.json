@@ -1,0 +1,318 @@
+{
+ "generatedAt": "2026-11-02 02:09",
+ "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
+ "main": {
+  "n48": 3,
+  "pending": [
+   {
+    "file": "2026-10-31",
+    "title": "天團萬聖節變裝",
+    "kind": "節日天氣",
+    "score": 86,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/31 21:33",
+    "weekday": "六",
+    "slot": "21點",
+    "check": null,
+    "ageH": 28.6
+   },
+   {
+    "file": "r20261030-2",
+    "title": "小時候打針",
+    "kind": "童年共鳴",
+    "score": 85,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/01 21:34",
+    "weekday": "日",
+    "slot": "21點",
+    "check": null,
+    "ageH": 4.6
+   },
+   {
+    "file": "r20261030-3",
+    "title": "阿包第一次看牙",
+    "kind": "童年共鳴",
+    "score": 89,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/31 12:21",
+    "weekday": "六",
+    "slot": "12點",
+    "check": null,
+    "ageH": 37.8
+   },
+   {
+    "file": "r20261030-4",
+    "title": "排哥當沖一天",
+    "kind": "生活共鳴",
+    "score": 86,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/01 12:33",
+    "weekday": "日",
+    "slot": "12點",
+    "check": null,
+    "ageH": 13.6
+   }
+  ],
+  "posts": [
+   {
+    "file": "2026-10-30",
+    "title": "黏土芒果寶寶",
+    "kind": "跳舞",
+    "score": 84,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/30 21:15",
+    "weekday": "五",
+    "slot": "21點",
+    "check": null,
+    "views48": 943,
+    "reach48": 611,
+    "avgWatchSec": 8.3,
+    "shares48": 0,
+    "saved48": 2,
+    "likes48": 2,
+    "shareRate": 0.0,
+    "saveRate": 0.33,
+    "snapAgeH": 52.7,
+    "views7d": null,
+    "actualBucket": "C"
+   },
+   {
+    "file": "2026-11-06",
+    "title": "阿包裝睡被媽媽抓包",
+    "kind": "童年共鳴",
+    "score": 85,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/29 22:22",
+    "weekday": "四",
+    "slot": "21點",
+    "check": null,
+    "views48": 802,
+    "reach48": 581,
+    "avgWatchSec": 6.4,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 11,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 75.5,
+    "views7d": null,
+    "actualBucket": "C"
+   },
+   {
+    "file": "2026-10-29",
+    "title": "土狗的陣頭夢",
+    "kind": "跳舞",
+    "score": 72,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/29 01:01",
+    "weekday": "四",
+    "slot": "12點",
+    "check": null,
+    "views48": 192,
+    "reach48": 152,
+    "avgWatchSec": 3.8,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 4,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 96.9,
+    "views7d": null,
+    "actualBucket": "A"
+   }
+  ],
+  "views48": {
+   "median": 802,
+   "mean": 646,
+   "max": 943,
+   "min": 192
+  },
+  "avgWatchSec": 6.2,
+  "shareRatePct": 0.0,
+  "saveRatePct": 0.11,
+  "sharesTotal": 0,
+  "byKind": {
+   "童年共鳴": {
+    "n": 1,
+    "avg48": 802,
+    "median48": 802
+   },
+   "跳舞": {
+    "n": 2,
+    "avg48": 568,
+    "median48": 568
+   }
+  },
+  "bySlot": {
+   "21點": {
+    "n": 2,
+    "avg48": 872,
+    "median48": 872
+   },
+   "12點": {
+    "n": 1,
+    "avg48": 192,
+    "median48": 192
+   }
+  },
+  "byExperiment": {},
+  "scoreVsViews_spearman": null,
+  "avgWatchVsViews_spearman": null,
+  "prediction": {
+   "n": 0,
+   "hitPct": null,
+   "within1Pct": null
+  },
+  "slotVsPred": {},
+  "account": {
+   "date": "2026-11-02",
+   "followers": 7,
+   "posts": 9,
+   "views7d": 10706,
+   "reach7d": 7405,
+   "accounts_engaged7d": 57,
+   "profile_views7d": 56,
+   "total_interactions7d": 78,
+   "shares7d": 0,
+   "followers7dAgo": null,
+   "followersHistory": {
+    "2026-11-02": 7
+   }
+  }
+ },
+ "fur": {
+  "n48": 1,
+  "pending": [
+   {
+    "file": "2026-10-31-hw",
+    "title": "萬聖節柯基",
+    "kind": "節日天氣",
+    "score": 84,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/31 21:33",
+    "weekday": "六",
+    "slot": "21點",
+    "check": null,
+    "ageH": 28.6
+   },
+   {
+    "file": "2026-11-05",
+    "title": "柯基唱歌破音",
+    "kind": "反差才藝",
+    "score": 83,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/01 12:34",
+    "weekday": "日",
+    "slot": "12點",
+    "check": null,
+    "ageH": 13.6
+   },
+   {
+    "file": "2026-11-07",
+    "title": "柯基跳芭蕾",
+    "kind": "反差才藝",
+    "score": 79,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/01 22:25",
+    "weekday": "日",
+    "slot": "21點",
+    "check": null,
+    "ageH": 3.7
+   }
+  ],
+  "posts": [
+   {
+    "file": "2026-10-30",
+    "title": "短腿跟不上的一天",
+    "kind": "生活共鳴",
+    "score": 81,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/30 21:49",
+    "weekday": "五",
+    "slot": "21點",
+    "check": null,
+    "views48": 137,
+    "reach48": 109,
+    "avgWatchSec": 4.1,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 3,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 52.1,
+    "views7d": null,
+    "actualBucket": "A"
+   }
+  ],
+  "views48": {
+   "median": 137,
+   "mean": 137,
+   "max": 137,
+   "min": 137
+  },
+  "avgWatchSec": 4.1,
+  "shareRatePct": 0.0,
+  "saveRatePct": 0.0,
+  "sharesTotal": 0,
+  "byKind": {
+   "生活共鳴": {
+    "n": 1,
+    "avg48": 137,
+    "median48": 137
+   }
+  },
+  "bySlot": {
+   "21點": {
+    "n": 1,
+    "avg48": 137,
+    "median48": 137
+   }
+  },
+  "byExperiment": {},
+  "scoreVsViews_spearman": null,
+  "avgWatchVsViews_spearman": null,
+  "prediction": {
+   "n": 0,
+   "hitPct": null,
+   "within1Pct": null
+  },
+  "slotVsPred": {},
+  "account": {
+   "date": "2026-11-02",
+   "followers": 1,
+   "posts": 5,
+   "views7d": 707,
+   "reach7d": 569,
+   "accounts_engaged7d": 20,
+   "profile_views7d": 19,
+   "total_interactions7d": 37,
+   "shares7d": 3,
+   "followers7dAgo": null,
+   "followersHistory": {
+    "2026-11-02": 1
+   }
+  }
+ }
+}
