@@ -84,6 +84,11 @@ jobs:
           DONE: posted/fur
           ACC: fur
         run: python scripts/metrics.py
+      - name: 每日分析（analysis/latest.json）
+        # 2026-11-02 王大人選 A：數字由程式算，週一研究只讀這份
+        if: always()
+        continue-on-error: true
+        run: python scripts/analyze.py
       - name: Move to posted/ and commit
         if: always()
         run: |
