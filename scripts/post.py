@@ -9,6 +9,13 @@ tw = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
 day = (os.environ.get("POST_DATE") or "").strip() or tw.strftime("%Y-%m-%d")
 slot = (os.environ.get("SLOT") or "").strip() or "1"
 name = day if slot == "1" else f"{day}-{slot}"
+# 2026-11 時段測試：queue/times.json {"日期": 小時}，沒寫的日子＝21 點；手動指定日期時不擋
+_tf = pathlib.Path("queue/times.json")
+_times = json.loads(_tf.read_text(encoding="utf-8")) if _tf.exists() else {}
+if slot == "1" and not (os.environ.get("POST_DATE") or "").strip():
+    _want = int(_times.get(day, 21))
+    if tw.hour < _want - 1:
+        print(f"{day} 指定 {_want} 點發，現在 {tw.hour} 點，先不發"); sys.exit(0)
 q, done = pathlib.Path(os.environ.get("QDIR") or "queue"), pathlib.Path(os.environ.get("DONE") or "posted")  # furfriend：queue/fur、posted/fur
 # queue/order.json：{"發片時段": "影片檔名"}，照分數重排時只改這個檔
 order = json.loads((q / "order.json").read_text(encoding="utf-8")) if (q / "order.json").exists() else {}
