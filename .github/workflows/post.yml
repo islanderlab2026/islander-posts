@@ -65,6 +65,25 @@ jobs:
           DONE: posted/fur
           PAGES_BASE: https://islanderlab2026.github.io/islander-posts
         run: python scripts/post.py
+      - name: IG 數據收集（島民）
+        # 2026-11-02：發後 48 小時／7 天快照＋每天帳號數字，失敗不影響發片
+        if: always()
+        continue-on-error: true
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          DONE: posted
+          ACC: main
+        run: python scripts/metrics.py
+      - name: IG 數據收集（furfriend）
+        if: always() && env.HAS_FUR == 'true'
+        continue-on-error: true
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_FUR }}
+          DONE: posted/fur
+          ACC: fur
+        run: python scripts/metrics.py
       - name: Move to posted/ and commit
         if: always()
         run: |
