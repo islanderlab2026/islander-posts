@@ -1,23 +1,9 @@
 {
- "generatedAt": "2026-11-02 19:31",
+ "generatedAt": "2026-11-02 21:55",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 4,
+  "n48": 5,
   "pending": [
-   {
-    "file": "2026-10-31",
-    "title": "天團萬聖節變裝",
-    "kind": "節日天氣",
-    "score": 86,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "10/31 21:33",
-    "weekday": "六",
-    "slot": "21點",
-    "check": null,
-    "ageH": 46.0
-   },
    {
     "file": "r20261030-1",
     "title": "珍珠寶寶滾進大雨裡",
@@ -30,7 +16,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 6.8
+    "ageH": 9.2
    },
    {
     "file": "r20261030-2",
@@ -44,7 +30,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 22.0
+    "ageH": 24.4
    },
    {
     "file": "r20261030-4",
@@ -58,7 +44,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": null,
-    "ageH": 31.0
+    "ageH": 33.4
    }
   ],
   "posts": [
@@ -135,6 +121,30 @@
     "actualBucket": "C"
    },
    {
+    "file": "2026-10-31",
+    "title": "天團萬聖節變裝",
+    "kind": "節日天氣",
+    "score": 86,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/31 21:33",
+    "weekday": "六",
+    "slot": "21點",
+    "check": null,
+    "views48": 247,
+    "reach48": 168,
+    "avgWatchSec": 5.9,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 3,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.4,
+    "views7d": null,
+    "actualBucket": "B"
+   },
+   {
     "file": "2026-10-29",
     "title": "土狗的陣頭夢",
     "kind": "跳舞",
@@ -160,14 +170,14 @@
    }
   ],
   "views48": {
-   "median": 872,
-   "mean": 1093,
+   "median": 802,
+   "mean": 924,
    "max": 2436,
    "min": 192
   },
-  "avgWatchSec": 7.4,
+  "avgWatchSec": 7.1,
   "shareRatePct": 0.0,
-  "saveRatePct": 0.13,
+  "saveRatePct": 0.11,
   "sharesTotal": 0,
   "byKind": {
    "童年共鳴": {
@@ -179,6 +189,11 @@
     "n": 2,
     "avg48": 568,
     "median48": 568
+   },
+   "節日天氣": {
+    "n": 1,
+    "avg48": 247,
+    "median48": 247
    }
   },
   "bySlot": {
@@ -188,13 +203,13 @@
     "median48": 1314
    },
    "21點": {
-    "n": 2,
-    "avg48": 872,
-    "median48": 872
+    "n": 3,
+    "avg48": 664,
+    "median48": 802
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": 0.8,
+  "scoreVsViews_spearman": 0.6,
   "avgWatchVsViews_spearman": 1.0,
   "prediction": {
    "n": 0,
@@ -219,22 +234,8 @@
   }
  },
  "fur": {
-  "n48": 1,
+  "n48": 2,
   "pending": [
-   {
-    "file": "2026-10-31-hw",
-    "title": "萬聖節柯基",
-    "kind": "節日天氣",
-    "score": 84,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "10/31 21:33",
-    "weekday": "六",
-    "slot": "21點",
-    "check": null,
-    "ageH": 46.0
-   },
    {
     "file": "2026-11-02",
     "title": "週一早上柯基擋門",
@@ -247,7 +248,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 6.8
+    "ageH": 9.2
    },
    {
     "file": "2026-11-05",
@@ -261,7 +262,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": null,
-    "ageH": 31.0
+    "ageH": 33.4
    },
    {
     "file": "2026-11-07",
@@ -275,7 +276,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 21.1
+    "ageH": 23.5
    }
   ],
   "posts": [
@@ -302,15 +303,39 @@
     "snapAgeH": 52.1,
     "views7d": null,
     "actualBucket": "A"
+   },
+   {
+    "file": "2026-10-31-hw",
+    "title": "萬聖節柯基",
+    "kind": "節日天氣",
+    "score": 84,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/31 21:33",
+    "weekday": "六",
+    "slot": "21點",
+    "check": null,
+    "views48": 131,
+    "reach48": 107,
+    "avgWatchSec": 3.2,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 3,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.4,
+    "views7d": null,
+    "actualBucket": "A"
    }
   ],
   "views48": {
-   "median": 137,
-   "mean": 137,
+   "median": 134,
+   "mean": 134,
    "max": 137,
-   "min": 137
+   "min": 131
   },
-  "avgWatchSec": 4.1,
+  "avgWatchSec": 3.6,
   "shareRatePct": 0.0,
   "saveRatePct": 0.0,
   "sharesTotal": 0,
@@ -319,13 +344,18 @@
     "n": 1,
     "avg48": 137,
     "median48": 137
+   },
+   "節日天氣": {
+    "n": 1,
+    "avg48": 131,
+    "median48": 131
    }
   },
   "bySlot": {
    "21點": {
-    "n": 1,
-    "avg48": 137,
-    "median48": 137
+    "n": 2,
+    "avg48": 134,
+    "median48": 134
    }
   },
   "byExperiment": {},
