@@ -1,4 +1,5 @@
-{"_note":"furfriend.tw 每支片的評分與分類（產片上傳時要同步新增；key＝檔名主幹）。experiment A 神歌手動配樂／B 麻糬人設文案／C 雙角色系列",
+{
+"_note":"furfriend.tw 每支片的評分與分類（產片上傳時要同步新增；key＝檔名主幹）。experiment A 神歌手動配樂／B 麻糬人設文案／C 雙角色系列",
 "2026-10-30":{"title":"短腿跟不上的一天","kind":"生活共鳴","score":81,"scoreVer":"v1"},
 "2026-10-31-hw":{"title":"萬聖節柯基","kind":"節日天氣","score":84,"scoreVer":"v1"},
 "2026-11-05":{"title":"柯基唱歌破音","kind":"反差才藝","score":83,"scoreVer":"v1"},
@@ -10,4 +11,5 @@
 "2026-10-31":{"title":"柯基等門 EP1","kind":"感人故事","score":78,"scoreVer":"v1"},
 "2026-11-04":{"title":"柯基跳 breaking","kind":"反差才藝","score":75,"scoreVer":"v1"},
 "2026-11-06":{"title":"柯基衝浪","kind":"反差才藝","score":72,"scoreVer":"v1"},
-"2026-11-10":{"title":"麻糬＋大金做咖啡大失敗","kind":"反轉故事","score":70,"scoreVer":"v2","scoreItems":{"hook":18,"watch":15,"share":14,"quality":11,"timely":12},"predView":"A","experiment":"C"}}
+"2026-11-10":{"title":"麻糬＋大金做咖啡大失敗","kind":"反轉故事","score":70,"scoreVer":"v2","scoreItems":{"hook":18,"watch":15,"share":14,"quality":11,"timely":12},"predView":"A","experiment":"C"},
+"2026-11-11":{"title":"東北季風麻糬穿雨衣踩水窪","kind":"節日天氣","score":75,"scoreVer":"v2","scoreItems":{"hook":19,"watch":14,"share":13,"quality":13,"timely":16},"predView":"A"}}
