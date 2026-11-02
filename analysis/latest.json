@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-02 02:09",
+ "generatedAt": "2026-11-02 12:44",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 3,
+  "n48": 4,
   "pending": [
    {
     "file": "2026-10-31",
@@ -16,7 +16,21 @@
     "weekday": "六",
     "slot": "21點",
     "check": null,
-    "ageH": 28.6
+    "ageH": 39.2
+   },
+   {
+    "file": "r20261030-1",
+    "title": "珍珠寶寶滾進大雨裡",
+    "kind": "感人故事",
+    "score": 83,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/02 12:41",
+    "weekday": "一",
+    "slot": "12點",
+    "check": "ok",
+    "ageH": 0.0
    },
    {
     "file": "r20261030-2",
@@ -30,21 +44,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 4.6
-   },
-   {
-    "file": "r20261030-3",
-    "title": "阿包第一次看牙",
-    "kind": "童年共鳴",
-    "score": 89,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "10/31 12:21",
-    "weekday": "六",
-    "slot": "12點",
-    "check": null,
-    "ageH": 37.8
+    "ageH": 15.2
    },
    {
     "file": "r20261030-4",
@@ -58,10 +58,34 @@
     "weekday": "日",
     "slot": "12點",
     "check": null,
-    "ageH": 13.6
+    "ageH": 24.2
    }
   ],
   "posts": [
+   {
+    "file": "r20261030-3",
+    "title": "阿包第一次看牙",
+    "kind": "童年共鳴",
+    "score": 89,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "10/31 12:21",
+    "weekday": "六",
+    "slot": "12點",
+    "check": null,
+    "views48": 2436,
+    "reach48": 1489,
+    "avgWatchSec": 10.9,
+    "shares48": 0,
+    "saved48": 3,
+    "likes48": 13,
+    "shareRate": 0.0,
+    "saveRate": 0.2,
+    "snapAgeH": 48.4,
+    "views7d": null,
+    "actualBucket": "D"
+   },
    {
     "file": "2026-10-30",
     "title": "黏土芒果寶寶",
@@ -136,20 +160,20 @@
    }
   ],
   "views48": {
-   "median": 802,
-   "mean": 646,
-   "max": 943,
+   "median": 872,
+   "mean": 1093,
+   "max": 2436,
    "min": 192
   },
-  "avgWatchSec": 6.2,
+  "avgWatchSec": 7.4,
   "shareRatePct": 0.0,
-  "saveRatePct": 0.11,
+  "saveRatePct": 0.13,
   "sharesTotal": 0,
   "byKind": {
    "童年共鳴": {
-    "n": 1,
-    "avg48": 802,
-    "median48": 802
+    "n": 2,
+    "avg48": 1619,
+    "median48": 1619
    },
    "跳舞": {
     "n": 2,
@@ -158,20 +182,20 @@
    }
   },
   "bySlot": {
+   "12點": {
+    "n": 2,
+    "avg48": 1314,
+    "median48": 1314
+   },
    "21點": {
     "n": 2,
     "avg48": 872,
     "median48": 872
-   },
-   "12點": {
-    "n": 1,
-    "avg48": 192,
-    "median48": 192
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": null,
-  "avgWatchVsViews_spearman": null,
+  "scoreVsViews_spearman": 0.8,
+  "avgWatchVsViews_spearman": 1.0,
   "prediction": {
    "n": 0,
    "hitPct": null,
@@ -209,7 +233,21 @@
     "weekday": "六",
     "slot": "21點",
     "check": null,
-    "ageH": 28.6
+    "ageH": 39.2
+   },
+   {
+    "file": "2026-11-02",
+    "title": "週一早上柯基擋門",
+    "kind": "生活共鳴",
+    "score": 84,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/02 12:44",
+    "weekday": "一",
+    "slot": "12點",
+    "check": "ok",
+    "ageH": 0.0
    },
    {
     "file": "2026-11-05",
@@ -223,7 +261,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": null,
-    "ageH": 13.6
+    "ageH": 24.2
    },
    {
     "file": "2026-11-07",
@@ -237,7 +275,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 3.7
+    "ageH": 14.3
    }
   ],
   "posts": [
