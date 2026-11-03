@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-02 22:41",
+ "generatedAt": "2026-11-03 12:33",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 5,
@@ -16,7 +16,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 10.0
+    "ageH": 23.9
    },
    {
     "file": "r20261030-2",
@@ -30,7 +30,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 25.1
+    "ageH": 39.0
    },
    {
     "file": "r20261030-4",
@@ -44,7 +44,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": null,
-    "ageH": 34.1
+    "ageH": 48.0
    }
   ],
   "posts": [
@@ -218,18 +218,19 @@
   },
   "slotVsPred": {},
   "account": {
-   "date": "2026-11-02",
-   "followers": 7,
-   "posts": 9,
-   "views7d": 10706,
-   "reach7d": 7405,
-   "accounts_engaged7d": 57,
-   "profile_views7d": 56,
-   "total_interactions7d": 78,
+   "date": "2026-11-03",
+   "followers": 11,
+   "posts": 10,
+   "views7d": 36038,
+   "reach7d": 23295,
+   "accounts_engaged7d": 115,
+   "profile_views7d": 72,
+   "total_interactions7d": 141,
    "shares7d": 0,
    "followers7dAgo": null,
    "followersHistory": {
-    "2026-11-02": 7
+    "2026-11-02": 7,
+    "2026-11-03": 11
    }
   }
  },
@@ -248,7 +249,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 10.0
+    "ageH": 23.8
    },
    {
     "file": "2026-11-05",
@@ -262,7 +263,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": null,
-    "ageH": 34.1
+    "ageH": 48.0
    },
    {
     "file": "2026-11-07",
@@ -276,7 +277,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 24.3
+    "ageH": 38.1
    }
   ],
   "posts": [
@@ -368,18 +369,19 @@
   },
   "slotVsPred": {},
   "account": {
-   "date": "2026-11-02",
-   "followers": 1,
-   "posts": 5,
-   "views7d": 707,
-   "reach7d": 569,
-   "accounts_engaged7d": 20,
-   "profile_views7d": 19,
-   "total_interactions7d": 37,
-   "shares7d": 3,
+   "date": "2026-11-03",
+   "followers": 2,
+   "posts": 6,
+   "views7d": 895,
+   "reach7d": 696,
+   "accounts_engaged7d": 25,
+   "profile_views7d": 20,
+   "total_interactions7d": 46,
+   "shares7d": 4,
    "followers7dAgo": null,
    "followersHistory": {
-    "2026-11-02": 1
+    "2026-11-02": 1,
+    "2026-11-03": 2
    }
   }
  }
