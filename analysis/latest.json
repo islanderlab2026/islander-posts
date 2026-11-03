@@ -1,9 +1,23 @@
 {
- "generatedAt": "2026-11-03 13:37",
+ "generatedAt": "2026-11-03 18:42",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 6,
   "pending": [
+   {
+    "file": "2026-11-04",
+    "title": "蛋老大被恐龍媽媽當成蛋",
+    "kind": "反轉故事",
+    "score": 82,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/03 18:40",
+    "weekday": "二",
+    "slot": "18點",
+    "check": "ok",
+    "ageH": 0.0
+   },
    {
     "file": "r20261030-1",
     "title": "珍珠寶寶滾進大雨裡",
@@ -16,7 +30,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 24.9
+    "ageH": 30.0
    },
    {
     "file": "r20261030-2",
@@ -30,7 +44,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 40.1
+    "ageH": 45.1
    }
   ],
   "posts": [
@@ -264,7 +278,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 24.9
+    "ageH": 30.0
    },
    {
     "file": "2026-11-07",
@@ -278,7 +292,21 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 39.2
+    "ageH": 44.3
+   },
+   {
+    "file": "2026-11-09",
+    "title": "拜託拜託倒地假哭",
+    "kind": "撒嬌反轉",
+    "score": 82,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/03 18:41",
+    "weekday": "二",
+    "slot": "18點",
+    "check": "ok",
+    "ageH": 0.0
    }
   ],
   "posts": [
