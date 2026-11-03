@@ -2,16 +2,14 @@ name: post-reel
 on:
   schedule:
     # GitHub 排程常延遲或跳過：每個時段觸發 3 次，第一次發完片就搬走，後面兩次找不到片自動結束
-    - cron: "47 12 * * *"   # 20:47 台灣（第 1 支）
+    - cron: "47 12 * * *"   # 20:47 台灣（晚上那支 slot 1，時間由 queue/times.json 決定，沒寫＝21 點）
     - cron: "17 13 * * *"   # 21:17 補跑
     - cron: "47 13 * * *"   # 21:47 補跑
-    - cron: "47 3 * * 6,0"  # 週末 11:47（第 2 支）
-    - cron: "17 4 * * 6,0"  # 12:17 補跑
-    - cron: "47 4 * * 6,0"  # 12:47 補跑
-    # 2026-11 時段測試：平日中午與傍晚也觸發，當天要不要發由 queue/times.json 決定（沒寫的日子＝21 點）
-    - cron: "47 3 * * 1-5"   # 平日 11:47
-    - cron: "17 4 * * 1-5"   # 12:17 補跑
-    - cron: "47 4 * * 1-5"   # 12:47 補跑
+    # 2026-11-04 王大人：一天發兩支加速時段測試 → 每天中午 12 點固定發 slot 2（queue/<日期>-2.mp4）
+    - cron: "47 3 * * *"    # 每天 11:47（中午那支 slot 2）
+    - cron: "17 4 * * *"    # 12:17 補跑
+    - cron: "47 4 * * *"    # 12:47 補跑
+    # 平日傍晚：times.json 寫 18 的日子晚上那支改 18 點發
     - cron: "47 9 * * 1-5"   # 平日 17:47
     - cron: "17 10 * * 1-5"  # 18:17 補跑
     - cron: "47 10 * * 1-5"  # 18:47 補跑
@@ -21,7 +19,7 @@ on:
         description: "要發哪天的片（YYYY-MM-DD，空白＝今天）"
         required: false
       slot:
-        description: "第幾支（1＝晚上那支，2＝週末中午那支）"
+        description: "第幾支（1＝晚上那支，2＝中午那支）"
         required: false
         default: "1"
       account:
@@ -37,7 +35,7 @@ jobs:
     environment: ig-post
     env:
       HAS_FUR: ${{ secrets.IG_TOKEN_FUR != '' }}
-      SLOT_NOW: ${{ contains(github.event.schedule, '6,0') && '2' || inputs.slot || '1' }}
+      SLOT_NOW: ${{ (github.event.schedule == '47 3 * * *' || github.event.schedule == '17 4 * * *' || github.event.schedule == '47 4 * * *') && '2' || inputs.slot || '1' }}
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }   # 用最新的 main，避免前一次剛搬走的片又被發
@@ -54,7 +52,7 @@ jobs:
           PAGES_BASE: https://islanderlab2026.github.io/islander-posts
         run: python scripts/post.py
       - name: Post furfriend.tw reel
-        # 跟島民同樣時段：平日晚上 1 支、週末中午＋晚上；檔名 queue/fur/<日期>[-2].mp4
+        # 跟島民同樣時段：每天中午＋晚上；檔名 queue/fur/<日期>[-2].mp4
         if: always() && env.HAS_FUR == 'true' && (inputs.account == 'fur' || github.event_name == 'schedule')
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
