@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-03 19:32",
+ "generatedAt": "2026-11-03 21:55",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 6,
+  "n48": 7,
   "pending": [
    {
     "file": "2026-11-04",
@@ -16,7 +16,7 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 0.9
+    "ageH": 3.2
    },
    {
     "file": "r20261030-1",
@@ -30,8 +30,10 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 30.8
-   },
+    "ageH": 33.2
+   }
+  ],
+  "posts": [
    {
     "file": "r20261030-2",
     "title": "小時候打針",
@@ -44,10 +46,18 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 46.0
-   }
-  ],
-  "posts": [
+    "views48": 4363,
+    "reach48": 2670,
+    "avgWatchSec": 10.5,
+    "shares48": 0,
+    "saved48": 5,
+    "likes48": 14,
+    "shareRate": 0.0,
+    "saveRate": 0.19,
+    "snapAgeH": 48.4,
+    "views7d": null,
+    "actualBucket": "E"
+   },
    {
     "file": "r20261030-3",
     "title": "阿包第一次看牙",
@@ -194,25 +204,25 @@
    }
   ],
   "views48": {
-   "median": 872,
-   "mean": 1144,
-   "max": 2436,
+   "median": 943,
+   "mean": 1603,
+   "max": 4363,
    "min": 192
   },
-  "avgWatchSec": 6.9,
+  "avgWatchSec": 7.4,
   "shareRatePct": 0.0,
-  "saveRatePct": 0.09,
+  "saveRatePct": 0.1,
   "sharesTotal": 0,
   "byKind": {
+   "童年共鳴": {
+    "n": 3,
+    "avg48": 2534,
+    "median48": 2436
+   },
    "生活共鳴": {
     "n": 1,
     "avg48": 2241,
     "median48": 2241
-   },
-   "童年共鳴": {
-    "n": 2,
-    "avg48": 1619,
-    "median48": 1619
    },
    "跳舞": {
     "n": 2,
@@ -232,14 +242,14 @@
     "median48": 2241
    },
    "21點": {
-    "n": 3,
-    "avg48": 664,
-    "median48": 802
+    "n": 4,
+    "avg48": 1589,
+    "median48": 872
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": 0.7,
-  "avgWatchVsViews_spearman": 0.83,
+  "scoreVsViews_spearman": 0.45,
+  "avgWatchVsViews_spearman": 0.86,
   "prediction": {
    "n": 0,
    "hitPct": null,
@@ -278,7 +288,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 30.8
+    "ageH": 33.2
    },
    {
     "file": "2026-11-07",
@@ -292,7 +302,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 45.1
+    "ageH": 47.5
    },
    {
     "file": "2026-11-09",
@@ -306,7 +316,7 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 0.8
+    "ageH": 3.2
    }
   ],
   "posts": [
