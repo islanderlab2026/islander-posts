@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-03 21:55",
+ "generatedAt": "2026-11-03 22:26",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 7,
@@ -16,7 +16,7 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 3.2
+    "ageH": 3.8
    },
    {
     "file": "r20261030-1",
@@ -30,7 +30,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 33.2
+    "ageH": 33.8
    }
   ],
   "posts": [
@@ -274,7 +274,7 @@
   }
  },
  "fur": {
-  "n48": 3,
+  "n48": 4,
   "pending": [
    {
     "file": "2026-11-02",
@@ -288,21 +288,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 33.2
-   },
-   {
-    "file": "2026-11-07",
-    "title": "柯基跳芭蕾",
-    "kind": "反差才藝",
-    "score": 79,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/01 22:25",
-    "weekday": "日",
-    "slot": "21點",
-    "check": null,
-    "ageH": 47.5
+    "ageH": 33.7
    },
    {
     "file": "2026-11-09",
@@ -316,10 +302,34 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 3.2
+    "ageH": 3.8
    }
   ],
   "posts": [
+   {
+    "file": "2026-11-07",
+    "title": "柯基跳芭蕾",
+    "kind": "反差才藝",
+    "score": 79,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/01 22:25",
+    "weekday": "日",
+    "slot": "21點",
+    "check": null,
+    "views48": 153,
+    "reach48": 127,
+    "avgWatchSec": 4.2,
+    "shares48": 4,
+    "saved48": 0,
+    "likes48": 5,
+    "shareRate": 3.15,
+    "saveRate": 0.0,
+    "snapAgeH": 48.0,
+    "views7d": null,
+    "actualBucket": "A"
+   },
    {
     "file": "2026-11-05",
     "title": "柯基唱歌破音",
@@ -394,20 +404,20 @@
    }
   ],
   "views48": {
-   "median": 137,
-   "mean": 139,
-   "max": 149,
+   "median": 143,
+   "mean": 142,
+   "max": 153,
    "min": 131
   },
-  "avgWatchSec": 3.9,
-  "shareRatePct": 0.0,
+  "avgWatchSec": 4.0,
+  "shareRatePct": 0.79,
   "saveRatePct": 0.0,
-  "sharesTotal": 0,
+  "sharesTotal": 4,
   "byKind": {
    "反差才藝": {
-    "n": 1,
-    "avg48": 149,
-    "median48": 149
+    "n": 2,
+    "avg48": 151,
+    "median48": 151
    },
    "生活共鳴": {
     "n": 1,
@@ -427,14 +437,14 @@
     "median48": 149
    },
    "21點": {
-    "n": 2,
-    "avg48": 134,
-    "median48": 134
+    "n": 3,
+    "avg48": 140,
+    "median48": 137
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": null,
-  "avgWatchVsViews_spearman": null,
+  "scoreVsViews_spearman": -0.8,
+  "avgWatchVsViews_spearman": 0.8,
   "prediction": {
    "n": 0,
    "hitPct": null,
