@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-03 12:33",
+ "generatedAt": "2026-11-03 13:02",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 5,
+  "n48": 6,
   "pending": [
    {
     "file": "r20261030-1",
@@ -16,7 +16,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 23.9
+    "ageH": 24.3
    },
    {
     "file": "r20261030-2",
@@ -30,21 +30,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 39.0
-   },
-   {
-    "file": "r20261030-4",
-    "title": "排哥當沖一天",
-    "kind": "生活共鳴",
-    "score": 86,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/01 12:33",
-    "weekday": "日",
-    "slot": "12點",
-    "check": null,
-    "ageH": 48.0
+    "ageH": 39.5
    }
   ],
   "posts": [
@@ -69,6 +55,30 @@
     "shareRate": 0.0,
     "saveRate": 0.2,
     "snapAgeH": 48.4,
+    "views7d": null,
+    "actualBucket": "D"
+   },
+   {
+    "file": "r20261030-4",
+    "title": "排哥當沖一天",
+    "kind": "生活共鳴",
+    "score": 86,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/01 12:33",
+    "weekday": "日",
+    "slot": "12點",
+    "check": null,
+    "views48": 2241,
+    "reach48": 1612,
+    "avgWatchSec": 6.1,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 9,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.5,
     "views7d": null,
     "actualBucket": "D"
    },
@@ -170,16 +180,21 @@
    }
   ],
   "views48": {
-   "median": 802,
-   "mean": 924,
+   "median": 872,
+   "mean": 1144,
    "max": 2436,
    "min": 192
   },
-  "avgWatchSec": 7.1,
+  "avgWatchSec": 6.9,
   "shareRatePct": 0.0,
-  "saveRatePct": 0.11,
+  "saveRatePct": 0.09,
   "sharesTotal": 0,
   "byKind": {
+   "生活共鳴": {
+    "n": 1,
+    "avg48": 2241,
+    "median48": 2241
+   },
    "童年共鳴": {
     "n": 2,
     "avg48": 1619,
@@ -198,9 +213,9 @@
   },
   "bySlot": {
    "12點": {
-    "n": 2,
-    "avg48": 1314,
-    "median48": 1314
+    "n": 3,
+    "avg48": 1623,
+    "median48": 2241
    },
    "21點": {
     "n": 3,
@@ -209,8 +224,8 @@
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": 0.6,
-  "avgWatchVsViews_spearman": 1.0,
+  "scoreVsViews_spearman": 0.7,
+  "avgWatchVsViews_spearman": 0.83,
   "prediction": {
    "n": 0,
    "hitPct": null,
@@ -235,7 +250,7 @@
   }
  },
  "fur": {
-  "n48": 2,
+  "n48": 3,
   "pending": [
    {
     "file": "2026-11-02",
@@ -249,21 +264,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 23.8
-   },
-   {
-    "file": "2026-11-05",
-    "title": "柯基唱歌破音",
-    "kind": "反差才藝",
-    "score": 83,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/01 12:34",
-    "weekday": "日",
-    "slot": "12點",
-    "check": null,
-    "ageH": 48.0
+    "ageH": 24.3
    },
    {
     "file": "2026-11-07",
@@ -277,10 +278,34 @@
     "weekday": "日",
     "slot": "21點",
     "check": null,
-    "ageH": 38.1
+    "ageH": 38.6
    }
   ],
   "posts": [
+   {
+    "file": "2026-11-05",
+    "title": "柯基唱歌破音",
+    "kind": "反差才藝",
+    "score": 83,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/01 12:34",
+    "weekday": "日",
+    "slot": "12點",
+    "check": null,
+    "views48": 149,
+    "reach48": 120,
+    "avgWatchSec": 4.4,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 12,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.5,
+    "views7d": null,
+    "actualBucket": "A"
+   },
    {
     "file": "2026-10-30",
     "title": "短腿跟不上的一天",
@@ -331,16 +356,21 @@
    }
   ],
   "views48": {
-   "median": 134,
-   "mean": 134,
-   "max": 137,
+   "median": 137,
+   "mean": 139,
+   "max": 149,
    "min": 131
   },
-  "avgWatchSec": 3.6,
+  "avgWatchSec": 3.9,
   "shareRatePct": 0.0,
   "saveRatePct": 0.0,
   "sharesTotal": 0,
   "byKind": {
+   "反差才藝": {
+    "n": 1,
+    "avg48": 149,
+    "median48": 149
+   },
    "生活共鳴": {
     "n": 1,
     "avg48": 137,
@@ -353,6 +383,11 @@
    }
   },
   "bySlot": {
+   "12點": {
+    "n": 1,
+    "avg48": 149,
+    "median48": 149
+   },
    "21點": {
     "n": 2,
     "avg48": 134,
