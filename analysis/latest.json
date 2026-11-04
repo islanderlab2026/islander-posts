@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-04 12:38",
+ "generatedAt": "2026-11-04 13:11",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 7,
+  "n48": 8,
   "pending": [
    {
     "file": "2026-11-04-2",
@@ -16,7 +16,7 @@
     "weekday": "三",
     "slot": "12點",
     "check": "ok",
-    "ageH": 0.0
+    "ageH": 0.6
    },
    {
     "file": "2026-11-04",
@@ -30,8 +30,10 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 18.0
-   },
+    "ageH": 18.5
+   }
+  ],
+  "posts": [
    {
     "file": "r20261030-1",
     "title": "珍珠寶寶滾進大雨裡",
@@ -44,10 +46,18 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 47.9
-   }
-  ],
-  "posts": [
+    "views48": 25413,
+    "reach48": 15931,
+    "avgWatchSec": 8.0,
+    "shares48": 0,
+    "saved48": 1,
+    "likes48": 43,
+    "shareRate": 0.0,
+    "saveRate": 0.01,
+    "snapAgeH": 48.5,
+    "views7d": null,
+    "actualBucket": "E"
+   },
    {
     "file": "r20261030-2",
     "title": "小時候打針",
@@ -218,16 +228,21 @@
    }
   ],
   "views48": {
-   "median": 943,
-   "mean": 1603,
-   "max": 4363,
+   "median": 1592,
+   "mean": 4580,
+   "max": 25413,
    "min": 192
   },
-  "avgWatchSec": 7.4,
+  "avgWatchSec": 7.5,
   "shareRatePct": 0.0,
-  "saveRatePct": 0.1,
+  "saveRatePct": 0.09,
   "sharesTotal": 0,
   "byKind": {
+   "感人故事": {
+    "n": 1,
+    "avg48": 25413,
+    "median48": 25413
+   },
    "童年共鳴": {
     "n": 3,
     "avg48": 2534,
@@ -251,9 +266,9 @@
   },
   "bySlot": {
    "12點": {
-    "n": 3,
-    "avg48": 1623,
-    "median48": 2241
+    "n": 4,
+    "avg48": 7570,
+    "median48": 2338
    },
    "21點": {
     "n": 4,
@@ -262,8 +277,8 @@
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": 0.45,
-  "avgWatchVsViews_spearman": 0.86,
+  "scoreVsViews_spearman": 0.13,
+  "avgWatchVsViews_spearman": 0.74,
   "prediction": {
    "n": 0,
    "hitPct": null,
@@ -289,22 +304,8 @@
   }
  },
  "fur": {
-  "n48": 4,
+  "n48": 5,
   "pending": [
-   {
-    "file": "2026-11-02",
-    "title": "週一早上柯基擋門",
-    "kind": "生活共鳴",
-    "score": 84,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/02 12:44",
-    "weekday": "一",
-    "slot": "12點",
-    "check": "ok",
-    "ageH": 47.9
-   },
    {
     "file": "2026-11-04-2",
     "title": "2026-11-04-2",
@@ -317,7 +318,7 @@
     "weekday": "三",
     "slot": "12點",
     "check": "ok",
-    "ageH": 0.0
+    "ageH": 0.6
    },
    {
     "file": "2026-11-09",
@@ -331,10 +332,34 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 17.9
+    "ageH": 18.5
    }
   ],
   "posts": [
+   {
+    "file": "2026-11-02",
+    "title": "週一早上柯基擋門",
+    "kind": "生活共鳴",
+    "score": 84,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/02 12:44",
+    "weekday": "一",
+    "slot": "12點",
+    "check": "ok",
+    "views48": 153,
+    "reach48": 116,
+    "avgWatchSec": 5.3,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 4,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.5,
+    "views7d": null,
+    "actualBucket": "A"
+   },
    {
     "file": "2026-11-07",
     "title": "柯基跳芭蕾",
@@ -433,13 +458,13 @@
    }
   ],
   "views48": {
-   "median": 143,
-   "mean": 142,
+   "median": 149,
+   "mean": 145,
    "max": 153,
    "min": 131
   },
-  "avgWatchSec": 4.0,
-  "shareRatePct": 0.79,
+  "avgWatchSec": 4.2,
+  "shareRatePct": 0.63,
   "saveRatePct": 0.0,
   "sharesTotal": 4,
   "byKind": {
@@ -449,9 +474,9 @@
     "median48": 151
    },
    "生活共鳴": {
-    "n": 1,
-    "avg48": 137,
-    "median48": 137
+    "n": 2,
+    "avg48": 145,
+    "median48": 145
    },
    "節日天氣": {
     "n": 1,
@@ -461,9 +486,9 @@
   },
   "bySlot": {
    "12點": {
-    "n": 1,
-    "avg48": 149,
-    "median48": 149
+    "n": 2,
+    "avg48": 151,
+    "median48": 151
    },
    "21點": {
     "n": 3,
@@ -472,8 +497,8 @@
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": -0.8,
-  "avgWatchVsViews_spearman": 0.8,
+  "scoreVsViews_spearman": -0.29,
+  "avgWatchVsViews_spearman": 0.82,
   "prediction": {
    "n": 0,
    "hitPct": null,
