@@ -1,9 +1,23 @@
 {
- "generatedAt": "2026-11-03 22:36",
+ "generatedAt": "2026-11-04 12:38",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 7,
   "pending": [
+   {
+    "file": "2026-11-04-2",
+    "title": "2026-11-04-2",
+    "kind": null,
+    "score": null,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/04 12:37",
+    "weekday": "三",
+    "slot": "12點",
+    "check": "ok",
+    "ageH": 0.0
+   },
    {
     "file": "2026-11-04",
     "title": "蛋老大被恐龍媽媽當成蛋",
@@ -16,7 +30,7 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 3.9
+    "ageH": 18.0
    },
    {
     "file": "r20261030-1",
@@ -30,7 +44,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 33.9
+    "ageH": 47.9
    }
   ],
   "posts": [
@@ -257,19 +271,20 @@
   },
   "slotVsPred": {},
   "account": {
-   "date": "2026-11-03",
-   "followers": 11,
-   "posts": 10,
-   "views7d": 36038,
-   "reach7d": 23295,
-   "accounts_engaged7d": 115,
-   "profile_views7d": 72,
-   "total_interactions7d": 141,
-   "shares7d": 0,
+   "date": "2026-11-04",
+   "followers": 14,
+   "posts": 12,
+   "views7d": 37427,
+   "reach7d": 24160,
+   "accounts_engaged7d": 120,
+   "profile_views7d": 79,
+   "total_interactions7d": 152,
+   "shares7d": 1,
    "followers7dAgo": null,
    "followersHistory": {
     "2026-11-02": 7,
-    "2026-11-03": 11
+    "2026-11-03": 11,
+    "2026-11-04": 14
    }
   }
  },
@@ -288,7 +303,21 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 33.9
+    "ageH": 47.9
+   },
+   {
+    "file": "2026-11-04-2",
+    "title": "2026-11-04-2",
+    "kind": null,
+    "score": null,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/04 12:38",
+    "weekday": "三",
+    "slot": "12點",
+    "check": "ok",
+    "ageH": 0.0
    },
    {
     "file": "2026-11-09",
@@ -302,7 +331,7 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 3.9
+    "ageH": 17.9
    }
   ],
   "posts": [
@@ -452,19 +481,20 @@
   },
   "slotVsPred": {},
   "account": {
-   "date": "2026-11-03",
-   "followers": 2,
-   "posts": 6,
-   "views7d": 895,
-   "reach7d": 696,
-   "accounts_engaged7d": 25,
+   "date": "2026-11-04",
+   "followers": 3,
+   "posts": 8,
+   "views7d": 1049,
+   "reach7d": 811,
+   "accounts_engaged7d": 29,
    "profile_views7d": 20,
-   "total_interactions7d": 46,
+   "total_interactions7d": 50,
    "shares7d": 4,
    "followers7dAgo": null,
    "followersHistory": {
     "2026-11-02": 1,
-    "2026-11-03": 2
+    "2026-11-03": 2,
+    "2026-11-04": 3
    }
   }
  }
