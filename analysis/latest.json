@@ -1,9 +1,23 @@
 {
- "generatedAt": "2026-11-06 19:32",
+ "generatedAt": "2026-11-06 22:02",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 10,
+  "n48": 11,
   "pending": [
+   {
+    "file": "2026-11-02",
+    "title": "冷空氣擠進蒸籠",
+    "kind": "節日天氣",
+    "score": 80,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/06 21:56",
+    "weekday": "五",
+    "slot": "21點",
+    "check": "unknown",
+    "ageH": 0.1
+   },
    {
     "file": "2026-11-05-2",
     "title": "2026-11-05-2",
@@ -16,7 +30,7 @@
     "weekday": "四",
     "slot": "12點",
     "check": "ok",
-    "ageH": 30.9
+    "ageH": 33.3
    },
    {
     "file": "2026-11-05",
@@ -30,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 24.8
+    "ageH": 27.3
    },
    {
     "file": "2026-11-06-2",
@@ -44,7 +58,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 6.9
+    "ageH": 9.4
    },
    {
     "file": "2026-11-06-3",
@@ -58,21 +72,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "unknown",
-    "ageH": 19.1
-   },
-   {
-    "file": "2026-11-11",
-    "title": "天團看狗血鬧劇",
-    "kind": "生活共鳴",
-    "score": 82,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/04 21:55",
-    "weekday": "三",
-    "slot": "21點",
-    "check": "ok",
-    "ageH": 45.6
+    "ageH": 21.6
    }
   ],
   "posts": [
@@ -97,6 +97,30 @@
     "shareRate": 0.0,
     "saveRate": 0.01,
     "snapAgeH": 48.5,
+    "views7d": null,
+    "actualBucket": "E"
+   },
+   {
+    "file": "2026-11-11",
+    "title": "天團看狗血鬧劇",
+    "kind": "生活共鳴",
+    "score": 82,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/04 21:55",
+    "weekday": "三",
+    "slot": "21點",
+    "check": "ok",
+    "views48": 11279,
+    "reach48": 6803,
+    "avgWatchSec": 11.4,
+    "shares48": 0,
+    "saved48": 2,
+    "likes48": 42,
+    "shareRate": 0.0,
+    "saveRate": 0.03,
+    "snapAgeH": 48.1,
     "views7d": null,
     "actualBucket": "E"
    },
@@ -318,12 +342,12 @@
    }
   ],
   "views48": {
-   "median": 1414,
-   "mean": 3946,
+   "median": 1632,
+   "mean": 4613,
    "max": 25413,
    "min": 192
   },
-  "avgWatchSec": 7.1,
+  "avgWatchSec": 7.5,
   "shareRatePct": 0.0,
   "saveRatePct": 0.07,
   "sharesTotal": 0,
@@ -333,15 +357,15 @@
     "avg48": 25413,
     "median48": 25413
    },
+   "生活共鳴": {
+    "n": 2,
+    "avg48": 6760,
+    "median48": 6760
+   },
    "童年共鳴": {
     "n": 3,
     "avg48": 2534,
     "median48": 2436
-   },
-   "生活共鳴": {
-    "n": 1,
-    "avg48": 2241,
-    "median48": 2241
    },
    "反轉故事": {
     "n": 1,
@@ -370,20 +394,20 @@
     "avg48": 6295,
     "median48": 2241
    },
+   "21點": {
+    "n": 5,
+    "avg48": 3527,
+    "median48": 943
+   },
    "18點": {
     "n": 1,
     "avg48": 1632,
     "median48": 1632
-   },
-   "21點": {
-    "n": 4,
-    "avg48": 1589,
-    "median48": 872
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": 0.21,
-  "avgWatchVsViews_spearman": 0.64,
+  "scoreVsViews_spearman": 0.04,
+  "avgWatchVsViews_spearman": 0.69,
   "prediction": {
    "n": 0,
    "hitPct": null,
@@ -425,7 +449,7 @@
     "weekday": "四",
     "slot": "12點",
     "check": "ok",
-    "ageH": 30.8
+    "ageH": 33.3
    },
    {
     "file": "2026-11-06-2",
@@ -439,7 +463,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 6.9
+    "ageH": 9.4
    },
    {
     "file": "2026-11-08",
@@ -453,7 +477,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 24.7
+    "ageH": 27.2
    },
    {
     "file": "2026-11-11",
@@ -467,7 +491,7 @@
     "weekday": "三",
     "slot": "21點",
     "check": "ok",
-    "ageH": 45.6
+    "ageH": 48.1
    }
   ],
   "posts": [
