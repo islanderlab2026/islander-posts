@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-06 23:51",
+ "generatedAt": "2026-11-07 12:33",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 11,
@@ -16,7 +16,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 1.9
+    "ageH": 14.6
    },
    {
     "file": "2026-11-05-2",
@@ -30,7 +30,7 @@
     "weekday": "四",
     "slot": "12點",
     "check": "ok",
-    "ageH": 35.2
+    "ageH": 47.9
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 29.1
+    "ageH": 41.8
    },
    {
     "file": "2026-11-06-2",
@@ -58,7 +58,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 11.2
+    "ageH": 23.9
    },
    {
     "file": "2026-11-06-3",
@@ -72,7 +72,21 @@
     "weekday": "五",
     "slot": "12點",
     "check": "unknown",
-    "ageH": 23.4
+    "ageH": 36.1
+   },
+   {
+    "file": "2026-11-10",
+    "title": "慣老闆",
+    "kind": "生活共鳴",
+    "score": 80,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/07 12:31",
+    "weekday": "六",
+    "slot": "12點",
+    "check": "ok",
+    "ageH": 0.0
    }
   ],
   "posts": [
@@ -169,7 +183,7 @@
     "shareRate": 0.0,
     "saveRate": 0.2,
     "snapAgeH": 48.4,
-    "views7d": null,
+    "views7d": 2494,
     "actualBucket": "D"
    },
    {
@@ -415,22 +429,23 @@
   },
   "slotVsPred": {},
   "account": {
-   "date": "2026-11-06",
-   "followers": 16,
-   "posts": 16,
-   "views7d": 50018,
-   "reach7d": 32053,
-   "accounts_engaged7d": 171,
-   "profile_views7d": 65,
-   "total_interactions7d": 200,
-   "shares7d": 1,
+   "date": "2026-11-07",
+   "followers": 21,
+   "posts": 12,
+   "views7d": 54759,
+   "reach7d": 35148,
+   "accounts_engaged7d": 202,
+   "profile_views7d": 68,
+   "total_interactions7d": 256,
+   "shares7d": 5,
    "followers7dAgo": null,
    "followersHistory": {
     "2026-11-02": 7,
     "2026-11-03": 11,
     "2026-11-04": 14,
     "2026-11-05": 14,
-    "2026-11-06": 16
+    "2026-11-06": 16,
+    "2026-11-07": 21
    }
   }
  },
@@ -449,7 +464,7 @@
     "weekday": "四",
     "slot": "12點",
     "check": "ok",
-    "ageH": 35.2
+    "ageH": 47.9
    },
    {
     "file": "2026-11-06-2",
@@ -463,7 +478,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 11.2
+    "ageH": 23.9
    },
    {
     "file": "2026-11-06",
@@ -477,7 +492,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "ok",
-    "ageH": 0.0
+    "ageH": 12.7
    },
    {
     "file": "2026-11-08",
@@ -487,11 +502,11 @@
     "scoreVer": "v1",
     "predView": null,
     "experiment": null,
-    "postedTW": "11/05 18:47",
-    "weekday": "四",
-    "slot": "18點",
+    "postedTW": "11/07 12:33",
+    "weekday": "六",
+    "slot": "12點",
     "check": "ok",
-    "ageH": 29.1
+    "ageH": 0.0
    },
    {
     "file": "2026-11-11",
@@ -505,7 +520,7 @@
     "weekday": "三",
     "slot": "21點",
     "check": "ok",
-    "ageH": 49.9
+    "ageH": 62.6
    }
   ],
   "posts": [
@@ -742,22 +757,23 @@
   },
   "slotVsPred": {},
   "account": {
-   "date": "2026-11-06",
+   "date": "2026-11-07",
    "followers": 4,
-   "posts": 11,
-   "views7d": 1588,
-   "reach7d": 1225,
-   "accounts_engaged7d": 43,
-   "profile_views7d": 20,
-   "total_interactions7d": 76,
-   "shares7d": 5,
+   "posts": 2,
+   "views7d": 134,
+   "reach7d": 106,
+   "accounts_engaged7d": 5,
+   "profile_views7d": 5,
+   "total_interactions7d": 7,
+   "shares7d": 0,
    "followers7dAgo": null,
    "followersHistory": {
     "2026-11-02": 1,
     "2026-11-03": 2,
     "2026-11-04": 3,
     "2026-11-05": 4,
-    "2026-11-06": 4
+    "2026-11-06": 4,
+    "2026-11-07": 4
    }
   }
  }
