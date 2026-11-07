@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-07 12:33",
+ "generatedAt": "2026-11-07 13:01",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 11,
+  "n48": 12,
   "pending": [
    {
     "file": "2026-11-02",
@@ -16,21 +16,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 14.6
-   },
-   {
-    "file": "2026-11-05-2",
-    "title": "2026-11-05-2",
-    "kind": null,
-    "score": null,
-    "scoreVer": null,
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/05 12:41",
-    "weekday": "四",
-    "slot": "12點",
-    "check": "ok",
-    "ageH": 47.9
+    "ageH": 15.1
    },
    {
     "file": "2026-11-05",
@@ -44,7 +30,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 41.8
+    "ageH": 42.3
    },
    {
     "file": "2026-11-06-2",
@@ -58,7 +44,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 23.9
+    "ageH": 24.4
    },
    {
     "file": "2026-11-06-3",
@@ -72,7 +58,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "unknown",
-    "ageH": 36.1
+    "ageH": 36.6
    },
    {
     "file": "2026-11-10",
@@ -86,7 +72,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 0.0
+    "ageH": 0.5
    }
   ],
   "posts": [
@@ -184,6 +170,30 @@
     "saveRate": 0.2,
     "snapAgeH": 48.4,
     "views7d": 2494,
+    "actualBucket": "D"
+   },
+   {
+    "file": "2026-11-05-2",
+    "title": "2026-11-05-2",
+    "kind": null,
+    "score": null,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/05 12:41",
+    "weekday": "四",
+    "slot": "12點",
+    "check": "ok",
+    "views48": 2423,
+    "reach48": 1593,
+    "avgWatchSec": 8.4,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 13,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.3,
+    "views7d": null,
     "actualBucket": "D"
    },
    {
@@ -356,14 +366,14 @@
    }
   ],
   "views48": {
-   "median": 1632,
-   "mean": 4613,
+   "median": 1936,
+   "mean": 4430,
    "max": 25413,
    "min": 192
   },
-  "avgWatchSec": 7.5,
+  "avgWatchSec": 7.6,
   "shareRatePct": 0.0,
-  "saveRatePct": 0.07,
+  "saveRatePct": 0.06,
   "sharesTotal": 0,
   "byKind": {
    "感人故事": {
@@ -381,15 +391,15 @@
     "avg48": 2534,
     "median48": 2436
    },
+   "未分類": {
+    "n": 2,
+    "avg48": 1809,
+    "median48": 1809
+   },
    "反轉故事": {
     "n": 1,
     "avg48": 1632,
     "median48": 1632
-   },
-   "未分類": {
-    "n": 1,
-    "avg48": 1195,
-    "median48": 1195
    },
    "跳舞": {
     "n": 2,
@@ -404,9 +414,9 @@
   },
   "bySlot": {
    "12點": {
-    "n": 5,
-    "avg48": 6295,
-    "median48": 2241
+    "n": 6,
+    "avg48": 5650,
+    "median48": 2332
    },
    "21點": {
     "n": 5,
@@ -421,7 +431,7 @@
   },
   "byExperiment": {},
   "scoreVsViews_spearman": 0.04,
-  "avgWatchVsViews_spearman": 0.69,
+  "avgWatchVsViews_spearman": 0.73,
   "prediction": {
    "n": 0,
    "hitPct": null,
@@ -464,7 +474,7 @@
     "weekday": "四",
     "slot": "12點",
     "check": "ok",
-    "ageH": 47.9
+    "ageH": 48.3
    },
    {
     "file": "2026-11-06-2",
@@ -478,7 +488,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 23.9
+    "ageH": 24.4
    },
    {
     "file": "2026-11-06",
@@ -492,7 +502,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "ok",
-    "ageH": 12.7
+    "ageH": 13.2
    },
    {
     "file": "2026-11-08",
@@ -506,7 +516,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 0.0
+    "ageH": 0.5
    },
    {
     "file": "2026-11-11",
@@ -520,7 +530,7 @@
     "weekday": "三",
     "slot": "21點",
     "check": "ok",
-    "ageH": 62.6
+    "ageH": 63.1
    }
   ],
   "posts": [
