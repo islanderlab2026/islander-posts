@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-07 18:18",
+ "generatedAt": "2026-11-07 18:20",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 12,
@@ -30,7 +30,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 47.5
+    "ageH": 47.6
    },
    {
     "file": "2026-11-06-2",
@@ -474,7 +474,7 @@
   }
  },
  "fur": {
-  "n48": 7,
+  "n48": 6,
   "pending": [
    {
     "file": "2026-11-05-2",
@@ -502,7 +502,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 29.6
+    "ageH": 29.7
    },
    {
     "file": "2026-11-06",
@@ -533,6 +533,20 @@
     "ageH": 5.8
    },
    {
+    "file": "2026-11-09",
+    "title": "拜託拜託倒地假哭",
+    "kind": "撒嬌反轉",
+    "score": 82,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/07 18:20",
+    "weekday": "六",
+    "slot": "18點",
+    "check": "ok",
+    "ageH": 0.0
+   },
+   {
     "file": "2026-11-11",
     "title": "東北季風麻糬穿雨衣踩水窪",
     "kind": "節日天氣",
@@ -548,30 +562,6 @@
    }
   ],
   "posts": [
-   {
-    "file": "2026-11-09",
-    "title": "拜託拜託倒地假哭",
-    "kind": "撒嬌反轉",
-    "score": 82,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/03 18:41",
-    "weekday": "二",
-    "slot": "18點",
-    "check": "ok",
-    "views48": 156,
-    "reach48": 112,
-    "avgWatchSec": 4.5,
-    "shares48": 0,
-    "saved48": 0,
-    "likes48": 4,
-    "shareRate": 0.0,
-    "saveRate": 0.0,
-    "snapAgeH": 48.1,
-    "views7d": null,
-    "actualBucket": "A"
-   },
    {
     "file": "2026-11-02",
     "title": "週一早上柯基擋門",
@@ -718,21 +708,16 @@
    }
   ],
   "views48": {
-   "median": 152,
-   "mean": 147,
-   "max": 156,
+   "median": 150,
+   "mean": 146,
+   "max": 153,
    "min": 131
   },
   "avgWatchSec": 4.4,
-  "shareRatePct": 0.45,
+  "shareRatePct": 0.53,
   "saveRatePct": 0.0,
   "sharesTotal": 4,
   "byKind": {
-   "撒嬌反轉": {
-    "n": 1,
-    "avg48": 156,
-    "median48": 156
-   },
    "未分類": {
     "n": 1,
     "avg48": 152,
@@ -755,11 +740,6 @@
    }
   },
   "bySlot": {
-   "18點": {
-    "n": 1,
-    "avg48": 156,
-    "median48": 156
-   },
    "12點": {
     "n": 3,
     "avg48": 151,
@@ -772,8 +752,8 @@
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": -0.28,
-  "avgWatchVsViews_spearman": 0.68,
+  "scoreVsViews_spearman": -0.29,
+  "avgWatchVsViews_spearman": 0.75,
   "prediction": {
    "n": 0,
    "hitPct": null,
