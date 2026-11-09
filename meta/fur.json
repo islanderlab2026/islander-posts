@@ -1,15 +1,142 @@
 {
-"_note":"furfriend.tw 每支片的評分與分類（產片上傳時要同步新增；key＝檔名主幹）。experiment A 神歌手動配樂／B 麻糬人設文案／C 雙角色系列",
-"2026-10-30":{"title":"短腿跟不上的一天","kind":"生活共鳴","score":81,"scoreVer":"v1"},
-"2026-10-31-hw":{"title":"萬聖節柯基","kind":"節日天氣","score":84,"scoreVer":"v1"},
-"2026-11-05":{"title":"柯基唱歌破音","kind":"反差才藝","score":83,"scoreVer":"v1"},
-"2026-11-07":{"title":"柯基跳芭蕾","kind":"反差才藝","score":79,"scoreVer":"v1"},
-"2026-11-02":{"title":"週一早上柯基擋門","kind":"生活共鳴","score":84,"scoreVer":"v1"},
-"2026-11-09":{"title":"拜託拜託倒地假哭","kind":"撒嬌反轉","score":82,"scoreVer":"v1"},
-"2026-11-03":{"title":"柯基釣魚搶魚","kind":"反轉故事","score":82,"scoreVer":"v1"},
-"2026-11-08":{"title":"柯基近視認錯拖鞋","kind":"反轉故事","score":79,"scoreVer":"v1"},
-"2026-10-31":{"title":"柯基等門 EP1","kind":"感人故事","score":78,"scoreVer":"v1"},
-"2026-11-04":{"title":"柯基跳 breaking","kind":"反差才藝","score":75,"scoreVer":"v1"},
-"2026-11-06":{"title":"柯基衝浪","kind":"反差才藝","score":72,"scoreVer":"v1"},
-"2026-11-10":{"title":"麻糬＋大金做咖啡大失敗","kind":"反轉故事","score":70,"scoreVer":"v2","scoreItems":{"hook":18,"watch":15,"share":14,"quality":11,"timely":12},"predView":"A","experiment":"C"},
-"2026-11-11":{"title":"東北季風麻糬穿雨衣踩水窪","kind":"節日天氣","score":75,"scoreVer":"v2","scoreItems":{"hook":19,"watch":14,"share":13,"quality":13,"timely":16},"predView":"A"}}
+ "_note": "orangecat.office.tw（原 furfriend.tw）每支片的評分與分類，key＝檔名主幹；產片上傳時同步新增。oldAccount true＝11/6 改版前柯基帳號的片（已封存），analyze.py 不計入。11/10 修正：同名檔名主幹已改成橘貓的片。",
+ "2026-10-30": {
+  "title": "短腿跟不上的一天",
+  "kind": "生活共鳴",
+  "score": 81,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-10-31-hw": {
+  "title": "萬聖節柯基",
+  "kind": "節日天氣",
+  "score": 84,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-05": {
+  "title": "柯基唱歌破音",
+  "kind": "反差才藝",
+  "score": 83,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-07": {
+  "title": "柯基跳芭蕾",
+  "kind": "反差才藝",
+  "score": 79,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-02": {
+  "title": "週一早上柯基擋門",
+  "kind": "生活共鳴",
+  "score": 84,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-09": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP3｜發年終那天",
+  "score": 87
+ },
+ "2026-11-03": {
+  "title": "柯基釣魚搶魚",
+  "kind": "反轉故事",
+  "score": 82,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-08": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP2｜下班前 5 分鐘開會",
+  "score": 81
+ },
+ "2026-10-31": {
+  "title": "柯基等門 EP1",
+  "kind": "感人故事",
+  "score": 78,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-04": {
+  "title": "柯基跳 breaking",
+  "kind": "反差才藝",
+  "score": 75,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-06": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP1｜週一打卡差 1 秒",
+  "score": 83
+ },
+ "2026-11-10": {
+  "title": "麻糬＋大金做咖啡大失敗",
+  "kind": "反轉故事",
+  "score": 70,
+  "scoreVer": "v2",
+  "scoreItems": {
+   "hook": 18,
+   "watch": 15,
+   "share": 14,
+   "quality": 11,
+   "timely": 12
+  },
+  "predView": "A",
+  "experiment": "C",
+  "oldAccount": true
+ },
+ "2026-11-11": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP4｜老闆說明天放假",
+  "score": 85
+ },
+ "2026-11-01": {
+  "oldAccount": true
+ },
+ "2026-11-04-2": {
+  "oldAccount": true
+ },
+ "2026-11-05-2": {
+  "oldAccount": true
+ },
+ "2026-11-06-2": {
+  "oldAccount": true
+ },
+ "2026-11-13": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP5｜監視器：老闆一走就飆椅子",
+  "score": 84
+ },
+ "2026-11-15": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP7｜週五下班 vs 週一上班",
+  "score": 88
+ },
+ "2026-11-11-2": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 11.11｜包裹全寄到公司（英文）",
+  "score": 86
+ },
+ "2026-11-17": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓｜公司報名馬拉松（英文）",
+  "score": 85
+ },
+ "2026-11-10e": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v3.4",
+  "title": "橘貓 EP12｜準時下班（英文）",
+  "score": 82,
+  "predView": "C"
+ }
+}
