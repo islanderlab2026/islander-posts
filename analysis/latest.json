@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-09 13:43",
+ "generatedAt": "2026-11-09 18:38",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 15,
+  "n48": 16,
   "pending": [
    {
     "file": "2026-11-01",
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 25.1
+    "ageH": 30.0
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 63.8
+    "ageH": 68.7
    },
    {
     "file": "2026-11-05",
@@ -44,21 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 90.9
-   },
-   {
-    "file": "2026-11-08-2",
-    "title": "阿包洗腦舞",
-    "kind": "跳舞",
-    "score": 76,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/07 18:18",
-    "weekday": "六",
-    "slot": "18點",
-    "check": "ok",
-    "ageH": 43.4
+    "ageH": 95.9
    },
    {
     "file": "2026-11-09b",
@@ -72,7 +58,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 15.2
+    "ageH": 20.1
    },
    {
     "file": "2026-11-09n",
@@ -86,7 +72,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 1.0
+    "ageH": 5.9
    }
   ],
   "posts": [
@@ -283,6 +269,30 @@
     "actualBucket": "D"
    },
    {
+    "file": "2026-11-08-2",
+    "title": "阿包洗腦舞",
+    "kind": "跳舞",
+    "score": 76,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/07 18:18",
+    "weekday": "六",
+    "slot": "18點",
+    "check": "ok",
+    "views48": 1897,
+    "reach48": 1312,
+    "avgWatchSec": 8.3,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 10,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.3,
+    "views7d": null,
+    "actualBucket": "D"
+   },
+   {
     "file": "2026-11-04",
     "title": "蛋老大被恐龍媽媽當成蛋",
     "kind": "反轉故事",
@@ -452,14 +462,14 @@
    }
   ],
   "views48": {
-   "median": 2190,
-   "mean": 3947,
+   "median": 2044,
+   "mean": 3819,
    "max": 25413,
    "min": 192
   },
-  "avgWatchSec": 7.5,
-  "shareRatePct": 0.02,
-  "saveRatePct": 0.06,
+  "avgWatchSec": 7.6,
+  "shareRatePct": 0.01,
+  "saveRatePct": 0.05,
   "sharesTotal": 3,
   "byKind": {
    "感人故事": {
@@ -488,9 +498,9 @@
     "median48": 1632
    },
    "跳舞": {
-    "n": 2,
-    "avg48": 568,
-    "median48": 568
+    "n": 3,
+    "avg48": 1011,
+    "median48": 943
    },
    "節日天氣": {
     "n": 1,
@@ -510,14 +520,14 @@
     "median48": 943
    },
    "18點": {
-    "n": 1,
-    "avg48": 1632,
-    "median48": 1632
+    "n": 2,
+    "avg48": 1764,
+    "median48": 1764
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": 0.11,
-  "avgWatchVsViews_spearman": 0.71,
+  "scoreVsViews_spearman": 0.16,
+  "avgWatchVsViews_spearman": 0.7,
   "prediction": {
    "n": 0,
    "hitPct": null,
@@ -548,7 +558,7 @@
   }
  },
  "fur": {
-  "n48": 8,
+  "n48": 9,
   "pending": [
    {
     "file": "2026-11-05-2",
@@ -562,7 +572,7 @@
     "weekday": "四",
     "slot": "12點",
     "check": "ok",
-    "ageH": 97.0
+    "ageH": 101.9
    },
    {
     "file": "2026-11-06-2",
@@ -576,21 +586,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 73.0
-   },
-   {
-    "file": "2026-11-09",
-    "title": "拜託拜託倒地假哭",
-    "kind": "撒嬌反轉",
-    "score": 82,
-    "scoreVer": "v1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/07 18:20",
-    "weekday": "六",
-    "slot": "18點",
-    "check": "ok",
-    "ageH": 43.4
+    "ageH": 78.0
    },
    {
     "file": "2026-11-11",
@@ -604,7 +600,7 @@
     "weekday": "三",
     "slot": "21點",
     "check": "ok",
-    "ageH": 111.8
+    "ageH": 116.7
    },
    {
     "file": "2026-11-13",
@@ -618,7 +614,7 @@
     "weekday": "日",
     "slot": "18點",
     "check": "ok",
-    "ageH": 20.9
+    "ageH": 25.8
    },
    {
     "file": "2026-11-15",
@@ -632,10 +628,34 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 16.1
+    "ageH": 21.0
    }
   ],
   "posts": [
+   {
+    "file": "2026-11-09",
+    "title": "拜託拜託倒地假哭",
+    "kind": "撒嬌反轉",
+    "score": 82,
+    "scoreVer": "v1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/07 18:20",
+    "weekday": "六",
+    "slot": "18點",
+    "check": "ok",
+    "views48": 1720,
+    "reach48": 1159,
+    "avgWatchSec": 7.0,
+    "shares48": 13,
+    "saved48": 1,
+    "likes48": 18,
+    "shareRate": 1.12,
+    "saveRate": 0.09,
+    "snapAgeH": 48.3,
+    "views7d": null,
+    "actualBucket": "D"
+   },
    {
     "file": "2026-11-08",
     "title": "柯基近視認錯拖鞋",
@@ -830,16 +850,21 @@
    }
   ],
   "views48": {
-   "median": 150,
-   "mean": 194,
-   "max": 539,
+   "median": 152,
+   "mean": 363,
+   "max": 1720,
    "min": 131
   },
-  "avgWatchSec": 4.6,
-  "shareRatePct": 0.49,
-  "saveRatePct": 0.0,
-  "sharesTotal": 7,
+  "avgWatchSec": 4.9,
+  "shareRatePct": 0.56,
+  "saveRatePct": 0.01,
+  "sharesTotal": 20,
   "byKind": {
+   "撒嬌反轉": {
+    "n": 1,
+    "avg48": 1720,
+    "median48": 1720
+   },
    "反轉故事": {
     "n": 1,
     "avg48": 539,
@@ -867,6 +892,11 @@
    }
   },
   "bySlot": {
+   "18點": {
+    "n": 1,
+    "avg48": 1720,
+    "median48": 1720
+   },
    "12點": {
     "n": 4,
     "avg48": 248,
@@ -879,8 +909,8 @@
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": -0.17,
-  "avgWatchVsViews_spearman": 0.72,
+  "scoreVsViews_spearman": -0.1,
+  "avgWatchVsViews_spearman": 0.8,
   "prediction": {
    "n": 0,
    "hitPct": null,
