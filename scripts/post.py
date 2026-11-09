@@ -10,7 +10,8 @@ day = (os.environ.get("POST_DATE") or "").strip() or tw.strftime("%Y-%m-%d")
 slot = (os.environ.get("SLOT") or "").strip() or "1"
 name = day if slot == "1" else f"{day}-{slot}"
 # 2026-11 時段測試：queue/times.json {"日期": 小時}，沒寫的日子＝21 點；手動指定日期時不擋
-_tf = pathlib.Path("queue/times.json")
+# 2026-11-09：每個帳號各自一份（島民 queue/times.json、橘貓 queue/fur/times.json）
+_tf = pathlib.Path(os.environ.get("QDIR") or "queue") / "times.json"
 _times = json.loads(_tf.read_text(encoding="utf-8")) if _tf.exists() else {}
 if slot == "1" and not (os.environ.get("POST_DATE") or "").strip():
     _want = int(_times.get(day, 21))
