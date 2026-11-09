@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-09 13:20",
+ "generatedAt": "2026-11-09 13:43",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 15,
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 24.7
+    "ageH": 25.1
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 63.4
+    "ageH": 63.8
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 90.6
+    "ageH": 90.9
    },
    {
     "file": "2026-11-08-2",
@@ -58,7 +58,7 @@
     "weekday": "六",
     "slot": "18點",
     "check": "ok",
-    "ageH": 43.0
+    "ageH": 43.4
    },
    {
     "file": "2026-11-09b",
@@ -72,7 +72,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 14.8
+    "ageH": 15.2
    },
    {
     "file": "2026-11-09n",
@@ -86,7 +86,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 0.6
+    "ageH": 1.0
    }
   ],
   "posts": [
@@ -562,7 +562,7 @@
     "weekday": "四",
     "slot": "12點",
     "check": "ok",
-    "ageH": 96.6
+    "ageH": 97.0
    },
    {
     "file": "2026-11-06-2",
@@ -576,7 +576,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 72.7
+    "ageH": 73.0
    },
    {
     "file": "2026-11-09",
@@ -590,7 +590,7 @@
     "weekday": "六",
     "slot": "18點",
     "check": "ok",
-    "ageH": 43.0
+    "ageH": 43.4
    },
    {
     "file": "2026-11-11",
@@ -604,7 +604,7 @@
     "weekday": "三",
     "slot": "21點",
     "check": "ok",
-    "ageH": 111.4
+    "ageH": 111.8
    },
    {
     "file": "2026-11-13",
@@ -618,7 +618,7 @@
     "weekday": "日",
     "slot": "18點",
     "check": "ok",
-    "ageH": 20.5
+    "ageH": 20.9
    },
    {
     "file": "2026-11-15",
@@ -632,7 +632,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 15.7
+    "ageH": 16.1
    }
   ],
   "posts": [
