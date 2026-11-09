@@ -13,6 +13,10 @@ on:
     - cron: "47 9 * * 1-5"   # 平日 17:47
     - cron: "17 10 * * 1-5"  # 18:17 補跑
     - cron: "47 10 * * 1-5"  # 18:47 補跑
+    # 2026-11-09 王大人：島民測試晚上 23 點（伊朗 18:30、印度 20:30）
+    - cron: "47 14 * * *"   # 22:47
+    - cron: "17 15 * * *"   # 23:17 補跑
+    - cron: "47 15 * * *"   # 23:47 補跑
   workflow_dispatch:
     inputs:
       date:
@@ -36,6 +40,7 @@ jobs:
     env:
       HAS_FUR: ${{ secrets.IG_TOKEN_FUR != '' }}
       SLOT_NOW: ${{ (github.event.schedule == '47 3 * * *' || github.event.schedule == '17 4 * * *' || github.event.schedule == '47 4 * * *') && '2' || inputs.slot || '1' }}
+      IS_NOON: ${{ github.event.schedule == '47 3 * * *' || github.event.schedule == '17 4 * * *' || github.event.schedule == '47 4 * * *' }}
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }   # 用最新的 main，避免前一次剛搬走的片又被發
@@ -59,6 +64,25 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID_FUR }}
           POST_DATE: ${{ inputs.date }}
           SLOT: ${{ env.SLOT_NOW }}
+          QDIR: queue/fur
+          DONE: posted/fur
+          PAGES_BASE: https://islanderlab2026.github.io/islander-posts
+        run: python scripts/post.py
+      - name: 中午時段也檢查 slot 1（島民，times.json 寫 12 的日子）
+        # 2026-11-09 修正：原本中午只跑 slot 2，寫 12 點的 slot 1 會拖到 18 點才發
+        if: always() && env.IS_NOON == 'true'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          SLOT: "1"
+          PAGES_BASE: https://islanderlab2026.github.io/islander-posts
+        run: python scripts/post.py
+      - name: 中午時段也檢查 slot 1（橘貓，queue/fur/times.json 寫 12 的日子）
+        if: always() && env.IS_NOON == 'true' && env.HAS_FUR == 'true'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_FUR }}
+          SLOT: "1"
           QDIR: queue/fur
           DONE: posted/fur
           PAGES_BASE: https://islanderlab2026.github.io/islander-posts
