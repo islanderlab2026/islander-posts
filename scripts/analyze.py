@@ -46,8 +46,9 @@ def account(acc, folder):
         t = datetime.datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z")
         tw = t + TW
         h = tw.hour + tw.minute / 60
-        slot = "12點" if h < 15 else "18點" if h < 19.5 else "21點"
+        slot = "12點" if 3 <= h < 15 else "18點" if 15 <= h < 19.5 else "21點" if 19.5 <= h < 22.5 else "23點"  # 2026-11-10：加 23 點時段（22:30 後到凌晨 3 點）
         m = meta.get(f.stem, {})
+        if m.get("oldAccount"): continue  # 2026-11-10：舊柯基帳號的片不計入（王大人要求修正片名對應）
         base = {"file": f.stem, "title": m.get("title", f.stem), "kind": m.get("kind"), "score": m.get("score"),
                 "scoreVer": m.get("scoreVer"), "predView": m.get("predView"), "experiment": m.get("experiment"),
                 "postedTW": tw.strftime("%m/%d %H:%M"), "weekday": "一二三四五六日"[tw.weekday()], "slot": slot,
