@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11 23:56",
+ "generatedAt": "2026-11-12 00:38",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 17,
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 83.3
+    "ageH": 84.0
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 122.0
+    "ageH": 122.7
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 149.2
+    "ageH": 149.9
    },
    {
     "file": "2026-11-09n",
@@ -58,7 +58,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 59.2
+    "ageH": 59.9
    },
    {
     "file": "2026-11-10p",
@@ -72,7 +72,7 @@
     "weekday": "二",
     "slot": "21點",
     "check": "ok",
-    "ageH": 25.5
+    "ageH": 26.2
    }
   ],
   "posts": [
@@ -564,14 +564,14 @@
   },
   "slotVsPred": {},
   "account": {
-   "date": "2026-11-11",
-   "followers": 44,
-   "posts": 10,
-   "views7d": 106920,
-   "reach7d": 63141,
-   "accounts_engaged7d": 534,
-   "profile_views7d": 100,
-   "total_interactions7d": 664,
+   "date": "2026-11-12",
+   "followers": 49,
+   "posts": 9,
+   "views7d": 100443,
+   "reach7d": 59454,
+   "accounts_engaged7d": 506,
+   "profile_views7d": 97,
+   "total_interactions7d": 631,
    "shares7d": 8,
    "followers7dAgo": 14,
    "followersHistory": {
@@ -584,7 +584,8 @@
     "2026-11-08": 21,
     "2026-11-09": 35,
     "2026-11-10": 38,
-    "2026-11-11": 44
+    "2026-11-11": 44,
+    "2026-11-12": 49
    }
   }
  },
@@ -603,7 +604,7 @@
     "weekday": "二",
     "slot": "21點",
     "check": "ok",
-    "ageH": 25.5
+    "ageH": 26.2
    },
    {
     "file": "2026-11-11-2",
@@ -617,7 +618,7 @@
     "weekday": "三",
     "slot": "12點",
     "check": "ok",
-    "ageH": 11.3
+    "ageH": 12.0
    }
   ],
   "posts": [
@@ -815,16 +816,16 @@
   },
   "slotVsPred": {},
   "account": {
-   "date": "2026-11-11",
-   "followers": 6,
-   "posts": 7,
-   "views7d": 3230,
-   "reach7d": 2184,
-   "accounts_engaged7d": 43,
-   "profile_views7d": 16,
-   "total_interactions7d": 78,
+   "date": "2026-11-12",
+   "followers": 13,
+   "posts": 8,
+   "views7d": 3380,
+   "reach7d": 2301,
+   "accounts_engaged7d": 44,
+   "profile_views7d": 17,
+   "total_interactions7d": 79,
    "shares7d": 17,
-   "followers7dAgo": 3,
+   "followers7dAgo": 4,
    "followersHistory": {
     "2026-11-02": 1,
     "2026-11-03": 2,
@@ -835,7 +836,8 @@
     "2026-11-08": 4,
     "2026-11-09": 5,
     "2026-11-10": 5,
-    "2026-11-11": 6
+    "2026-11-11": 6,
+    "2026-11-12": 13
    }
   }
  }
