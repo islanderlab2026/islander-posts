@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11 21:58",
+ "generatedAt": "2026-11-11 22:28",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 17,
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 81.4
+    "ageH": 81.9
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 120.0
+    "ageH": 120.5
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 147.2
+    "ageH": 147.7
    },
    {
     "file": "2026-11-09n",
@@ -58,7 +58,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 57.2
+    "ageH": 57.7
    },
    {
     "file": "2026-11-10p",
@@ -72,7 +72,7 @@
     "weekday": "二",
     "slot": "21點",
     "check": "ok",
-    "ageH": 23.5
+    "ageH": 24.0
    }
   ],
   "posts": [
@@ -589,7 +589,7 @@
   }
  },
  "fur": {
-  "n48": 5,
+  "n48": 6,
   "pending": [
    {
     "file": "2026-11-10e",
@@ -603,7 +603,7 @@
     "weekday": "二",
     "slot": "21點",
     "check": "ok",
-    "ageH": 23.5
+    "ageH": 24.0
    },
    {
     "file": "2026-11-11-2",
@@ -617,21 +617,7 @@
     "weekday": "三",
     "slot": "12點",
     "check": "ok",
-    "ageH": 9.3
-   },
-   {
-    "file": "2026-11-11",
-    "title": "橘貓 EP4｜老闆說明天放假",
-    "kind": "橘貓社畜連續劇｜3D 擬人",
-    "score": 85,
-    "scoreVer": "v1106",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/09 22:00",
-    "weekday": "一",
-    "slot": "21點",
-    "check": "ok",
-    "ageH": 48.0
+    "ageH": 9.8
    }
   ],
   "posts": [
@@ -682,6 +668,30 @@
     "snapAgeH": 48.2,
     "views7d": null,
     "actualBucket": "C"
+   },
+   {
+    "file": "2026-11-11",
+    "title": "橘貓 EP4｜老闆說明天放假",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "score": 85,
+    "scoreVer": "v1106",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/09 22:00",
+    "weekday": "一",
+    "slot": "21點",
+    "check": "ok",
+    "views48": 269,
+    "reach48": 215,
+    "avgWatchSec": 6.0,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 2,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.5,
+    "views7d": null,
+    "actualBucket": "B"
    },
    {
     "file": "2026-11-15",
@@ -757,20 +767,20 @@
    }
   ],
   "views48": {
-   "median": 254,
-   "mean": 570,
+   "median": 262,
+   "mean": 520,
    "max": 1720,
    "min": 136
   },
-  "avgWatchSec": 5.4,
-  "shareRatePct": 0.47,
-  "saveRatePct": 0.02,
+  "avgWatchSec": 5.5,
+  "shareRatePct": 0.4,
+  "saveRatePct": 0.01,
   "sharesTotal": 17,
   "byKind": {
    "橘貓社畜連續劇｜3D 擬人": {
-    "n": 5,
-    "avg48": 570,
-    "median48": 254
+    "n": 6,
+    "avg48": 520,
+    "median48": 262
    }
   },
   "bySlot": {
@@ -785,9 +795,9 @@
     "median48": 539
    },
    "21點": {
-    "n": 1,
-    "avg48": 254,
-    "median48": 254
+    "n": 2,
+    "avg48": 262,
+    "median48": 262
    },
    "23點": {
     "n": 1,
@@ -797,7 +807,7 @@
   },
   "byExperiment": {},
   "scoreVsViews_spearman": 0.2,
-  "avgWatchVsViews_spearman": 0.82,
+  "avgWatchVsViews_spearman": 0.84,
   "prediction": {
    "n": 0,
    "hitPct": null,
