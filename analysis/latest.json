@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-11 00:30",
+ "generatedAt": "2026-11-11 12:40",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 17,
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 59.9
+    "ageH": 72.1
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 98.6
+    "ageH": 110.7
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 125.7
+    "ageH": 137.9
    },
    {
     "file": "2026-11-09n",
@@ -58,7 +58,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 35.7
+    "ageH": 47.9
    },
    {
     "file": "2026-11-10p",
@@ -72,7 +72,7 @@
     "weekday": "二",
     "slot": "21點",
     "check": "ok",
-    "ageH": 2.1
+    "ageH": 14.2
    }
   ],
   "posts": [
@@ -603,7 +603,21 @@
     "weekday": "二",
     "slot": "21點",
     "check": "ok",
-    "ageH": 2.1
+    "ageH": 14.2
+   },
+   {
+    "file": "2026-11-11-2",
+    "title": "橘貓 11.11｜包裹全寄到公司（英文）",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "score": 86,
+    "scoreVer": "v1106",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/11 12:39",
+    "weekday": "三",
+    "slot": "12點",
+    "check": "ok",
+    "ageH": 0.0
    },
    {
     "file": "2026-11-11",
@@ -617,7 +631,7 @@
     "weekday": "一",
     "slot": "21點",
     "check": "ok",
-    "ageH": 26.5
+    "ageH": 38.7
    }
   ],
   "posts": [
