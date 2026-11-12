@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-12 21:59",
+ "generatedAt": "2026-11-12 22:30",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 17,
+  "n48": 18,
   "pending": [
    {
     "file": "2026-11-01",
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 105.4
+    "ageH": 105.9
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 144.0
+    "ageH": 144.6
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 171.2
+    "ageH": 171.7
    },
    {
     "file": "2026-11-09n",
@@ -58,21 +58,21 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 81.2
+    "ageH": 81.8
    },
    {
-    "file": "2026-11-10p",
-    "title": "2026-11-10p",
+    "file": "2026-11-14-2",
+    "title": "2026-11-14-2",
     "kind": null,
     "score": null,
     "scoreVer": null,
     "predView": null,
     "experiment": null,
-    "postedTW": "11/10 22:25",
-    "weekday": "二",
+    "postedTW": "11/12 22:28",
+    "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 47.6
+    "ageH": 0.0
    }
   ],
   "posts": [
@@ -170,6 +170,30 @@
     "saveRate": 0.19,
     "snapAgeH": 48.4,
     "views7d": 4398,
+    "actualBucket": "E"
+   },
+   {
+    "file": "2026-11-10p",
+    "title": "2026-11-10p",
+    "kind": null,
+    "score": null,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/10 22:25",
+    "weekday": "二",
+    "slot": "21點",
+    "check": "ok",
+    "views48": 3060,
+    "reach48": 1969,
+    "avgWatchSec": 8.1,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 16,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.1,
+    "views7d": null,
     "actualBucket": "E"
    },
    {
@@ -486,12 +510,12 @@
    }
   ],
   "views48": {
-   "median": 2190,
-   "mean": 8736,
+   "median": 2208,
+   "mean": 8421,
    "max": 87419,
    "min": 192
   },
-  "avgWatchSec": 7.9,
+  "avgWatchSec": 8.0,
   "shareRatePct": 0.01,
   "saveRatePct": 0.05,
   "sharesTotal": 6,
@@ -502,9 +526,9 @@
     "median48": 25413
    },
    "未分類": {
-    "n": 5,
-    "avg48": 18977,
-    "median48": 2227
+    "n": 6,
+    "avg48": 16324,
+    "median48": 2325
    },
    "生活共鳴": {
     "n": 3,
@@ -544,9 +568,9 @@
     "median48": 2241
    },
    "21點": {
-    "n": 5,
-    "avg48": 3527,
-    "median48": 943
+    "n": 6,
+    "avg48": 3449,
+    "median48": 2002
    },
    "18點": {
     "n": 2,
@@ -556,7 +580,7 @@
   },
   "byExperiment": {},
   "scoreVsViews_spearman": 0.16,
-  "avgWatchVsViews_spearman": 0.75,
+  "avgWatchVsViews_spearman": 0.72,
   "prediction": {
    "n": 0,
    "hitPct": null,
@@ -590,22 +614,8 @@
   }
  },
  "fur": {
-  "n48": 6,
+  "n48": 7,
   "pending": [
-   {
-    "file": "2026-11-10e",
-    "title": "橘貓 EP12｜準時下班（英文）",
-    "kind": "橘貓社畜連續劇｜3D 擬人",
-    "score": 82,
-    "scoreVer": "v3.4",
-    "predView": "C",
-    "experiment": null,
-    "postedTW": "11/10 22:26",
-    "weekday": "二",
-    "slot": "21點",
-    "check": "ok",
-    "ageH": 47.5
-   },
    {
     "file": "2026-11-11-2",
     "title": "橘貓 11.11｜包裹全寄到公司（英文）",
@@ -618,7 +628,21 @@
     "weekday": "三",
     "slot": "12點",
     "check": "ok",
-    "ageH": 33.3
+    "ageH": 33.9
+   },
+   {
+    "file": "2026-11-11e",
+    "title": "2026-11-11e",
+    "kind": null,
+    "score": null,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/12 22:30",
+    "weekday": "四",
+    "slot": "23點",
+    "check": "ok",
+    "ageH": 0.0
    }
   ],
   "posts": [
@@ -743,6 +767,33 @@
     "actualBucket": "A"
    },
    {
+    "file": "2026-11-10e",
+    "title": "橘貓 EP12｜準時下班（英文）",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "score": 82,
+    "scoreVer": "v3.4",
+    "predView": "C",
+    "experiment": null,
+    "postedTW": "11/10 22:26",
+    "weekday": "二",
+    "slot": "21點",
+    "check": "ok",
+    "views48": 139,
+    "reach48": 112,
+    "avgWatchSec": 4.0,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 1,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.1,
+    "views7d": null,
+    "actualBucket": "A",
+    "predHit": false,
+    "predWithin1": false,
+    "vsPred": 0.19
+   },
+   {
     "file": "2026-11-06",
     "title": "橘貓 EP1｜週一打卡差 1 秒",
     "kind": "橘貓社畜連續劇｜3D 擬人",
@@ -768,20 +819,20 @@
    }
   ],
   "views48": {
-   "median": 262,
-   "mean": 520,
+   "median": 254,
+   "mean": 465,
    "max": 1720,
    "min": 136
   },
-  "avgWatchSec": 5.5,
-  "shareRatePct": 0.4,
+  "avgWatchSec": 5.3,
+  "shareRatePct": 0.34,
   "saveRatePct": 0.01,
   "sharesTotal": 17,
   "byKind": {
    "橘貓社畜連續劇｜3D 擬人": {
-    "n": 6,
-    "avg48": 520,
-    "median48": 262
+    "n": 7,
+    "avg48": 465,
+    "median48": 254
    }
   },
   "bySlot": {
@@ -796,9 +847,9 @@
     "median48": 539
    },
    "21點": {
-    "n": 2,
-    "avg48": 262,
-    "median48": 262
+    "n": 3,
+    "avg48": 221,
+    "median48": 254
    },
    "23點": {
     "n": 1,
@@ -807,14 +858,19 @@
    }
   },
   "byExperiment": {},
-  "scoreVsViews_spearman": 0.2,
-  "avgWatchVsViews_spearman": 0.84,
+  "scoreVsViews_spearman": 0.29,
+  "avgWatchVsViews_spearman": 0.81,
   "prediction": {
-   "n": 0,
-   "hitPct": null,
-   "within1Pct": null
+   "n": 1,
+   "hitPct": 0,
+   "within1Pct": 0
   },
-  "slotVsPred": {},
+  "slotVsPred": {
+   "21點": {
+    "n": 1,
+    "avg": 0.19
+   }
+  },
   "account": {
    "date": "2026-11-12",
    "followers": 13,
