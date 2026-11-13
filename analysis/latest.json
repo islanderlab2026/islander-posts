@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-13 00:43",
+ "generatedAt": "2026-11-13 12:42",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 18,
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 108.1
+    "ageH": 120.1
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 146.8
+    "ageH": 158.8
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 173.9
+    "ageH": 185.9
    },
    {
     "file": "2026-11-09n",
@@ -58,7 +58,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 84.0
+    "ageH": 95.9
    },
    {
     "file": "2026-11-14-2",
@@ -72,7 +72,21 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 2.2
+    "ageH": 14.2
+   },
+   {
+    "file": "2026-11-15-2",
+    "title": "2026-11-15-2",
+    "kind": null,
+    "score": null,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/13 12:40",
+    "weekday": "五",
+    "slot": "12點",
+    "check": "ok",
+    "ageH": 0.0
    }
   ],
   "posts": [
@@ -615,22 +629,8 @@
   }
  },
  "fur": {
-  "n48": 7,
+  "n48": 8,
   "pending": [
-   {
-    "file": "2026-11-11-2",
-    "title": "橘貓 11.11｜包裹全寄到公司（英文）",
-    "kind": "橘貓社畜連續劇｜3D 擬人",
-    "score": 86,
-    "scoreVer": "v1106",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/11 12:39",
-    "weekday": "三",
-    "slot": "12點",
-    "check": "ok",
-    "ageH": 36.1
-   },
    {
     "file": "2026-11-11e",
     "title": "2026-11-11e",
@@ -643,7 +643,21 @@
     "weekday": "四",
     "slot": "23點",
     "check": "ok",
-    "ageH": 2.2
+    "ageH": 14.2
+   },
+   {
+    "file": "2026-11-17",
+    "title": "橘貓｜公司報名馬拉松（英文）",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "score": 85,
+    "scoreVer": "v1106",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/13 12:42",
+    "weekday": "五",
+    "slot": "12點",
+    "check": "ok",
+    "ageH": 0.0
    }
   ],
   "posts": [
@@ -768,6 +782,30 @@
     "actualBucket": "A"
    },
    {
+    "file": "2026-11-11-2",
+    "title": "橘貓 11.11｜包裹全寄到公司（英文）",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "score": 86,
+    "scoreVer": "v1106",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/11 12:39",
+    "weekday": "三",
+    "slot": "12點",
+    "check": "ok",
+    "views48": 146,
+    "reach48": 116,
+    "avgWatchSec": 4.0,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 1,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 48.0,
+    "views7d": null,
+    "actualBucket": "A"
+   },
+   {
     "file": "2026-11-10e",
     "title": "橘貓 EP12｜準時下班（英文）",
     "kind": "橘貓社畜連續劇｜3D 擬人",
@@ -820,20 +858,20 @@
    }
   ],
   "views48": {
-   "median": 254,
-   "mean": 465,
+   "median": 226,
+   "mean": 425,
    "max": 1720,
    "min": 136
   },
-  "avgWatchSec": 5.3,
-  "shareRatePct": 0.34,
+  "avgWatchSec": 5.1,
+  "shareRatePct": 0.3,
   "saveRatePct": 0.01,
   "sharesTotal": 17,
   "byKind": {
    "橘貓社畜連續劇｜3D 擬人": {
-    "n": 7,
-    "avg48": 465,
-    "median48": 254
+    "n": 8,
+    "avg48": 425,
+    "median48": 226
    }
   },
   "bySlot": {
@@ -843,9 +881,9 @@
     "median48": 960
    },
    "12點": {
-    "n": 1,
-    "avg48": 539,
-    "median48": 539
+    "n": 2,
+    "avg48": 342,
+    "median48": 342
    },
    "21點": {
     "n": 3,
@@ -860,7 +898,7 @@
   },
   "byExperiment": {},
   "scoreVsViews_spearman": 0.29,
-  "avgWatchVsViews_spearman": 0.81,
+  "avgWatchVsViews_spearman": 0.78,
   "prediction": {
    "n": 1,
    "hitPct": 0,
