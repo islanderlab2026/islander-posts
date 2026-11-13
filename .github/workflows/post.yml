@@ -5,8 +5,12 @@ on:
     - cron: "47 12 * * *"   # 20:47 台灣（晚上那支 slot 1，時間由 queue/times.json 決定，沒寫＝21 點）
     - cron: "17 13 * * *"   # 21:17 補跑
     - cron: "47 13 * * *"   # 21:47 補跑
-    # 2026-11-04 王大人：一天發兩支加速時段測試 → 每天中午 12 點固定發 slot 2（queue/<日期>-2.mp4）
-    - cron: "47 3 * * *"    # 每天 11:47（中午那支 slot 2）
+    # 2026-11-13 王大人：週末 slot 2（queue/<日期>-2.mp4）改台灣早上 09:00 發（美國市場測試，美東前一晚 20:00）
+    - cron: "47 0 * * 6,0"  # 週六日 08:47（slot 2）
+    - cron: "17 1 * * 6,0"  # 09:17 補跑
+    - cron: "47 1 * * 6,0"  # 09:47 補跑
+    # 中午 cron 保留給 times.json 寫 12 的 slot 1（週一、週五對照組）；2026-11-13 起不再當 slot 2
+    - cron: "47 3 * * *"    # 每天 11:47（中午 slot 1）
     - cron: "17 4 * * *"    # 12:17 補跑
     - cron: "47 4 * * *"    # 12:47 補跑
     # 平日傍晚：times.json 寫 18 的日子晚上那支改 18 點發
@@ -23,7 +27,7 @@ on:
         description: "要發哪天的片（YYYY-MM-DD，空白＝今天）"
         required: false
       slot:
-        description: "第幾支（1＝晚上那支，2＝中午那支）"
+        description: "第幾支（1＝晚上那支，2＝週末早上 9 點那支）"
         required: false
         default: "1"
       account:
@@ -39,7 +43,7 @@ jobs:
     environment: ig-post
     env:
       HAS_FUR: ${{ secrets.IG_TOKEN_FUR != '' }}
-      SLOT_NOW: ${{ (github.event.schedule == '47 3 * * *' || github.event.schedule == '17 4 * * *' || github.event.schedule == '47 4 * * *') && '2' || inputs.slot || '1' }}
+      SLOT_NOW: ${{ (github.event.schedule == '47 0 * * 6,0' || github.event.schedule == '17 1 * * 6,0' || github.event.schedule == '47 1 * * 6,0') && '2' || inputs.slot || '1' }}
       IS_NOON: ${{ github.event.schedule == '47 3 * * *' || github.event.schedule == '17 4 * * *' || github.event.schedule == '47 4 * * *' }}
     steps:
       - uses: actions/checkout@v4
