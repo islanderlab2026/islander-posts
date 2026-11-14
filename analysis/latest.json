@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-14 12:33",
+ "generatedAt": "2026-11-14 13:04",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 18,
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 144.0
+    "ageH": 144.5
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 182.6
+    "ageH": 183.1
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 209.8
+    "ageH": 210.3
    },
    {
     "file": "2026-11-09n",
@@ -58,7 +58,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 119.8
+    "ageH": 120.3
    },
    {
     "file": "2026-11-14-2",
@@ -72,7 +72,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 38.1
+    "ageH": 38.6
    },
    {
     "file": "2026-11-14w",
@@ -86,7 +86,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 2.7
+    "ageH": 3.3
    },
    {
     "file": "2026-11-15-2",
@@ -100,7 +100,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 23.9
+    "ageH": 24.4
    },
    {
     "file": "2026-11-18c",
@@ -114,7 +114,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "ok",
-    "ageH": 15.8
+    "ageH": 16.4
    }
   ],
   "posts": [
@@ -672,7 +672,7 @@
     "weekday": "四",
     "slot": "23點",
     "check": "ok",
-    "ageH": 38.0
+    "ageH": 38.6
    },
    {
     "file": "2026-11-14s",
@@ -686,7 +686,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 2.7
+    "ageH": 3.2
    },
    {
     "file": "2026-11-17",
@@ -700,7 +700,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 23.8
+    "ageH": 24.4
    },
    {
     "file": "2026-11-17c",
@@ -714,7 +714,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "ok",
-    "ageH": 15.8
+    "ageH": 16.3
    }
   ],
   "posts": [
@@ -763,7 +763,7 @@
     "shareRate": 0.75,
     "saveRate": 0.0,
     "snapAgeH": 48.2,
-    "views7d": null,
+    "views7d": 544,
     "actualBucket": "C"
    },
    {
