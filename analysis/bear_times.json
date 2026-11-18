@@ -1,7 +1,19 @@
 {
- "generatedAt": "2026-11-18T16:13Z",
- "n": 21,
+ "generatedAt": "2026-11-18T17:17Z",
+ "n": 24,
  "slots": {
+  "00": {
+   "n": 3,
+   "reachMedian": 110,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": true,
+   "posts": [
+    "1117d-melons",
+    "1117e-nature",
+    "1117f-clothes"
+   ]
+  },
   "01": {
    "n": 3,
    "reachMedian": 113,
