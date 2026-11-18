@@ -1,0 +1,32 @@
+{
+ "id": "rookie",
+ "hook": [
+  "Chinese for",
+  "\"newbie\"",
+  "is literally..."
+ ],
+ "zh": "菜鳥",
+ "py": "cài niǎo",
+ "literal": "vegetable bird",
+ "punch": [
+  "First day",
+  "at a new job?",
+  "Welcome,",
+  "vegetable bird."
+ ],
+ "cta": [
+  "Send this to",
+  "the newest person",
+  "on your team"
+ ],
+ "bg": [
+  14,
+  48,
+  44
+ ],
+ "accent": [
+  255,
+  140,
+  110
+ ]
+}
