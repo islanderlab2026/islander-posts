@@ -1,0 +1,32 @@
+{
+ "id": "thirdwheel",
+ "hook": [
+  "In Chinese,",
+  "a THIRD WHEEL",
+  "is literally..."
+ ],
+ "zh": "電燈泡",
+ "py": "diàn dēng pào",
+ "literal": "light bulb",
+ "punch": [
+  "A couple's date.",
+  "You tagged along?",
+  "You're the",
+  "light bulb."
+ ],
+ "cta": [
+  "Send this to",
+  "your friend who",
+  "always third-wheels"
+ ],
+ "bg": [
+  58,
+  22,
+  64
+ ],
+ "accent": [
+  190,
+  240,
+  90
+ ]
+}
