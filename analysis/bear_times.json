@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-18T07:58Z",
- "n": 12,
+ "generatedAt": "2026-11-18T09:16Z",
+ "n": 18,
  "slots": {
   "01": {
    "n": 3,
@@ -36,6 +36,21 @@
     "1116a-picto",
     "1116b-quiz",
     "1116c-twister"
+   ]
+  },
+  "17": {
+   "n": 6,
+   "reachMedian": 104.5,
+   "sharesSum": 1,
+   "savedSum": 2,
+   "enough": true,
+   "posts": [
+    "1120a-places",
+    "1120b-jobs",
+    "1120c-sports",
+    "1122a-animals2",
+    "1122b-everyday",
+    "1122c-electric"
    ]
   },
   "22": {
