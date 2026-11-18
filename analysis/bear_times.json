@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-18T15:08Z",
- "n": 18,
+ "generatedAt": "2026-11-18T16:13Z",
+ "n": 21,
  "slots": {
   "01": {
    "n": 3,
@@ -63,6 +63,18 @@
     "1117a-twoway",
     "1117b-da",
     "1117c-loan"
+   ]
+  },
+  "23": {
+   "n": 3,
+   "reachMedian": 105,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": true,
+   "posts": [
+    "1118a-food",
+    "1118b-objects",
+    "1118c-animals"
    ]
   }
  },
