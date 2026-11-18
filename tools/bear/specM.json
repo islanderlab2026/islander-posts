@@ -1,0 +1,39 @@
+{
+ "id": "food",
+ "label": "GUESS THE FOOD",
+ "cover": [
+  "GUESS THE",
+  "FOOD FROM ITS",
+  "CHINESE NAME"
+ ],
+ "sub": "literal translation only",
+ "items": [
+  {
+   "zh": "火鍋",
+   "py": "huǒguō",
+   "literal": "fire pot",
+   "answer": "hot pot"
+  },
+  {
+   "zh": "爆米花",
+   "py": "bàomǐhuā",
+   "literal": "burst rice flower",
+   "answer": "popcorn"
+  },
+  {
+   "zh": "熱狗",
+   "py": "règǒu",
+   "literal": "hot dog",
+   "answer": "hot dog",
+   "note": "Yes, really. Same words."
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ]
+}

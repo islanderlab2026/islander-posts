@@ -1,0 +1,61 @@
+{
+ "id": "bugs",
+ "label": "GUESS THE BUG",
+ "cover": [
+  "GUESS THE",
+  "BUG FROM ITS",
+  "CHINESE NAME"
+ ],
+ "sub": "literal translation only",
+ "items": [
+  {
+   "zh": "蜜蜂",
+   "py": "mìfēng",
+   "literal": "honey wasp",
+   "answer": "honeybee"
+  },
+  {
+   "zh": "瓢蟲",
+   "py": "piáochóng",
+   "literal": "ladle bug",
+   "answer": "ladybug"
+  },
+  {
+   "zh": "螢火蟲",
+   "py": "yínghuǒchóng",
+   "literal": "glow-fire bug",
+   "answer": "firefly"
+  },
+  {
+   "zh": "毛毛蟲",
+   "py": "máomaochóng",
+   "literal": "fuzzy-fuzzy bug",
+   "answer": "caterpillar"
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   0,
+   128,
+   128
+  ],
+  "accent": [
+   255,
+   214,
+   102
+  ],
+  "pyc": [
+   0,
+   128,
+   128
+  ]
+ }
+}

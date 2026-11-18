@@ -1,0 +1,31 @@
+{
+ "id": "idle",
+ "hook": [
+  "How to say",
+  "\"don't you have",
+  "anything better",
+  "to do?\" in Chinese"
+ ],
+ "zh": "你很閒",
+ "py": "nǐ hěn xián",
+ "literal": "you are very idle",
+ "punch": [
+  "Use it on the friend",
+  "who keeps",
+  "bugging you"
+ ],
+ "cta": [
+  "Send this to",
+  "that friend"
+ ],
+ "bg": [
+  22,
+  28,
+  48
+ ],
+ "accent": [
+  255,
+  210,
+  63
+ ]
+}

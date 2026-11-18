@@ -1,0 +1,99 @@
+{
+ "id": "da",
+ "theme": "pastel",
+ "slides": [
+  {
+   "kind": "q_cover",
+   "emoji": "👊",
+   "title": [
+    "= HIT."
+   ],
+   "sub": [
+    "…and somehow",
+    "everything else."
+   ],
+   "zh": "打"
+  },
+  {
+   "kind": "p_card",
+   "emoji": "📞",
+   "zh": "打電話",
+   "simp": "打电话",
+   "py": "dǎ diànhuà",
+   "rows": [
+    [
+     "LITERALLY",
+     "hit + telephone"
+    ],
+    [
+     "MEANS",
+     "make a phone call"
+    ]
+   ]
+  },
+  {
+   "kind": "p_card",
+   "emoji": "🏀",
+   "zh": "打球",
+   "simp": "打球",
+   "py": "dǎqiú",
+   "rows": [
+    [
+     "LITERALLY",
+     "hit + ball"
+    ],
+    [
+     "MEANS",
+     "play ball games"
+    ]
+   ]
+  },
+  {
+   "kind": "p_card",
+   "emoji": "⌨️",
+   "zh": "打字",
+   "simp": "打字",
+   "py": "dǎzì",
+   "rows": [
+    [
+     "LITERALLY",
+     "hit + characters"
+    ],
+    [
+     "MEANS",
+     "to type"
+    ]
+   ]
+  },
+  {
+   "kind": "p_card",
+   "emoji": "💉",
+   "zh": "打針",
+   "simp": "打针",
+   "py": "dǎzhēn",
+   "rows": [
+    [
+     "LITERALLY",
+     "hit + needle"
+    ],
+    [
+     "MEANS",
+     "give an injection"
+    ]
+   ],
+   "aside": "No actual hitting involved."
+  },
+  {
+   "kind": "q_end",
+   "q": [
+    "Which one surprised",
+    "you the most?"
+   ],
+   "emoji": "👇",
+   "cta": [
+    "Send this to someone",
+    "learning Chinese"
+   ]
+  }
+ ]
+}

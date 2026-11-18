@@ -1,0 +1,116 @@
+{
+ "id": "loan",
+ "theme": "pastel",
+ "slides": [
+  {
+   "kind": "q_cover",
+   "emoji": "🤫",
+   "title": [
+    "CHINESE WORDS",
+    "THAT ARE",
+    "SECRETLY ENGLISH"
+   ],
+   "sub": [
+    "Say them out loud."
+   ]
+  },
+  {
+   "kind": "p_card",
+   "emoji": "🛋️",
+   "zh": "沙發",
+   "simp": "沙发",
+   "py": "shāfā",
+   "rows": [
+    [
+     "SOUNDS LIKE",
+     "“sofa”"
+    ],
+    [
+     "MEANS",
+     "sofa"
+    ]
+   ]
+  },
+  {
+   "kind": "p_card",
+   "emoji": "☕",
+   "zh": "咖啡",
+   "simp": "咖啡",
+   "py": "kāfēi",
+   "rows": [
+    [
+     "SOUNDS LIKE",
+     "“coffee”"
+    ],
+    [
+     "MEANS",
+     "coffee"
+    ]
+   ]
+  },
+  {
+   "kind": "p_card",
+   "emoji": "🍫",
+   "zh": "巧克力",
+   "simp": "巧克力",
+   "py": "qiǎokèlì",
+   "rows": [
+    [
+     "SOUNDS LIKE",
+     "“chocolate”"
+    ],
+    [
+     "MEANS",
+     "chocolate"
+    ]
+   ]
+  },
+  {
+   "kind": "p_card",
+   "emoji": "🍔",
+   "zh": "漢堡",
+   "simp": "汉堡",
+   "py": "hànbǎo",
+   "rows": [
+    [
+     "SOUNDS LIKE",
+     "“ham-burg”"
+    ],
+    [
+     "MEANS",
+     "hamburger"
+    ]
+   ]
+  },
+  {
+   "kind": "p_card",
+   "emoji": "🍦",
+   "zh": "冰淇淋",
+   "simp": "冰淇淋",
+   "py": "bīngqílín",
+   "rows": [
+    [
+     "THE BĪNG PART MEANS",
+     "ice"
+    ],
+    [
+     "THE QÍLÍN PART SOUNDS LIKE",
+     "“cream”"
+    ]
+   ],
+   "aside": "Part translated, part sounded out."
+  },
+  {
+   "kind": "q_end",
+   "q": [
+    "Which one did",
+    "you guess first?"
+   ],
+   "emoji": "🎧",
+   "cta": [
+    "Send this to someone",
+    "learning Chinese"
+   ]
+  }
+ ]
+}

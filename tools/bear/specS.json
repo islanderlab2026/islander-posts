@@ -1,0 +1,77 @@
+{
+ "id": "electric",
+ "label": "A OR B?",
+ "cover": [
+  "CHINESE",
+  "\"ELECTRIC\"",
+  "WORDS"
+ ],
+ "sub": "pick the real meaning",
+ "items": [
+  {
+   "zh": "電視",
+   "py": "diànshì",
+   "literal": "electric vision",
+   "options": [
+    "TV",
+    "radio"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "電話",
+   "py": "diànhuà",
+   "literal": "electric speech",
+   "options": [
+    "email",
+    "phone"
+   ],
+   "correct": 1
+  },
+  {
+   "zh": "電梯",
+   "py": "diàntī",
+   "literal": "electric ladder",
+   "options": [
+    "elevator",
+    "stairs"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "電影",
+   "py": "diànyǐng",
+   "literal": "electric shadow",
+   "options": [
+    "lamp",
+    "movie"
+   ],
+   "correct": 1
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   20,
+   110,
+   84
+  ],
+  "accent": [
+   255,
+   214,
+   102
+  ],
+  "pyc": [
+   20,
+   110,
+   84
+  ]
+ }
+}

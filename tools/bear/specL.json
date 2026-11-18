@@ -1,0 +1,70 @@
+{
+ "id": "love",
+ "theme": "grid",
+ "slides": [
+  {
+   "kind": "g_cover",
+   "title": [
+    "CHINESE",
+    "LOVE WORDS,",
+    "TRANSLATED LITERALLY"
+   ],
+   "char": "愛",
+   "sub": "keep watching"
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "吃",
+    "醋"
+   ],
+   "py": "chīcù",
+   "en": "jealous",
+   "aside": "Literally: eat vinegar. Sour feelings."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "撒",
+    "嬌"
+   ],
+   "py": "sājiāo",
+   "simp": "撒娇",
+   "en": "act cute to get your way",
+   "aside": "Literally: let the cuteness out."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "心",
+    "肝"
+   ],
+   "py": "xīngān",
+   "en": "sweetheart",
+   "aside": "Literally: heart and liver. Very romantic."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "寶",
+    "貝"
+   ],
+   "py": "bǎobèi",
+   "simp": "宝贝",
+   "en": "baby, darling",
+   "aside": "Literally: treasure shell."
+  },
+  {
+   "kind": "g_end",
+   "q": [
+    "Which one",
+    "is you?"
+   ],
+   "emoji": "😏",
+   "cta": [
+    "Send this to",
+    "your partner"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "id": "animals3",
+ "label": "A OR B?",
+ "cover": [
+  "GUESS THE",
+  "ANIMAL:",
+  "A OR B?"
+ ],
+ "sub": "pick the real meaning",
+ "items": [
+  {
+   "zh": "斑馬",
+   "py": "bānmǎ",
+   "literal": "striped horse",
+   "options": [
+    "zebra",
+    "donkey"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "企鵝",
+   "py": "qì'é",
+   "literal": "tiptoe goose",
+   "options": [
+    "swan",
+    "penguin"
+   ],
+   "correct": 1
+  },
+  {
+   "zh": "松鼠",
+   "py": "sōngshǔ",
+   "literal": "pine mouse",
+   "options": [
+    "squirrel",
+    "hamster"
+   ],
+   "correct": 0
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   214,
+   64,
+   120
+  ],
+  "accent": [
+   255,
+   226,
+   140
+  ],
+  "pyc": [
+   214,
+   64,
+   120
+  ]
+ }
+}

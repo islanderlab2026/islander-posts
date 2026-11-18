@@ -1,0 +1,80 @@
+{
+ "id": "heart",
+ "theme": "grid",
+ "slides": [
+  {
+   "kind": "g_cover",
+   "title": [
+    "IN CHINESE,",
+    "EVERY FEELING",
+    "IS A HEART"
+   ],
+   "char": "心",
+   "sub": "xīn = heart →"
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "小",
+    "心"
+   ],
+   "py": "xiǎoxīn",
+   "en": "be careful",
+   "aside": "Literally: small heart."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "開",
+    "心"
+   ],
+   "py": "kāixīn",
+   "simp": "开心",
+   "en": "happy",
+   "aside": "Literally: open heart."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "傷",
+    "心"
+   ],
+   "py": "shāngxīn",
+   "simp": "伤心",
+   "en": "sad",
+   "aside": "Literally: hurt heart."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "放",
+    "心"
+   ],
+   "py": "fàngxīn",
+   "en": "don't worry",
+   "aside": "Literally: put your heart down."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "粗",
+    "心"
+   ],
+   "py": "cūxīn",
+   "en": "careless",
+   "aside": "Literally: rough heart."
+  },
+  {
+   "kind": "g_end",
+   "q": [
+    "Which heart",
+    "are you today?"
+   ],
+   "emoji": "❤️",
+   "cta": [
+    "Send this to someone",
+    "learning Chinese"
+   ]
+  }
+ ]
+}

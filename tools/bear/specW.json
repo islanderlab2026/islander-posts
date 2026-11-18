@@ -1,0 +1,77 @@
+{
+ "id": "nature",
+ "label": "A OR B?",
+ "cover": [
+  "SKY AND SNOW",
+  "IN CHINESE:",
+  "A OR B?"
+ ],
+ "sub": "pick the real meaning",
+ "items": [
+  {
+   "zh": "冰山",
+   "py": "bīngshān",
+   "literal": "ice mountain",
+   "options": [
+    "iceberg",
+    "ice cream"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "雪花",
+   "py": "xuěhuā",
+   "literal": "snow flower",
+   "options": [
+    "cauliflower",
+    "snowflake"
+   ],
+   "correct": 1
+  },
+  {
+   "zh": "閃電",
+   "py": "shǎndiàn",
+   "literal": "flash electricity",
+   "options": [
+    "lightning",
+    "flashlight"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "流星",
+   "py": "liúxīng",
+   "literal": "flowing star",
+   "options": [
+    "river",
+    "shooting star"
+   ],
+   "correct": 1
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   104,
+   66,
+   200
+  ],
+  "accent": [
+   255,
+   214,
+   102
+  ],
+  "pyc": [
+   104,
+   66,
+   200
+  ]
+ }
+}

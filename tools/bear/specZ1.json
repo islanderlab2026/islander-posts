@@ -1,0 +1,77 @@
+{
+ "id": "food2",
+ "label": "A OR B?",
+ "cover": [
+  "FOOD IN",
+  "CHINESE:",
+  "A OR B?"
+ ],
+ "sub": "pick the real meaning",
+ "items": [
+  {
+   "zh": "番茄",
+   "py": "fānqié",
+   "literal": "foreign eggplant",
+   "options": [
+    "tomato",
+    "pepper"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "花生",
+   "py": "huāshēng",
+   "literal": "flower born",
+   "options": [
+    "sunflower seed",
+    "peanut"
+   ],
+   "correct": 1
+  },
+  {
+   "zh": "麵包",
+   "py": "miànbāo",
+   "literal": "flour bun",
+   "options": [
+    "bread",
+    "noodles"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "蛋糕",
+   "py": "dàngāo",
+   "literal": "egg cake",
+   "options": [
+    "omelet",
+    "cake"
+   ],
+   "correct": 1
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   214,
+   64,
+   120
+  ],
+  "accent": [
+   255,
+   226,
+   140
+  ],
+  "pyc": [
+   214,
+   64,
+   120
+  ]
+ }
+}

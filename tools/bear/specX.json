@@ -1,0 +1,77 @@
+{
+ "id": "clothes",
+ "label": "A OR B?",
+ "cover": [
+  "GUESS THE",
+  "CLOTHES:",
+  "A OR B?"
+ ],
+ "sub": "pick the real meaning",
+ "items": [
+  {
+   "zh": "拖鞋",
+   "py": "tuōxié",
+   "literal": "drag shoes",
+   "options": [
+    "slippers",
+    "skates"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "睡衣",
+   "py": "shuìyī",
+   "literal": "sleep clothes",
+   "options": [
+    "blanket",
+    "pajamas"
+   ],
+   "correct": 1
+  },
+  {
+   "zh": "毛衣",
+   "py": "máoyī",
+   "literal": "wool clothes",
+   "options": [
+    "sweater",
+    "towel"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "牛仔褲",
+   "py": "niúzǐkù",
+   "literal": "cowboy pants",
+   "options": [
+    "shorts",
+    "jeans"
+   ],
+   "correct": 1
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   104,
+   66,
+   200
+  ],
+  "accent": [
+   255,
+   214,
+   102
+  ],
+  "pyc": [
+   104,
+   66,
+   200
+  ]
+ }
+}

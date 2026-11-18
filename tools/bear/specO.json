@@ -1,0 +1,44 @@
+{
+ "id": "animals",
+ "label": "GUESS THE ANIMAL",
+ "cover": [
+  "GUESS THE",
+  "ANIMAL FROM ITS",
+  "CHINESE NAME"
+ ],
+ "sub": "literal translation only",
+ "items": [
+  {
+   "zh": "河馬",
+   "py": "hémǎ",
+   "literal": "river horse",
+   "answer": "hippo"
+  },
+  {
+   "zh": "長頸鹿",
+   "py": "chángjǐnglù",
+   "literal": "long-neck deer",
+   "answer": "giraffe"
+  },
+  {
+   "zh": "袋鼠",
+   "py": "dàishǔ",
+   "literal": "pouch mouse",
+   "answer": "kangaroo"
+  },
+  {
+   "zh": "海象",
+   "py": "hǎixiàng",
+   "literal": "sea elephant",
+   "answer": "walrus"
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ]
+}

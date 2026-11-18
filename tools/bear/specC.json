@@ -1,0 +1,66 @@
+{
+ "id": "easy",
+ "slides": [
+  {
+   "kind": "cover",
+   "title": [
+    "CHINESE IS",
+    "EASY, RIGHT?"
+   ],
+   "emoji": "😌",
+   "sub": "just add the words together"
+  },
+  {
+   "kind": "phrase",
+   "zh": "火山",
+   "simp": "火山",
+   "py": "huǒshān",
+   "emoji": "🌋",
+   "literal": "Fire + mountain.",
+   "means": "Volcano.",
+   "aside": "Okay, makes sense."
+  },
+  {
+   "kind": "phrase",
+   "zh": "電腦",
+   "simp": "电脑",
+   "py": "diànnǎo",
+   "emoji": "💻",
+   "literal": "Electric + brain.",
+   "means": "Computer.",
+   "aside": "Still easy."
+  },
+  {
+   "kind": "phrase",
+   "zh": "熊貓",
+   "simp": "熊猫",
+   "py": "xióngmāo",
+   "emoji": "🐼",
+   "literal": "Bear + cat.",
+   "means": "Panda.",
+   "aside": "Hi, that's me."
+  },
+  {
+   "kind": "phrase",
+   "zh": "東西",
+   "simp": "东西",
+   "py": "dōngxi",
+   "emoji": "🤯",
+   "literal": "East + west.",
+   "means": "A thing. Stuff.",
+   "aside": "Wait… what?"
+  },
+  {
+   "kind": "end",
+   "q": [
+    "Which one broke",
+    "your brain?"
+   ],
+   "emoji": "👇",
+   "cta": [
+    "Send this to someone who",
+    "thinks Chinese is hard"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "jealous",
+ "hook": [
+  "In Chinese,",
+  "being JEALOUS",
+  "is literally..."
+ ],
+ "zh": "吃醋",
+ "py": "chīcù",
+ "literal": "eat vinegar",
+ "punch": [
+  "\"Are you eating",
+  "vinegar?\"",
+  "=",
+  "\"Are you jealous?\""
+ ],
+ "cta": [
+  "Send this to",
+  "your partner"
+ ],
+ "bg": [
+  22,
+  28,
+  48
+ ],
+ "accent": [
+  255,
+  210,
+  63
+ ]
+}

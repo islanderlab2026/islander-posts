@@ -1,0 +1,103 @@
+{
+ "id": "picto",
+ "slides": [
+  {
+   "kind": "g_cover",
+   "title": [
+    "SOME CHINESE",
+    "CHARACTERS ARE",
+    "JUST PICTURES"
+   ],
+   "char": "木",
+   "sub": "watch this one grow →"
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "木"
+   ],
+   "py": "mù",
+   "en": "tree",
+   "aside": "One tree."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "林"
+   ],
+   "py": "lín",
+   "en": "woods",
+   "aside": "Two trees."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "森"
+   ],
+   "py": "sēn",
+   "en": "thick with trees",
+   "aside": "Three trees. Now it's dense."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "森",
+    "林"
+   ],
+   "py": "sēnlín",
+   "en": "forest",
+   "aside": "Five trees. Finally, a forest."
+  },
+  {
+   "kind": "g_sum",
+   "parts": [
+    [
+     "日",
+     "sun"
+    ],
+    [
+     "月",
+     "moon"
+    ],
+    [
+     "明",
+     "bright"
+    ]
+   ],
+   "py": "rì + yuè = míng",
+   "aside": "Sun and moon together: bright."
+  },
+  {
+   "kind": "g_sum",
+   "parts": [
+    [
+     "女",
+     "woman"
+    ],
+    [
+     "子",
+     "child"
+    ],
+    [
+     "好",
+     "good"
+    ]
+   ],
+   "py": "nǚ + zǐ = hǎo",
+   "aside": "Put them side by side: good."
+  },
+  {
+   "kind": "g_end",
+   "q": [
+    "Which one will",
+    "you remember?"
+   ],
+   "emoji": "👇",
+   "cta": [
+    "Send this to someone",
+    "learning Chinese"
+   ]
+  }
+ ],
+ "theme": "dark"
+}

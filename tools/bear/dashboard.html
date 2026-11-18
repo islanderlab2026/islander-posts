@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>熊貓中文工作台</title>
+<style>
+:root{
+  --page:#F5F3EE; --card:#FFFFFF; --ink:#1F1E1C; --soft:#6F6D66; --mute:#A9A79F; --hair:#EEECE6; --tint:#F3F1EC;
+  --accent:#E0A100; --accent-ink:#8A6200;
+  --blue-bg:#E6EFFE; --blue-ink:#1A4FA8; --org-bg:#FDEEE2; --org-ink:#9A4A12;
+  --ok:#1F8A5B; --ok-bg:#E3F4EC; --bad:#C8402B; --bad-bg:#FBE7E3;
+  --sans:-apple-system,"SF Pro Text","PingFang TC","Microsoft JhengHei","Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --page:#121211; --card:#1C1C1B; --ink:#EEECE6; --soft:#A3A19A; --mute:#68665F; --hair:#2A2926; --tint:#242422;
+  --accent:#FFC53D; --accent-ink:#FFD978; --blue-bg:#1A2840; --blue-ink:#A9C8FF;
+  --org-bg:#3A2619; --org-ink:#FFC79A; --ok:#4CC995; --ok-bg:#173327; --bad:#FF8A73; --bad-bg:#3A1E19; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--page);color:var(--ink);font-family:var(--sans);font-size:13px;line-height:1.4;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.g{padding:10px max(10px,env(safe-area-inset-right,0px)) 10px max(10px,env(safe-area-inset-left,0px))}
+.w{max-width:620px;margin:0 auto;display:flex;flex-direction:column;gap:8px}
+/* top bar */
+.top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:var(--card);border-radius:12px;padding:8px 12px}
+.top .av{width:34px;height:34px;flex:none}
+.top .tt{display:flex;flex-direction:column;min-width:0}
+.top .tt b{font-size:16px;line-height:1.2}
+.top .tt span{font-size:11px;color:var(--soft)}
+.top .st0{font-size:11px;color:var(--soft);display:flex;gap:6px;align-items:center;flex-wrap:wrap;max-width:360px}
+.kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;flex-basis:100%}
+.kpi{background:var(--tint);border-radius:8px;padding:3px 4px;text-align:center;min-width:0}
+.kpi .kv{font-size:17px;font-weight:600;font-variant-numeric:tabular-nums;line-height:1.2}
+.kpi .kl{font-size:10px;color:var(--soft)}
+/* grid */
+.grid{display:flex;flex-direction:column;gap:8px}
+.card{background:var(--card);border-radius:12px;padding:10px 12px;min-width:0;display:block}
+.card[hidden]{display:none}
+.card.hl{box-shadow:inset 0 0 0 2px var(--accent)}
+h2{font-size:13px;font-weight:600;margin:0 0 6px;display:flex;align-items:center;gap:6px}
+h2 small{font-size:11px;font-weight:400;color:var(--mute)}
+h2 .cnt{margin-left:auto;font-size:12px;color:var(--soft);font-weight:500}
+ul{list-style:none;margin:0;padding:0}
+li+li{border-top:1px solid var(--hair)}
+.empty{font-size:12px;color:var(--mute);padding:4px 0}
+.pill{font-size:11px;padding:0 7px;border-radius:999px;white-space:nowrap;line-height:18px;display:inline-block}
+.ok{background:var(--ok-bg);color:var(--ok)} .bad{background:var(--bad-bg);color:var(--bad)}
+.wait{background:var(--tint);color:var(--soft)} .blue{background:var(--blue-bg);color:var(--blue-ink)} .org{background:var(--org-bg);color:var(--org-ink)}
+.one{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* todo */
+.todo li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px;align-items:start;padding:5px 0}
+.todo input{width:15px;height:15px;margin:1px 0 0;accent-color:var(--ok)}
+.todo .hw{font-size:11px;color:var(--soft)}
+.todo li.done .tx{color:var(--mute);text-decoration:line-through}
+.todo li.done .hw{display:none}
+/* decisions */
+.dec{padding:6px 0}
+.dec .q{font-weight:600;display:flex;gap:6px;align-items:baseline}
+.dec .q small{font-weight:400;font-size:11px;color:var(--mute)}
+.dec .opts{display:flex;flex-direction:column;gap:3px;margin-top:4px}
+.dec button{font:inherit;font-size:12px;text-align:left;border:1px solid var(--hair);background:var(--page);color:var(--ink);border-radius:7px;padding:3px 8px;cursor:pointer;display:flex;gap:6px;align-items:baseline}
+.dec button .rec{font-size:10px;color:var(--accent-ink);font-weight:600}
+.dec button small{color:var(--soft);font-size:11px;margin-left:auto;text-align:right}
+.dec button[aria-pressed="true"]{border-color:var(--ok);background:var(--ok-bg)}
+/* posts */
+.posts li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:8px;align-items:start;padding:5px 0}
+.posts .dt{font-weight:600;font-variant-numeric:tabular-nums;font-size:12px;white-space:nowrap}
+.posts .dt small{display:block;font-weight:400;color:var(--mute);font-size:10px}
+.posts .pt{font-weight:600}
+.posts .pc{font-size:11px;color:var(--soft)}
+.set{border-top:1px solid var(--hair);padding:6px 0 2px}
+.sb{display:grid;grid-template-columns:minmax(0,1fr) 62px;gap:8px;align-items:start}
+.rows{min-width:0}
+.rc{position:relative;width:62px;height:110px;border-radius:6px;overflow:hidden;background:#000;cursor:zoom-in}
+.rc video{width:100%;height:100%;object-fit:cover;display:block}
+.rc span{position:absolute;left:3px;bottom:3px;font-size:9px;font-weight:600;color:#fff;background:rgba(0,0,0,.55);border-radius:3px;padding:0 3px}
+.rc.none{height:42px;background:var(--tint);color:var(--mute);font-size:10px;display:flex;align-items:center;justify-content:center;cursor:default;text-align:center}
+.set:first-child{border-top:0;padding-top:0}
+.sh{display:flex;align-items:baseline;gap:6px;font-size:12px;color:var(--soft);margin-bottom:3px}
+.sh b{font-size:13px;color:var(--ink);font-variant-numeric:tabular-nums}
+.sh .nx{font-size:10px;font-weight:600;background:var(--accent);color:#fff;border-radius:6px;padding:0 6px}
+.pr{display:grid;grid-template-columns:34px minmax(0,1fr) auto auto auto;gap:6px;align-items:center;padding:2px 0;font-size:12px}
+.pr img,.pr .ph{width:34px;height:42px;border-radius:4px;object-fit:cover;background:var(--tint);cursor:zoom-in}
+.pr .ph{cursor:default}
+.pr .tt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pr .sc{font-size:11px;color:var(--soft);font-variant-numeric:tabular-nums}
+.pr .rl{font-size:10px;color:var(--card);background:var(--blue-ink);border-radius:3px;padding:0 4px;margin-right:4px}
+.dl .mt{font-size:11px;color:var(--soft);white-space:nowrap}
+.pr .cbtn{margin:0;padding:1px 6px;font-size:10px}
+.dl li{list-style:none;display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;gap:6px;font-size:12px;padding:2px 0;border-top:1px solid var(--hair)}
+.dl li:first-child{border-top:0}
+.dl .tt{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dl a{color:var(--soft);font-size:11px}
+.lb .nav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(255,255,255,.15);color:#fff;border:0;font-size:28px;width:44px;height:64px;border-radius:8px;cursor:pointer}
+.lb .pv{left:8px}.lb .nxb{right:8px}
+.lb .cap{position:absolute;bottom:10px;left:0;right:0;text-align:center;color:#fff;font-size:12px}
+.strip{display:flex;gap:4px;overflow-x:auto;margin-top:4px}
+.strip img{height:96px;cursor:zoom-in;aspect-ratio:4/5;object-fit:cover;border-radius:5px;background:var(--tint);flex:none}
+/* ideas */
+.ideas li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:6px;align-items:start;padding:5px 0}
+.stb{font:inherit;font-size:11px;border:0;border-radius:999px;padding:0 7px;line-height:18px;cursor:pointer;white-space:nowrap}
+.stb[data-s="待做"]{background:var(--tint);color:var(--soft)} .stb[data-s="製作中"]{background:var(--org-bg);color:var(--org-ink)}
+.stb[data-s="已做"]{background:var(--blue-bg);color:var(--blue-ink)} .stb[data-s="已發布"]{background:var(--ok-bg);color:var(--ok)}
+.stb[data-s="放棄"]{background:var(--bad-bg);color:var(--bad)}
+.ideas .tt{font-weight:600}
+.ideas .ws{font-size:11px;color:var(--soft)}
+.ideas .ws b{color:var(--ink);font-weight:600}
+.ideas .sc{font-weight:600;color:var(--accent-ink);font-variant-numeric:tabular-nums}
+/* words */
+.tbl{width:100%;border-collapse:collapse;font-size:12px}
+.tbl th{font-weight:600;color:var(--mute);text-align:left;font-size:10px;padding:0 6px 3px 0;white-space:nowrap}
+.tbl td{padding:3px 6px 3px 0;border-top:1px solid var(--hair);vertical-align:top}
+.tbl .zh{font-size:14px;font-weight:600;white-space:nowrap}
+.tbl a{color:var(--blue-ink);text-decoration:none}
+/* rules */
+.rules li{padding:3px 0;font-size:12px;display:grid;grid-template-columns:16px minmax(0,1fr);gap:4px}
+.rules li::before{content:"•";color:var(--accent)}
+.lg li{padding:6px 0;border-top:1px solid var(--hair);font-size:12px;list-style:none}
+.lg li:first-child{border-top:0}
+.lg .h{display:flex;gap:6px;align-items:center;font-weight:600}
+.lg .d{color:var(--soft);margin-top:2px}
+.lv{font-size:10px;font-weight:600;border-radius:6px;padding:1px 6px;white-space:nowrap}
+.lv1{background:#e3f4e8;color:#1f7a3d}.lv2{background:#fff1d6;color:#9a6200}.lv3{background:#fde2e1;color:#b42318}
+.lg .meta{font-size:11px;color:var(--mute);margin-bottom:4px}
+.lg a{color:var(--soft)}
+.sc li{padding:6px 0;border-top:1px solid var(--hair);font-size:12px;list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 8px}
+.sc li:first-child{border-top:0}
+.sc .n{font-weight:600}.sc .w{color:var(--soft);grid-column:1/-1}
+.md{font-size:10px;border-radius:6px;padding:1px 6px;background:var(--page);border:1px solid var(--hair);white-space:nowrap;align-self:start}
+.fold{display:grid;grid-template-columns:1fr 1fr;gap:6px;min-width:0}
+.fold>details.card{padding:7px 10px}
+.fold>details[open]{grid-column:1/-1}
+.fold>details:not([open])>summary small{display:none}
+details.card>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600}
+details.card>summary::-webkit-details-marker{display:none}
+details.card>summary::before{content:"▸";color:var(--mute);font-size:11px;transition:transform .15s}
+details.card[open]>summary::before{transform:rotate(90deg)}
+details.card>summary small{font-weight:400;color:var(--mute);font-size:11px}
+details.card>summary .cnt{margin-left:auto;font-size:13px;color:var(--soft);font-weight:400}
+details.card[open]>summary{margin-bottom:6px}
+.next{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center}
+.next .nd{background:var(--tint);border-radius:10px;padding:6px 10px;text-align:center;font-variant-numeric:tabular-nums}
+.next .nd b{display:block;font-size:16px;line-height:1.2}
+.next .nd span{font-size:11px;color:var(--soft)}
+.next .nt{font-size:15px;font-weight:600}
+.next .nn{font-size:12px;color:var(--soft)}
+.next .strip img{height:150px}
+.cbtn{font:inherit;font-size:11px;border:1px solid var(--hair);background:var(--page);color:var(--ink);border-radius:7px;padding:2px 8px;cursor:pointer;margin-top:4px}
+.lb{position:fixed;inset:0;background:rgba(0,0,0,.85);display:flex;align-items:center;justify-content:center;z-index:9;padding:16px}
+.lb img{max-width:100%;max-height:100%;border-radius:8px}
+.lb[hidden]{display:none}
+.note{font-size:11px;color:var(--mute);text-align:center;margin:0}
+</style></head>
+<body><div class="g"><div class="w">
+
+    <section class="card hl" id="todoCard" hidden><h2>要你做的事<span class="cnt" id="todoCnt"></span></h2><ul class="todo" id="todos"></ul></section>
+    <section class="card hl" id="decCard" hidden><h2>需要你決定<span class="cnt" id="decCnt"></span></h2><div id="decs"></div></section>
+<header class="top">
+  <svg class="av" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="50" fill="#FFD666"/><circle cx="27" cy="27" r="11" fill="#1F1E1C"/><circle cx="73" cy="27" r="11" fill="#1F1E1C"/><ellipse cx="50" cy="53" rx="31" ry="28" fill="#fff" stroke="#1F1E1C" stroke-width="1.5"/><ellipse cx="38" cy="49" rx="9" ry="12" transform="rotate(25 38 49)" fill="#1F1E1C"/><ellipse cx="62" cy="49" rx="9" ry="12" transform="rotate(-25 62 49)" fill="#1F1E1C"/><circle cx="38" cy="48" r="3.5" fill="#fff"/><circle cx="62" cy="48" r="3.5" fill="#fff"/><ellipse cx="50" cy="61" rx="4.5" ry="3" fill="#1F1E1C"/></svg>
+  <div class="tt"><b>熊貓中文工作台</b><span id="today"></span></div>
+  <div class="st0" id="status"><span class="pill wait">讀取中…</span></div>
+  <div class="kpis" id="kpis"></div>
+</header>
+
+<div class="grid">
+    <section class="card"><h2>發文排程 <small>點封面看整組</small><span class="cnt" id="postCnt"></span></h2><div id="sets"><p class="empty">讀取中…</p></div></section>
+    <div class="fold">
+    <details class="card"><summary>已發布<span class="cnt" id="doneCnt"></span></summary><ul class="dl" id="done" style="margin:0;padding:0"></ul></details>
+    <details class="card"><summary>題目庫 <small>點狀態切換</small><span class="cnt" id="ideaCnt"></span></summary><ul class="ideas" id="ideas"><li class="empty">讀取中…</li></ul></details>
+    <details class="card"><summary>字詞驗證 <small>查教育部國語辭典才發</small><span class="cnt" id="wordCnt"></span></summary>
+      <table class="tbl"><thead><tr><th>字</th><th>拼音</th><th>直譯</th><th>狀態</th></tr></thead><tbody id="words"><tr><td colspan="4" class="empty">讀取中…</td></tr></tbody></table></details>
+    <details class="card"><summary>帳號規則<span class="cnt" id="ruleCnt"></span></summary><ul class="rules" id="rules"><li class="empty">讀取中…</li></ul></details>
+    <details class="card"><summary>法律風險 <small>每月檢核</small><span class="cnt" id="legalCnt"></span></summary><div class="lg"><div class="meta" id="legalMeta"></div><ul id="legal" style="margin:0;padding:0"><li class="empty">讀取中…</li></ul></div></details>
+    <details class="card"><summary>定期排程<span class="cnt" id="schedCnt"></span></summary><ul class="sc" id="sched" style="margin:0;padding:0"><li class="empty">讀取中…</li></ul></details>
+    </div>
+</div>
+<p class="note" id="note"></p>
+<div class="lb" id="lb" hidden><button class="nav pv" id="lbPrev" aria-label="上一張">‹</button><img id="lbImg" alt=""><video id="lbVid" controls playsinline loop hidden style="max-width:100%;max-height:100%;border-radius:6px"></video><button class="nav nxb" id="lbNext" aria-label="下一張">›</button><div class="cap" id="lbCap"></div></div>
+</div></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const wk=["日","一","二","三","四","五","六"];
+(()=>{const d=new Date();$("today").textContent=`@bearcat.chinese · ${d.getMonth()+1}/${d.getDate()}（${wk[d.getDay()]}）`;})();
+
+let db=null, canWrite=true;
+const state={status:null,todos:[],kpi:null,posts:[],ideas:[],words:[],decs:[],rules:null};
+const byOrder=(a,b)=>(a.order??99)-(b.order??99);
+
+function renderStatus(){
+  const s=state.status; if(!s){$("status").innerHTML='<span class="pill wait">尚無狀態</span>';return;}
+  $("status").innerHTML=`<span class="pill ${s.ok===false?"bad":"ok"}">${esc(s.state||"")}</span><span class="one" title="${esc(s.summary||"")}">${esc(s.checkedAt||"")} ${esc(s.summary||"")}</span>`;
+}
+function renderKpi(){
+  const k=state.kpi||{};
+  const box=(l,v,t)=>`<div class="kpi" title="${esc(t||"")}"><div class="kv">${v??"—"}</div><div class="kl">${l}</div></div>`;
+  $("kpis").innerHTML=box("粉絲",k.followers,k.followersSrc)+box("7天觀看",k.views7d,k.viewsSrc)+box("7天分享",k.shares7d,k.sharesSrc)+box("7天收藏",k.saves7d,k.savesSrc)+box("已發貼文",k.newPosts,k.postsSrc);
+}
+function renderTodos(){
+  const t=[...state.todos].filter(x=>!x.done).sort(byOrder);
+  $("todoCard").hidden=!t.length;
+  $("todoCnt").textContent=t.length||"";
+  $("todos").innerHTML=t.map(x=>`<li><input type="checkbox" data-id="${esc(x.id)}" ${canWrite?"":"disabled"} aria-label="完成"><div><div class="tx">${esc(x.text)}</div>${x.how?`<div class="hw">${esc(x.how)}</div>`:""}</div></li>`).join("");
+}
+function renderDecs(){
+  const d=[...state.decs].filter(x=>x.choice==null).sort(byOrder);
+  $("decCard").hidden=!d.length;
+  $("decCnt").textContent=d.length||"";
+  $("decs").innerHTML=d.length?d.map(x=>`<div class="dec"><div class="q">${esc(x.q)}${x.why?`<small class="one" title="${esc(x.why)}">${esc(x.why)}</small>`:""}</div><div class="opts">${(x.options||[]).map((o,ix)=>`<button data-id="${esc(x.id)}" data-ix="${ix}" aria-pressed="${x.choice===ix}" ${canWrite?"":"disabled"} title="${esc(o.desc||"")}">${esc(o.label)}${o.rec?'<span class="rec">建議</span>':""}</button>`).join("")}</div></div>`).join(""):'<p class="empty">沒有待決定的事</p>';
+}
+function renderPosts(){
+  const p=[...state.posts].sort((a,b)=>String(a.date||"").localeCompare(String(b.date||"")));
+  const pc={"待製作":"wait","製作中":"org","待發":"blue","已發布":"ok","停發":"bad"};
+  const up=p.filter(x=>x.status!=="已發布"&&x.status!=="停發");
+  const ready=up.filter(x=>x.status==="待發").length;
+  $("postCnt").textContent=up.length?`${ready} 篇待發｜${up.length-ready} 篇待製作`:"";
+  const groups=[]; up.forEach(x=>{const k=(x.dateLabel||"未排")+" "+(x.time||""); let g=groups.find(g=>g.k===k); if(!g){g={k,items:[]};groups.push(g);} g.items.push(x);});
+  const row=x=>`<div class="pr">${(x.slides||[]).length?`<img src="${esc(x.slides[0])}" alt="" data-gal="${esc(x.id)}">`:`<span class="ph"></span>`}<span class="tt" title="${esc(x.title)}">${x.reel?(x.reelOnly?'<span class="rl">Reels</span>':'<span class="rl">＋Reels</span>'):""}${esc(x.title)}</span><span class="sc">${x.score??""}</span>${x.caption?`<button class="cbtn" data-cap="${esc(x.id)}">文案</button>`:"<span></span>"}<span class="pill ${pc[x.status]||"wait"}">${esc(x.status||"")}</span></div>`;
+  $("sets").innerHTML=groups.length?groups.slice(0,4).map((g,i)=>`<div class="set"><div class="sh"><b>${esc(g.k)}</b><span>${g.items.length} 篇</span>${i===0?'<span class="nx">下一組</span>':""}</div><div class="sb"><div class="rows">${g.items.map(row).join("")}</div>${reelCell(g.items)}</div></div>`).join(""):'<p class="empty">還沒有排程</p>';
+  const done=p.filter(x=>x.status==="已發布").reverse();
+  $("doneCnt").textContent=done.length?`${done.length} 篇`:"";
+  $("done").innerHTML=done.map(x=>`<li><span class="sc">${esc(x.dateLabel||"")} ${esc(x.time||"")}</span><span class="tt">${esc(x.title)}</span><span class="mt" title="${x.reelM?"Reels："+esc(mtxt(x.reelM)):""}">${mtxt(x.m)}${x.reelM?" ＋R":""}</span>${x.permalink?`<a href="${esc(x.permalink)}" target="_blank" rel="noopener">IG</a>`:"<span></span>"}</li>`).join("")||'<li class="empty">還沒有</li>';
+}
+let GAL={list:[],i:0,title:""};
+function reelCell(items){ const rs=items.filter(x=>x.reel); if(!rs.length) return '<div class="rc none">無 Reels</div>'; const p=rs[0]; return `<div class="rc" data-reel="${esc(rs.map(x=>x.id).join(","))}" title="Reels：${esc(rs.map(x=>x.title).join("／"))}"><video src="${esc(p.reel)}" muted loop playsinline autoplay preload="metadata"></video><span>Reels${rs.length>1?" ×"+rs.length:""}</span></div>`; }
+function mtxt(m){ if(!m) return "數據待抓"; const f=v=>v==null?"—":v; return `觸及 ${f(m.reach)}｜讚 ${f(m.likes)}｜分享 ${f(m.shares)}｜收藏 ${f(m.saved)}（${esc(m.k||"")}）`; }
+function showGal(){ if(!GAL.list.length) return; const u=GAL.list[GAL.i], v=u.startsWith("vid:"); $("lbImg").hidden=v; $("lbVid").hidden=!v; if(v){ if($("lbVid").getAttribute("src")!==u.slice(4)) $("lbVid").src=u.slice(4); $("lbVid").play().catch(()=>{}); } else { $("lbVid").pause(); $("lbImg").src=u; } $("lbCap").textContent=`${(GAL.list[GAL.i].startsWith("vid:")&&GAL.list.length===1)?"Reels 版":(GAL.i+1)+"/"+GAL.list.length}  ${GAL.title}`; $("lbPrev").hidden=$("lbNext").hidden=GAL.list.length<2; $("lb").hidden=false; }
+document.addEventListener("keydown",e=>{ if($("lb").hidden) return; if(e.key==="ArrowRight"){GAL.i=(GAL.i+1)%GAL.list.length;showGal();} else if(e.key==="ArrowLeft"){GAL.i=(GAL.i-1+GAL.list.length)%GAL.list.length;showGal();} else if(e.key==="Escape"){$("lbVid").pause();$("lb").hidden=true;} });
+const ORDER=["待做","製作中","已做","已發布","放棄"];
+function renderIdeas(){
+  const i=[...state.ideas].sort(byOrder);
+  $("ideaCnt").textContent=`${i.filter(x=>x.status==="待做").length} 個待做`;
+  $("ideas").innerHTML=i.length?i.map(x=>`<li><button class="stb" data-s="${esc(x.status||"待做")}" data-id="${esc(x.id)}" ${canWrite?"":"disabled"}>${esc(x.status||"待做")}</button><div style="min-width:0"><div class="tt one" title="${esc(x.hook||"")}">${esc(x.title)}</div><div class="ws one">${(x.words||[]).map(w=>`<b>${esc(w.zh)}</b> ${esc(w.en)}`).join(" · ")}</div></div><span class="sc">${x.score??""}</span></li>`).join(""):'<li class="empty">題目庫是空的</li>';
+}
+function renderWords(){
+  const w=[...state.words].sort(byOrder);
+  $("wordCnt").textContent=w.length?`${w.filter(x=>x.verified).length}/${w.length} 已驗證`:"尚無";
+  $("words").innerHTML=w.length?w.map(x=>`<tr><td class="zh">${esc(x.zh)}${x.simp&&x.simp!==x.zh?` <small>${esc(x.simp)}</small>`:""}</td><td>${esc(x.py||"")}</td><td title="${esc(x.meaning||"")}">${esc(x.literal||"")}</td><td>${x.verified?(x.src?`<a class="pill ok" href="${esc(x.src)}">已驗證</a>`:'<span class="pill ok">已驗證</span>'):'<span class="pill wait">待查</span>'}</td></tr>`).join(""):'<tr><td colspan="4" class="empty">做第 1 篇時逐字查證後填入</td></tr>';
+}
+function renderRules(){
+  const r=(state.rules&&state.rules.items)||[];
+  $("ruleCnt").textContent=r.length?`${r.length} 條`:"";
+  $("rules").innerHTML=r.length?r.map(x=>`<li><span>${esc(x.t)}</span></li>`).join(""):'<li class="empty">尚無規則</li>';
+}
+function renderLegal(){
+  const L=state.legal||{}, it=L.items||[];
+  const c=[1,2,3].map(v=>it.filter(x=>x.lv===v).length);
+  $("legalCnt").textContent=it.length?(c[2]?`高 ${c[2]}｜`:"")+(c[1]?`中 ${c[1]}｜`:"")+`低 ${c[0]}`:"";
+  $("legalMeta").textContent=L.checkedAt?`上次檢核 ${L.checkedAt}｜下次 ${L.nextAt||"—"}｜${L.summary||""}`:"";
+  const nm={1:"低",2:"中",3:"高"};
+  $("legal").innerHTML=it.length?[...it].sort((a,b)=>b.lv-a.lv).map(x=>`<li><div class="h"><span class="lv lv${x.lv}">${nm[x.lv]||"?"}</span><span>${esc(x.scope)}</span></div><div class="d">${esc(x.issue)}</div><div class="d">→ ${esc(x.todo)}</div>${x.src?`<div class="d"><a href="${esc(x.src)}" target="_blank" rel="noopener">來源</a></div>`:""}</li>`).join(""):'<li class="empty">尚未檢核</li>';
+}
+function renderSched(){
+  const it=(state.sched&&state.sched.items)||[];
+  $("schedCnt").textContent=it.length?`${it.length} 項`:"";
+  $("sched").innerHTML=it.length?it.map(x=>`<li><span class="n">${esc(x.name)}</span><span class="md">${esc(x.mode||"")}</span><span class="w">${esc(x.when||"")}${x.next?`｜下次 ${esc(x.next)}`:""}</span>${x.what?`<span class="w">${esc(x.what)}</span>`:""}</li>`).join(""):'<li class="empty">尚無排程</li>';
+}
+const R={status:renderStatus,kpi:renderKpi,todos:renderTodos,decs:renderDecs,posts:renderPosts,ideas:renderIdeas,words:renderWords,rules:renderRules,legal:renderLegal,sched:renderSched};
+const all=()=>Object.values(R).forEach(f=>f());
+all();
+
+document.addEventListener("change",async e=>{
+  const cb=e.target.closest('#todos input[type=checkbox]'); if(!cb||!db) return;
+  try{await db.doc("todos/"+cb.dataset.id).update({done:cb.checked});}catch(err){fail(err);}
+});
+document.addEventListener("click",async e=>{
+  const rc=e.target.closest(".rc[data-reel]"); if(rc){const ps=rc.dataset.reel.split(",").map(id=>state.posts.find(x=>x.id===id)).filter(Boolean); GAL={list:ps.map(p=>"vid:"+p.reel),i:0,title:ps.length>1?"本組 Reels":ps[0].title+"（Reels）"}; showGal(); return;}
+  const gi=e.target.closest("img[data-gal]"); if(gi){const p=state.posts.find(x=>x.id===gi.dataset.gal); GAL={list:[...(p.slides||[]),...(p.reel?["vid:"+p.reel]:[])],i:0,title:p.title}; showGal(); return;}
+  const im=e.target.closest(".strip img"); if(im){GAL={list:[im.src],i:0,title:""}; showGal(); return;}
+  if(e.target.closest("#lbPrev")){GAL.i=(GAL.i-1+GAL.list.length)%GAL.list.length; showGal(); return;}
+  if(e.target.closest("#lbNext")){GAL.i=(GAL.i+1)%GAL.list.length; showGal(); return;}
+  if(e.target.closest("#lbVid")) return;
+  if(e.target.closest("#lb")){$("lbVid").pause();$("lb").hidden=true;return;}
+  const cb=e.target.closest(".cbtn[data-cap]");
+  if(cb){const p=state.posts.find(x=>x.id===cb.dataset.cap);try{await navigator.clipboard.writeText(p.caption||"");cb.textContent="已複製 ✓";}catch(_){cb.textContent="無法複製";}setTimeout(()=>cb.textContent="複製文案",1800);return;}
+  const st=e.target.closest(".stb[data-id]");
+  if(st&&db){const nx=ORDER[(ORDER.indexOf(st.dataset.s)+1)%ORDER.length];
+    try{await db.doc("ideas/"+st.dataset.id).update({status:nx});}catch(err){fail(err);} return;}
+  const ob=e.target.closest(".dec button");
+  if(ob&&db){const ix=Number(ob.dataset.ix);const d=state.decs.find(x=>x.id===ob.dataset.id);
+    try{await db.doc("proposals/"+ob.dataset.id).update({choice:d&&d.choice===ix?null:ix,choiceAt:new Date().toISOString()});}catch(err){fail(err);}}
+});
+function fail(err){
+  if(err&&err.code==="invalid_argument"){canWrite=false;all();$("note").textContent="你目前只能檢視，無法修改。";}
+  else $("note").textContent="寫入失敗，請稍後再試。";
+}
+
+(async()=>{
+  if(!window.claude||!claude.use){$("note").textContent="資料庫無法使用，只能顯示版面。";return;}
+  db=await claude.use("db");
+  if(!db){$("note").textContent="資料庫無法使用（可能未登入）。";return;}
+  const user=await claude.use("user");
+  if(user&&user.can){try{if(await user.can("data.write")===false)canWrite=false;}catch(_){}}
+  const timer=setTimeout(()=>{$("note").textContent="資料暫時讀不到，畫面可能不是最新。";},10000);
+  const done=()=>{clearTimeout(timer);$("note").textContent="";};
+  const onErr=()=>{clearTimeout(timer);$("note").textContent="資料連線中斷，請重新整理。";};
+  const col=(name,key)=>db.collection(name).onSnapshot(s=>{state[key]=s.docs.map(d=>({id:d.id,...d.data()}));R[key]();if(!s.metadata.fromCache)done();},onErr);
+  const one=(path,key)=>db.doc(path).onSnapshot(s=>{state[key]=s.exists?s.data():null;R[key]();if(!s.metadata.fromCache)done();},onErr);
+  one("status/today","status"); one("kpi/latest","kpi"); one("rules/board","rules"); one("legal/board","legal"); one("schedules/board","sched");
+  col("todos","todos"); col("posts","posts"); col("ideas","ideas"); col("words","words"); col("proposals","decs");
+})();
+</script>
+</body></html>

@@ -1,0 +1,30 @@
+name: refresh-token
+on:
+  schedule:
+    - cron: "17 2 1,15 * *"   # 每月 1、15 號延長權杖
+  workflow_dispatch:
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment: ig-post   # 2026-11-15：橘貓權杖放在 ig-post 環境，一起延長
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests
+      - name: 島民權杖
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          REFRESH: ${{ github.event_name == 'schedule' && '1' || '0' }}
+        run: python scripts/ig_token.py
+      - name: 橘貓權杖
+        # 2026-11-15 補上：原本只延長島民，橘貓與熊貓中文會在約 60 天後過期
+        if: always()
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
+          REFRESH: ${{ github.event_name == 'schedule' && '1' || '0' }}
+        run: python scripts/ig_token.py
+      - name: 熊貓中文權杖
+        if: always()
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_BEAR }}
+          REFRESH: ${{ github.event_name == 'schedule' && '1' || '0' }}
+        run: python scripts/ig_token.py

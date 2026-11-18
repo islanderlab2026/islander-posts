@@ -1,0 +1,55 @@
+{
+ "generatedAt": "2026-11-18T05:43Z",
+ "n": 12,
+ "slots": {
+  "01": {
+   "n": 3,
+   "reachMedian": 113,
+   "sharesSum": 4,
+   "savedSum": 11,
+   "enough": true,
+   "posts": [
+    "1117a-heart",
+    "1117b-noeng",
+    "1117c-love"
+   ]
+  },
+  "12": {
+   "n": 3,
+   "reachMedian": 3,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": true,
+   "posts": [
+    "1115-set1-1",
+    "1115-set1-2",
+    "1115-set1-3"
+   ]
+  },
+  "15": {
+   "n": 3,
+   "reachMedian": 4,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": true,
+   "posts": [
+    "1116a-picto",
+    "1116b-quiz",
+    "1116c-twister"
+   ]
+  },
+  "22": {
+   "n": 3,
+   "reachMedian": 4,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": true,
+   "posts": [
+    "1117a-twoway",
+    "1117b-da",
+    "1117c-loan"
+   ]
+  }
+ },
+ "best": "01"
+}

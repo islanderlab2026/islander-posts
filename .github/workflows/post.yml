@@ -1,0 +1,113 @@
+name: post-reel
+on:
+  schedule:
+    # 2026-11-15 發片時段 24 小時輪流測試，每小時 :47 觸發一次；幾點發由 queue/times.json、queue/fur/times.json 決定（"<日期>" 是第一支、"<日期>-2" 是週末第二支），發完就搬走，之後的觸發找不到片自動結束
+    - cron: "47 * * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "要發哪天的片（YYYY-MM-DD，空白＝今天）"
+        required: false
+      slot:
+        description: "第幾支（1＝晚上那支，2＝週末早上 9 點那支）"
+        required: false
+        default: "1"
+      account:
+        description: "哪個帳號（main＝島民 islanderlab2026，fur＝furfriend.tw）"
+        required: false
+        default: "main"
+      test_src:
+        description: "測試用：填檔名＝只建立 IG 容器、不發布（驗證加密流程）"
+        required: false
+permissions:
+  contents: write
+concurrency: post-reel
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    environment: ig-post
+    env:
+      HAS_FUR: ${{ secrets.IG_TOKEN_FUR != '' }}
+      SLOT_NOW: ${{ inputs.slot || '1' }}
+      IS_SCHED: ${{ github.event_name == 'schedule' }}
+      QUEUE_KEY: ${{ secrets.QUEUE_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      TEST_SRC: ${{ inputs.test_src }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }   # 用最新的 main，避免前一次剛搬走的片又被發
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: Post today's reel
+        if: inputs.account != 'fur'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          POST_DATE: ${{ inputs.date }}
+          SLOT: ${{ env.SLOT_NOW }}
+          PAGES_BASE: https://islanderlab2026.github.io/islander-posts
+        run: python scripts/post.py
+      - name: Post furfriend.tw reel
+        # 跟島民同樣時段：每天中午＋晚上；檔名 queue/fur/<日期>[-2].mp4
+        if: always() && env.HAS_FUR == 'true' && (inputs.account == 'fur' || github.event_name == 'schedule')
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_FUR }}
+          POST_DATE: ${{ inputs.date }}
+          SLOT: ${{ env.SLOT_NOW }}
+          QDIR: queue/fur
+          DONE: posted/fur
+          PAGES_BASE: https://islanderlab2026.github.io/islander-posts
+        run: python scripts/post.py
+      - name: 每小時也檢查 slot 2（島民，times.json 的 <日期>-2）
+        # 2026-11-09 修正：原本中午只跑 slot 2，寫 12 點的 slot 1 會拖到 18 點才發
+        if: always() && env.IS_SCHED == 'true'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          SLOT: "2"
+          PAGES_BASE: https://islanderlab2026.github.io/islander-posts
+        run: python scripts/post.py
+      - name: 每小時也檢查 slot 2（橘貓，queue/fur/times.json 的 <日期>-2）
+        if: always() && env.IS_SCHED == 'true' && env.HAS_FUR == 'true'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_FUR }}
+          SLOT: "2"
+          QDIR: queue/fur
+          DONE: posted/fur
+          PAGES_BASE: https://islanderlab2026.github.io/islander-posts
+        run: python scripts/post.py
+      - name: IG 數據收集（島民）
+        # 2026-11-02：發後 48 小時／7 天快照＋每天帳號數字，失敗不影響發片
+        if: always()
+        continue-on-error: true
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          DONE: posted
+          ACC: main
+        run: python scripts/metrics.py
+      - name: IG 數據收集（furfriend）
+        if: always() && env.HAS_FUR == 'true'
+        continue-on-error: true
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_FUR }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_FUR }}
+          DONE: posted/fur
+          ACC: fur
+        run: python scripts/metrics.py
+      - name: 每日分析（analysis/latest.json）
+        # 2026-11-02 選 A：數字由程式算，週一研究只讀這份
+        if: always()
+        continue-on-error: true
+        run: python scripts/analyze.py
+      - name: Move to posted/ and commit
+        if: always()
+        run: |
+          git config user.name "islander-bot"
+          git config user.email "islander-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "posted $(date -u +%F)"
+          git pull --rebase origin main && git push

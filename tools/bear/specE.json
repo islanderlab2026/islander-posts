@@ -1,0 +1,106 @@
+{
+ "id": "quiz",
+ "slides": [
+  {
+   "kind": "q_cover",
+   "emoji": "🤔",
+   "title": [
+    "GUESS THE",
+    "MEANING"
+   ],
+   "sub": [
+    "Chinese logic edition.",
+    "3 questions."
+   ],
+   "swipe": "keep score →"
+  },
+  {
+   "kind": "q_ask",
+   "qlabel": "QUESTION 1",
+   "zh": "不錯",
+   "py": "bùcuò",
+   "literal": "not wrong",
+   "options": [
+    "Wrong",
+    "Not bad"
+   ],
+   "answer": "B"
+  },
+  {
+   "kind": "q_ans",
+   "qlabel": "QUESTION 1",
+   "zh": "不錯",
+   "py": "bùcuò",
+   "literal": "not wrong",
+   "options": [
+    "Wrong",
+    "Not bad"
+   ],
+   "answer": "B",
+   "aside": "Not wrong = not bad = pretty good."
+  },
+  {
+   "kind": "q_ask",
+   "qlabel": "QUESTION 2",
+   "zh": "不好意思",
+   "py": "bù hǎo yìsi",
+   "literal": "not good meaning",
+   "options": [
+    "Bad idea",
+    "Sorry / excuse me"
+   ],
+   "answer": "B"
+  },
+  {
+   "kind": "q_ans",
+   "qlabel": "QUESTION 2",
+   "zh": "不好意思",
+   "py": "bù hǎo yìsi",
+   "literal": "not good meaning",
+   "options": [
+    "Bad idea",
+    "Sorry / excuse me"
+   ],
+   "answer": "B",
+   "aside": "Also used when you feel embarrassed."
+  },
+  {
+   "kind": "q_ask",
+   "qlabel": "QUESTION 3",
+   "zh": "不得了",
+   "py": "bùdéliǎo",
+   "literal": "can't finish",
+   "options": [
+    "Big trouble!",
+    "I'm done"
+   ],
+   "answer": "A"
+  },
+  {
+   "kind": "q_ans",
+   "qlabel": "QUESTION 3",
+   "zh": "不得了",
+   "py": "bùdéliǎo",
+   "literal": "can't finish",
+   "options": [
+    "Big trouble!",
+    "I'm done"
+   ],
+   "answer": "A",
+   "aside": "It can also mean \"extremely.\" Context matters."
+  },
+  {
+   "kind": "q_end",
+   "q": [
+    "How many did",
+    "you get?"
+   ],
+   "emoji": "🏆",
+   "cta": [
+    "Send this to someone",
+    "learning Chinese"
+   ]
+  }
+ ],
+ "theme": "dark"
+}

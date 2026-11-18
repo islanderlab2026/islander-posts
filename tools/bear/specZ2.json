@@ -1,0 +1,67 @@
+{
+ "id": "home",
+ "label": "A OR B?",
+ "cover": [
+  "AROUND THE",
+  "HOUSE:",
+  "A OR B?"
+ ],
+ "sub": "pick the real meaning",
+ "items": [
+  {
+   "zh": "吹風機",
+   "py": "chuīfēngjī",
+   "literal": "blow-wind machine",
+   "options": [
+    "hair dryer",
+    "fan"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "鬧鐘",
+   "py": "nàozhōng",
+   "literal": "noisy clock",
+   "options": [
+    "doorbell",
+    "alarm clock"
+   ],
+   "correct": 1
+  },
+  {
+   "zh": "雨衣",
+   "py": "yǔyī",
+   "literal": "rain clothes",
+   "options": [
+    "raincoat",
+    "umbrella"
+   ],
+   "correct": 0
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   214,
+   64,
+   120
+  ],
+  "accent": [
+   255,
+   226,
+   140
+  ],
+  "pyc": [
+   214,
+   64,
+   120
+  ]
+ }
+}
