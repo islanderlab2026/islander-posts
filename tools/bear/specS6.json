@@ -1,0 +1,32 @@
+{
+ "id": "cow",
+ "hook": [
+  "The Chinese way",
+  "to say \"talking to",
+  "a brick wall\""
+ ],
+ "zh": "對牛彈琴",
+ "py": "duì niú tán qín",
+ "literal": "play music to a cow",
+ "punch": [
+  "When you explain",
+  "it 5 times",
+  "and they still",
+  "don't get it"
+ ],
+ "cta": [
+  "Send this to",
+  "someone who",
+  "never listens"
+ ],
+ "bg": [
+  48,
+  28,
+  20
+ ],
+ "accent": [
+  120,
+  230,
+  190
+ ]
+}
