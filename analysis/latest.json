@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-19 21:57",
+ "generatedAt": "2026-11-19 23:38",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 22,
+  "n48": 23,
   "pending": [
    {
     "file": "2026-11-01",
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 273.4
+    "ageH": 275.0
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 312.0
+    "ageH": 313.7
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 339.2
+    "ageH": 340.9
    },
    {
     "file": "2026-11-09n",
@@ -58,7 +58,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 249.2
+    "ageH": 250.9
    },
    {
     "file": "2026-11-13f",
@@ -72,7 +72,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 128.8
+    "ageH": 130.5
    },
    {
     "file": "2026-11-14-2",
@@ -86,7 +86,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 167.5
+    "ageH": 169.2
    },
    {
     "file": "2026-11-14w",
@@ -100,7 +100,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 132.1
+    "ageH": 133.8
    },
    {
     "file": "2026-11-15-2",
@@ -114,7 +114,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 153.3
+    "ageH": 155.0
    },
    {
     "file": "2026-11-15p1",
@@ -128,7 +128,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 106.8
+    "ageH": 108.4
    },
    {
     "file": "2026-11-18t",
@@ -142,7 +142,7 @@
     "weekday": "三",
     "slot": "12點",
     "check": "ok",
-    "ageH": 36.0
+    "ageH": 37.6
    },
    {
     "file": "2026-11-19m",
@@ -156,21 +156,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 106.9
-   },
-   {
-    "file": "2026-11-19r",
-    "title": "2026-11-19r",
-    "kind": null,
-    "score": null,
-    "scoreVer": null,
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/17 22:10",
-    "weekday": "二",
-    "slot": "21點",
-    "check": "ok",
-    "ageH": 47.8
+    "ageH": 108.5
    }
   ],
   "posts": [
@@ -514,6 +500,30 @@
     "actualBucket": "D"
    },
    {
+    "file": "2026-11-19r",
+    "title": "2026-11-19r",
+    "kind": null,
+    "score": null,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/17 22:10",
+    "weekday": "二",
+    "slot": "21點",
+    "check": "ok",
+    "views48": 1914,
+    "reach48": 1212,
+    "avgWatchSec": 8.5,
+    "shares48": 0,
+    "saved48": 0,
+    "likes48": 8,
+    "shareRate": 0.0,
+    "saveRate": 0.0,
+    "snapAgeH": 49.5,
+    "views7d": null,
+    "actualBucket": "D"
+   },
+   {
     "file": "2026-11-08-2",
     "title": "阿包洗腦舞",
     "kind": "跳舞",
@@ -707,12 +717,12 @@
    }
   ],
   "views48": {
-   "median": 2234,
-   "mean": 8128,
+   "median": 2227,
+   "mean": 7858,
    "max": 87419,
    "min": 192
   },
-  "avgWatchSec": 8.1,
+  "avgWatchSec": 8.2,
   "shareRatePct": 0.01,
   "saveRatePct": 0.05,
   "sharesTotal": 7,
@@ -723,9 +733,9 @@
     "median48": 25413
    },
    "未分類": {
-    "n": 9,
-    "avg48": 13649,
-    "median48": 2423
+    "n": 10,
+    "avg48": 12476,
+    "median48": 2325
    },
    "生活共鳴": {
     "n": 3,
@@ -770,9 +780,9 @@
     "median48": 2241
    },
    "21點": {
-    "n": 9,
-    "avg48": 5090,
-    "median48": 3060
+    "n": 10,
+    "avg48": 4772,
+    "median48": 2696
    },
    "18點": {
     "n": 2,
@@ -788,7 +798,7 @@
    }
   },
   "scoreVsViews_spearman": 0.22,
-  "avgWatchVsViews_spearman": 0.73,
+  "avgWatchVsViews_spearman": 0.71,
   "prediction": {
    "n": 1,
    "hitPct": 100,
@@ -834,7 +844,7 @@
   }
  },
  "fur": {
-  "n48": 15,
+  "n48": 16,
   "pending": [
    {
     "file": "2026-11-15c1",
@@ -848,7 +858,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 106.8
+    "ageH": 108.5
    },
    {
     "file": "2026-11-16o",
@@ -862,7 +872,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 103.0
+    "ageH": 104.7
    },
    {
     "file": "2026-11-17h",
@@ -876,7 +886,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 95.9
+    "ageH": 97.6
    },
    {
     "file": "2026-11-17j",
@@ -890,7 +900,7 @@
     "weekday": "日",
     "slot": "23點",
     "check": "ok",
-    "ageH": 94.6
+    "ageH": 96.3
    },
    {
     "file": "2026-11-17t",
@@ -904,21 +914,7 @@
     "weekday": "二",
     "slot": "23點",
     "check": "ok",
-    "ageH": 69.0
-   },
-   {
-    "file": "2026-11-18p",
-    "title": "2026-11-18p",
-    "kind": null,
-    "score": null,
-    "scoreVer": null,
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/17 22:14",
-    "weekday": "二",
-    "slot": "21點",
-    "check": "ok",
-    "ageH": 47.7
+    "ageH": 70.7
    }
   ],
   "posts": [
@@ -1063,6 +1059,30 @@
     "shareRate": 0.18,
     "saveRate": 0.0,
     "snapAgeH": 48.8,
+    "views7d": 1551,
+    "actualBucket": "D"
+   },
+   {
+    "file": "2026-11-18p",
+    "title": "2026-11-18p",
+    "kind": null,
+    "score": null,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/17 22:14",
+    "weekday": "二",
+    "slot": "21點",
+    "check": "ok",
+    "views48": 1497,
+    "reach48": 1155,
+    "avgWatchSec": 6.4,
+    "shares48": 0,
+    "saved48": 1,
+    "likes48": 8,
+    "shareRate": 0.0,
+    "saveRate": 0.09,
+    "snapAgeH": 49.4,
     "views7d": null,
     "actualBucket": "D"
    },
@@ -1290,20 +1310,20 @@
    }
   ],
   "views48": {
-   "median": 1404,
-   "mean": 2476,
+   "median": 1433,
+   "mean": 2415,
    "max": 22565,
    "min": 136
   },
   "avgWatchSec": 6.8,
-  "shareRatePct": 0.21,
-  "saveRatePct": 0.03,
+  "shareRatePct": 0.19,
+  "saveRatePct": 0.04,
   "sharesTotal": 26,
   "byKind": {
    "未分類": {
-    "n": 5,
-    "avg48": 6007,
-    "median48": 2076
+    "n": 6,
+    "avg48": 5255,
+    "median48": 1804
    },
    "愛情｜好消息驚喜": {
     "n": 1,
@@ -1318,9 +1338,9 @@
   },
   "bySlot": {
    "21點": {
-    "n": 5,
-    "avg48": 5061,
-    "median48": 269
+    "n": 6,
+    "avg48": 4467,
+    "median48": 883
    },
    "12點": {
     "n": 6,
@@ -1346,7 +1366,7 @@
    }
   },
   "scoreVsViews_spearman": 0.41,
-  "avgWatchVsViews_spearman": 0.92,
+  "avgWatchVsViews_spearman": 0.93,
   "prediction": {
    "n": 2,
    "hitPct": 0,
