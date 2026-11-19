@@ -1,0 +1,32 @@
+{
+ "id": "suckup",
+ "hook": [
+  "In Chinese,",
+  "SUCKING UP",
+  "is literally..."
+ ],
+ "zh": "拍馬屁",
+ "py": "pāi mǎ pì",
+ "literal": "patting the horse's butt",
+ "punch": [
+  "\"Boss, love the",
+  "new haircut!\"",
+  "Classic",
+  "horse-butt patting."
+ ],
+ "cta": [
+  "Send this to",
+  "the coworker who",
+  "always sucks up"
+ ],
+ "bg": [
+  72,
+  20,
+  34
+ ],
+ "accent": [
+  120,
+  205,
+  255
+ ]
+}
