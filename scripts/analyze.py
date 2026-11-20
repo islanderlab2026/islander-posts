@@ -46,7 +46,10 @@ def account(acc, folder):
         t = datetime.datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z")
         tw = t + TW
         h = tw.hour + tw.minute / 60
-        slot = "12點" if 3 <= h < 15 else "18點" if 15 <= h < 19.5 else "21點" if 19.5 <= h < 22.5 else "23點"  # 2026-11-10：加 23 點時段（22:30 後到凌晨 3 點）
+        if tw.strftime("%Y-%m-%d") >= "2026-11-16":  # 2026-11-20：時段測試 6 個時段，取最近的整點
+            slot = f"{min([2, 6, 10, 14, 18, 22], key=lambda x: min(abs(h - x), 24 - abs(h - x)))}點"
+        else:
+            slot = "12點" if 3 <= h < 15 else "18點" if 15 <= h < 19.5 else "21點" if 19.5 <= h < 22.5 else "23點"  # 2026-11-10：加 23 點時段
         m = meta.get(f.stem, {})
         if m.get("oldAccount"): continue  # 2026-11-10：舊柯基帳號的片不計入（修正片名對應）
         base = {"file": f.stem, "title": m.get("title", f.stem), "kind": m.get("kind"), "score": m.get("score"),
@@ -101,7 +104,7 @@ def account(acc, folder):
                           "followersHistory": {d: s[d].get("followers") for d in days[-30:]}}
     return out
 
-res = {"generatedAt": (now + TW).strftime("%Y-%m-%d %H:%M"), "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
+res = {"generatedAt": (now + TW).strftime("%Y-%m-%d %H:%M"), "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot：11/16 起依 6 個測試時段（2／6／10／14／18／22 點）取最近者，之前依 12／18／21／23 點；vsPred＝實際÷預測級距中點",
        "main": account("main", "posted"), "fur": account("fur", "posted/fur")}
 pathlib.Path("analysis").mkdir(exist_ok=True)
 pathlib.Path("analysis/latest.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
