@@ -1,8 +1,9 @@
 {
- "generatedAt": "2026-11-20 17:38",
+ "generatedAt": "2026-11-20 18:42",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 24,
+  "late48": 0,
   "pending": [
    {
     "file": "2026-11-01",
@@ -16,7 +17,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 293.0
+    "ageH": 294.1
    },
    {
     "file": "2026-11-02",
@@ -30,7 +31,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 331.7
+    "ageH": 332.8
    },
    {
     "file": "2026-11-05",
@@ -44,7 +45,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 358.9
+    "ageH": 359.9
    },
    {
     "file": "2026-11-09n",
@@ -58,7 +59,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 268.9
+    "ageH": 269.9
    },
    {
     "file": "2026-11-13f",
@@ -72,7 +73,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 148.5
+    "ageH": 149.5
    },
    {
     "file": "2026-11-14-2",
@@ -86,7 +87,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 187.2
+    "ageH": 188.2
    },
    {
     "file": "2026-11-14w",
@@ -100,7 +101,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 151.8
+    "ageH": 152.9
    },
    {
     "file": "2026-11-15-2",
@@ -114,7 +115,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 173.0
+    "ageH": 174.0
    },
    {
     "file": "2026-11-15p1",
@@ -128,7 +129,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 126.4
+    "ageH": 127.5
    },
    {
     "file": "2026-11-19m",
@@ -142,7 +143,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 126.5
+    "ageH": 127.6
    },
    {
     "file": "2026-11-20",
@@ -156,7 +157,7 @@
     "weekday": "五",
     "slot": "18點",
     "check": "ok",
-    "ageH": 0.9
+    "ageH": 1.9
    }
   ],
   "posts": [
@@ -182,6 +183,7 @@
     "saveRate": 0.1,
     "snapAgeH": 48.1,
     "views7d": 97031,
+    "late48": false,
     "actualBucket": "E"
    },
    {
@@ -206,6 +208,7 @@
     "saveRate": 0.01,
     "snapAgeH": 48.5,
     "views7d": 25508,
+    "late48": false,
     "actualBucket": "E"
    },
    {
@@ -230,6 +233,7 @@
     "saveRate": 0.08,
     "snapAgeH": 48.9,
     "views7d": null,
+    "late48": false,
     "actualBucket": "E"
    },
    {
@@ -254,6 +258,7 @@
     "saveRate": 0.03,
     "snapAgeH": 48.1,
     "views7d": 11431,
+    "late48": false,
     "actualBucket": "E"
    },
    {
@@ -278,6 +283,7 @@
     "saveRate": 0.06,
     "snapAgeH": 49.6,
     "views7d": null,
+    "late48": false,
     "actualBucket": "E"
    },
    {
@@ -302,6 +308,7 @@
     "saveRate": 0.19,
     "snapAgeH": 48.4,
     "views7d": 4398,
+    "late48": false,
     "actualBucket": "E"
    },
    {
@@ -326,6 +333,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.1,
     "views7d": null,
+    "late48": false,
     "actualBucket": "E"
    },
    {
@@ -350,6 +358,7 @@
     "saveRate": 0.2,
     "snapAgeH": 48.4,
     "views7d": 2494,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -374,6 +383,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.3,
     "views7d": 2493,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -398,6 +408,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.1,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D",
     "predHit": true,
     "predWithin1": true,
@@ -425,6 +436,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.5,
     "views7d": 2259,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -449,6 +461,7 @@
     "saveRate": 0.07,
     "snapAgeH": 60.2,
     "views7d": 2313,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -473,6 +486,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.2,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -497,6 +511,7 @@
     "saveRate": 0.07,
     "snapAgeH": 48.7,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -521,6 +536,7 @@
     "saveRate": 0.0,
     "snapAgeH": 49.6,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -545,6 +561,7 @@
     "saveRate": 0.0,
     "snapAgeH": 49.5,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -569,6 +586,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.3,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -593,6 +611,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.1,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -617,6 +636,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.4,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -641,6 +661,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.1,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -665,6 +686,7 @@
     "saveRate": 0.33,
     "snapAgeH": 52.7,
     "views7d": null,
+    "late48": false,
     "actualBucket": "C"
    },
    {
@@ -689,6 +711,7 @@
     "saveRate": 0.0,
     "snapAgeH": 75.5,
     "views7d": 815,
+    "late48": false,
     "actualBucket": "C"
    },
    {
@@ -713,6 +736,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.4,
     "views7d": null,
+    "late48": false,
     "actualBucket": "B"
    },
    {
@@ -737,6 +761,7 @@
     "saveRate": 0.0,
     "snapAgeH": 96.9,
     "views7d": 201,
+    "late48": false,
     "actualBucket": "A"
    }
   ],
@@ -870,6 +895,7 @@
  },
  "fur": {
   "n48": 16,
+  "late48": 0,
   "pending": [
    {
     "file": "2026-11-15c1",
@@ -883,7 +909,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 126.5
+    "ageH": 127.6
    },
    {
     "file": "2026-11-16o",
@@ -897,7 +923,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 122.7
+    "ageH": 123.7
    },
    {
     "file": "2026-11-17h",
@@ -911,7 +937,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 115.6
+    "ageH": 116.6
    },
    {
     "file": "2026-11-17j",
@@ -925,7 +951,7 @@
     "weekday": "日",
     "slot": "23點",
     "check": "ok",
-    "ageH": 114.3
+    "ageH": 115.4
    },
    {
     "file": "2026-11-17t",
@@ -939,7 +965,7 @@
     "weekday": "二",
     "slot": "23點",
     "check": "ok",
-    "ageH": 88.7
+    "ageH": 89.8
    },
    {
     "file": "2026-11-20r",
@@ -953,7 +979,7 @@
     "weekday": "五",
     "slot": "18點",
     "check": "ok",
-    "ageH": 1.7
+    "ageH": 2.7
    }
   ],
   "posts": [
@@ -979,6 +1005,7 @@
     "saveRate": 0.08,
     "snapAgeH": 49.6,
     "views7d": null,
+    "late48": false,
     "actualBucket": "E"
    },
    {
@@ -1003,6 +1030,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.1,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -1027,6 +1055,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.4,
     "views7d": 2271,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -1051,6 +1080,7 @@
     "saveRate": 0.15,
     "snapAgeH": 48.8,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -1075,6 +1105,7 @@
     "saveRate": 0.09,
     "snapAgeH": 48.3,
     "views7d": 1756,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -1099,6 +1130,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.8,
     "views7d": 1551,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -1123,6 +1155,7 @@
     "saveRate": 0.09,
     "snapAgeH": 49.4,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -1147,6 +1180,7 @@
     "saveRate": 0.09,
     "snapAgeH": 48.5,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D",
     "predHit": false,
     "predWithin1": true,
@@ -1174,6 +1208,7 @@
     "saveRate": 0.1,
     "snapAgeH": 48.3,
     "views7d": null,
+    "late48": false,
     "actualBucket": "D"
    },
    {
@@ -1198,6 +1233,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.2,
     "views7d": 544,
+    "late48": false,
     "actualBucket": "C"
    },
    {
@@ -1222,6 +1258,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.5,
     "views7d": null,
+    "late48": false,
     "actualBucket": "B"
    },
    {
@@ -1246,6 +1283,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.3,
     "views7d": null,
+    "late48": false,
     "actualBucket": "B"
    },
    {
@@ -1270,6 +1308,7 @@
     "saveRate": 0.0,
     "snapAgeH": 49.9,
     "views7d": null,
+    "late48": false,
     "actualBucket": "A"
    },
    {
@@ -1294,6 +1333,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.0,
     "views7d": null,
+    "late48": false,
     "actualBucket": "A"
    },
    {
@@ -1318,6 +1358,7 @@
     "saveRate": 0.0,
     "snapAgeH": 48.1,
     "views7d": null,
+    "late48": false,
     "actualBucket": "A",
     "predHit": false,
     "predWithin1": false,
@@ -1345,6 +1386,7 @@
     "saveRate": 0.0,
     "snapAgeH": 60.9,
     "views7d": 142,
+    "late48": false,
     "actualBucket": "A"
    }
   ],
