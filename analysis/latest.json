@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-20 14:40",
+ "generatedAt": "2026-11-20 15:58",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot 依實際發文時間分 12／18／21 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 24,
@@ -16,7 +16,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 290.1
+    "ageH": 291.4
    },
    {
     "file": "2026-11-02",
@@ -30,7 +30,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 328.7
+    "ageH": 330.0
    },
    {
     "file": "2026-11-05",
@@ -44,7 +44,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 355.9
+    "ageH": 357.2
    },
    {
     "file": "2026-11-09n",
@@ -58,7 +58,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 265.9
+    "ageH": 267.2
    },
    {
     "file": "2026-11-13f",
@@ -72,7 +72,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 145.5
+    "ageH": 146.8
    },
    {
     "file": "2026-11-14-2",
@@ -86,7 +86,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 184.2
+    "ageH": 185.5
    },
    {
     "file": "2026-11-14w",
@@ -100,7 +100,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 148.8
+    "ageH": 150.2
    },
    {
     "file": "2026-11-15-2",
@@ -114,7 +114,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 170.0
+    "ageH": 171.3
    },
    {
     "file": "2026-11-15p1",
@@ -128,7 +128,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 123.5
+    "ageH": 124.8
    },
    {
     "file": "2026-11-19m",
@@ -142,7 +142,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 123.6
+    "ageH": 124.9
    }
   ],
   "posts": [
@@ -869,7 +869,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 123.5
+    "ageH": 124.8
    },
    {
     "file": "2026-11-16o",
@@ -883,7 +883,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 119.7
+    "ageH": 121.0
    },
    {
     "file": "2026-11-17h",
@@ -897,7 +897,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 112.6
+    "ageH": 113.9
    },
    {
     "file": "2026-11-17j",
@@ -911,7 +911,7 @@
     "weekday": "日",
     "slot": "23點",
     "check": "ok",
-    "ageH": 111.3
+    "ageH": 112.6
    },
    {
     "file": "2026-11-17t",
@@ -925,7 +925,21 @@
     "weekday": "二",
     "slot": "23點",
     "check": "ok",
-    "ageH": 85.7
+    "ageH": 87.0
+   },
+   {
+    "file": "2026-11-20r",
+    "title": "2026-11-20r",
+    "kind": null,
+    "score": null,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/20 15:58",
+    "weekday": "五",
+    "slot": "18點",
+    "check": "ok",
+    "ageH": 0.0
    }
   ],
   "posts": [
