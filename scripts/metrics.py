@@ -55,10 +55,23 @@ for f in sorted(DONE.glob("*.json")):
         mid, ts = d.get("mediaId") or d.get("id"), d.get("timestamp")
         if not mid or not ts: continue
         age_h = (now - datetime.datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z")).total_seconds() / 3600
-        for key, lo, hi in (("m6", 6, 48), ("m48", 48, 24 * 6), ("m7d", 24 * 7, 24 * 30)):
-            if key not in d and lo <= age_h < hi:
-                d[key] = media_snapshot(mid, age_h); changed += 1
-                print(f"{f.name} {key}: {d[key]}")
+        # 2026-11-20 修正：IG 回空資料時舊版也當成「已抓過」，48 小時數字缺了 15 支。
+        # 現在沒有 views 就視為沒抓到，下次整點再試；超過正常時段才補到的標 late（分析時不拿來算中位數）。
+        for key, lo, hi, hi_retry, late_after in (("m6", 6, 48, 48, 12), ("m48", 48, 24 * 6, 24 * 30, 72),
+                                                    ("m7d", 24 * 7, 24 * 30, 24 * 30, 24 * 8)):
+            old = d.get(key)
+            if old and old.get("views") is not None: continue
+            tries = (old or {}).get("tries", 0)
+            if not (lo <= age_h < (hi if old is None else hi_retry)) or tries >= 72: continue
+            snap = media_snapshot(mid, age_h)
+            if snap.get("views") is None:
+                d[key] = {**(old or {}), "at": snap["at"], "ageH": snap["ageH"], "tries": tries + 1, "empty": True}
+                print(f"{f.name} {key}: IG 沒回數字（第 {tries + 1} 次），下次再試")
+            else:
+                if age_h > late_after: snap["late"] = True
+                d[key] = snap
+                print(f"{f.name} {key}: {snap}")
+            changed += 1
         f.write_text(json.dumps(d, ensure_ascii=False), encoding="utf-8")
     except Exception as e:
         print("略過", f.name, e)

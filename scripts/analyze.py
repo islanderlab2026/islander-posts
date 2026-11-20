@@ -61,16 +61,17 @@ def account(acc, folder):
              "shares48": m48.get("shares", 0), "saved48": m48.get("saved", 0), "likes48": m48.get("likes", 0),
              "shareRate": round(m48.get("shares", 0) / reach * 100, 2) if reach else 0,
              "saveRate": round(m48.get("saved", 0) / reach * 100, 2) if reach else 0,
-             "snapAgeH": m48.get("ageH"), "views7d": (d.get("m7d") or {}).get("views")}
+             "snapAgeH": m48.get("ageH"), "views7d": (d.get("m7d") or {}).get("views"),
+             "late48": bool(m48.get("late"))}  # 2026-11-20：補抓的延遲數字，偏高，不算進中位數
         r["actualBucket"] = bucket(r["views48"])
         if r["predView"] in MID:
             r["predHit"] = r["predView"] == r["actualBucket"]
             r["predWithin1"] = abs(ORDER.index(r["predView"]) - ORDER.index(r["actualBucket"])) <= 1
             r["vsPred"] = round(r["views48"] / MID[r["predView"]], 2)
         rows.append(r)
-    out = {"n48": len(rows), "pending": pending, "posts": sorted(rows, key=lambda r: -r["views48"])}
+    out = {"n48": len(rows), "late48": sum(1 for r in rows if r.get("late48")), "pending": pending, "posts": sorted(rows, key=lambda r: -r["views48"])}
     if rows:
-        v = [r["views48"] for r in rows]
+        v = [r["views48"] for r in rows if not r.get("late48")] or [r["views48"] for r in rows]
         out["views48"] = {"median": round(st.median(v)), "mean": round(st.mean(v)), "max": max(v), "min": min(v)}
         aw = [r["avgWatchSec"] for r in rows if r["avgWatchSec"] is not None]
         out["avgWatchSec"] = round(st.mean(aw), 1) if aw else None
