@@ -1,0 +1,33 @@
+{
+ "id": "snake",
+ "hook": [
+  "In Chinese,",
+  "OVERDOING IT",
+  "is literally..."
+ ],
+ "zh": "畫蛇添足",
+ "py": "huà shé tiān zú",
+ "literal": "drawing feet on a snake",
+ "punch": [
+  "He drew first,",
+  "then added legs",
+  "...and lost",
+  "the prize."
+ ],
+ "cta": [
+  "Send this to",
+  "the friend who",
+  "always does",
+  "one more edit"
+ ],
+ "bg": [
+  22,
+  34,
+  64
+ ],
+ "accent": [
+  255,
+  200,
+  60
+ ]
+}

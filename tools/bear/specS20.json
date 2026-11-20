@@ -1,0 +1,32 @@
+{
+ "id": "frog",
+ "hook": [
+  "In Chinese,",
+  "CLUELESS ABOUT THE WORLD",
+  "is literally..."
+ ],
+ "zh": "井底之蛙",
+ "py": "jǐng dǐ zhī wā",
+ "literal": "a frog in a well",
+ "punch": [
+  "He thinks",
+  "the whole sky",
+  "is the size of",
+  "his well."
+ ],
+ "cta": [
+  "Send this to",
+  "the friend who",
+  "never leaves town"
+ ],
+ "bg": [
+  22,
+  34,
+  64
+ ],
+ "accent": [
+  255,
+  200,
+  60
+ ]
+}
