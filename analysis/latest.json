@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21 20:28",
+ "generatedAt": "2026-11-21 21:44",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot：11/16 起依 6 個測試時段（2／6／10／14／18／22 點）取最近者，之前依 12／18／21／23 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 24,
@@ -17,7 +17,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 319.9
+    "ageH": 321.1
    },
    {
     "file": "2026-11-02",
@@ -31,7 +31,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 358.5
+    "ageH": 359.8
    },
    {
     "file": "2026-11-05",
@@ -45,7 +45,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 385.7
+    "ageH": 387.0
    },
    {
     "file": "2026-11-09n",
@@ -59,7 +59,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 295.7
+    "ageH": 297.0
    },
    {
     "file": "2026-11-13f",
@@ -73,7 +73,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 175.3
+    "ageH": 176.6
    },
    {
     "file": "2026-11-14-2",
@@ -87,7 +87,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 214.0
+    "ageH": 215.3
    },
    {
     "file": "2026-11-14w",
@@ -101,7 +101,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 178.7
+    "ageH": 179.9
    },
    {
     "file": "2026-11-15-2",
@@ -115,7 +115,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 199.8
+    "ageH": 201.1
    },
    {
     "file": "2026-11-15p1",
@@ -129,7 +129,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 153.3
+    "ageH": 154.5
    },
    {
     "file": "2026-11-15s",
@@ -143,7 +143,7 @@
     "weekday": "六",
     "slot": "2點",
     "check": "ok",
-    "ageH": 18.8
+    "ageH": 20.1
    },
    {
     "file": "2026-11-19m",
@@ -157,7 +157,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 153.4
+    "ageH": 154.6
    },
    {
     "file": "2026-11-20",
@@ -171,7 +171,21 @@
     "weekday": "五",
     "slot": "18點",
     "check": "ok",
-    "ageH": 27.7
+    "ageH": 29.0
+   },
+   {
+    "file": "2026-11-22b",
+    "title": "畫 Bao 最後一筆，他變黏土跳出來",
+    "kind": "繪圖縮時→活過來",
+    "score": 84,
+    "scoreVer": "v5.1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/21 21:42",
+    "weekday": "六",
+    "slot": "22點",
+    "check": "ok",
+    "ageH": 0.0
    }
   ],
   "posts": [
@@ -1049,12 +1063,6 @@
     "issues": [
      "hashtag 10 個（上限 5）"
     ]
-   },
-   {
-    "file": "2026-11-22b.txt",
-    "issues": [
-     "hashtag 9 個（上限 5）"
-    ]
    }
   ]
  },
@@ -1074,7 +1082,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 153.3
+    "ageH": 154.6
    },
    {
     "file": "2026-11-16o",
@@ -1088,7 +1096,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 149.5
+    "ageH": 150.8
    },
    {
     "file": "2026-11-17h",
@@ -1102,7 +1110,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 142.4
+    "ageH": 143.7
    },
    {
     "file": "2026-11-17j",
@@ -1116,7 +1124,7 @@
     "weekday": "日",
     "slot": "23點",
     "check": "ok",
-    "ageH": 141.1
+    "ageH": 142.4
    },
    {
     "file": "2026-11-17t",
@@ -1130,7 +1138,7 @@
     "weekday": "二",
     "slot": "2點",
     "check": "ok",
-    "ageH": 115.5
+    "ageH": 116.8
    },
    {
     "file": "2026-11-18g",
@@ -1144,7 +1152,7 @@
     "weekday": "六",
     "slot": "10點",
     "check": "ok",
-    "ageH": 10.6
+    "ageH": 11.8
    },
    {
     "file": "2026-11-20r",
@@ -1158,7 +1166,7 @@
     "weekday": "五",
     "slot": "14點",
     "check": "ok",
-    "ageH": 28.5
+    "ageH": 29.8
    },
    {
     "file": "2026-11-21k",
@@ -1172,7 +1180,7 @@
     "weekday": "六",
     "slot": "14點",
     "check": "ok",
-    "ageH": 5.8
+    "ageH": 7.0
    }
   ],
   "posts": [
