@@ -78,6 +78,14 @@ def account(acc, folder):
         out["views48"] = {"median": round(st.median(v)), "mean": round(st.mean(v)), "max": max(v), "min": min(v)}
         aw = [r["avgWatchSec"] for r in rows if r["avgWatchSec"] is not None]
         out["avgWatchSec"] = round(st.mean(aw), 1) if aw else None
+        # 2026-11-21：自家倍數＝該片 views48 ÷ 帳號 views48 中位數（不含延遲數字），≥3 視為爆款、<0.5 視為失手
+        med = out["views48"]["median"] or 1
+        for r in rows: r["vsMedian"] = round(r["views48"] / med, 2)
+        out["outliers"] = [{"file": r["file"], "title": r["title"], "kind": r["kind"], "vsMedian": r["vsMedian"]}
+                           for r in rows if r["vsMedian"] >= 3 and not r.get("late48")]
+        out["flops"] = [{"file": r["file"], "title": r["title"], "kind": r["kind"], "vsMedian": r["vsMedian"]}
+                        for r in rows if r["vsMedian"] < 0.5 and not r.get("late48")]
+        out["shareRateMedianPct"] = round(st.median([r["shareRate"] for r in rows]), 2)
         out["shareRatePct"] = round(st.mean([r["shareRate"] for r in rows]), 2)
         out["saveRatePct"] = round(st.mean([r["saveRate"] for r in rows]), 2)
         out["sharesTotal"] = sum(r["shares48"] for r in rows)
@@ -104,8 +112,24 @@ def account(acc, folder):
                           "followersHistory": {d: s[d].get("followers") for d in days[-30:]}}
     return out
 
+def caption_check(folder):
+    """2026-11-21：待發文案檢查。IG 自 2025-12 起每篇最多 5 個 hashtag；第一行超過 125 字元會被「…更多」折掉"""
+    import re
+    out = []
+    for f in sorted(pathlib.Path(folder).glob("*.txt")):
+        t = f.read_text(encoding="utf-8").strip()
+        tags = re.findall(r"#[^\s#]+", t)
+        first = t.split("\n")[0] if t else ""
+        issues = []
+        if len(tags) > 5: issues.append(f"hashtag {len(tags)} 個（上限 5）")
+        if len(first) > 125: issues.append(f"第一行 {len(first)} 字元（超過 125 會被折掉）")
+        if issues: out.append({"file": f.name, "issues": issues})
+    return out
+
 res = {"generatedAt": (now + TW).strftime("%Y-%m-%d %H:%M"), "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot：11/16 起依 6 個測試時段（2／6／10／14／18／22 點）取最近者，之前依 12／18／21／23 點；vsPred＝實際÷預測級距中點",
        "main": account("main", "posted"), "fur": account("fur", "posted/fur")}
+res["main"]["captionCheck"] = caption_check("queue")
+res["fur"]["captionCheck"] = caption_check("queue/fur")
 pathlib.Path("analysis").mkdir(exist_ok=True)
 pathlib.Path("analysis/latest.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf-8")
 print("分析完成", res["generatedAt"], "島民 n48=", res["main"]["n48"], "fur n48=", res["fur"]["n48"])
