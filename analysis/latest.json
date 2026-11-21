@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-21 18:30",
+ "generatedAt": "2026-11-21 19:29",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot：11/16 起依 6 個測試時段（2／6／10／14／18／22 點）取最近者，之前依 12／18／21／23 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 24,
@@ -17,7 +17,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 317.9
+    "ageH": 318.9
    },
    {
     "file": "2026-11-02",
@@ -31,7 +31,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 356.6
+    "ageH": 357.5
    },
    {
     "file": "2026-11-05",
@@ -45,7 +45,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 383.7
+    "ageH": 384.7
    },
    {
     "file": "2026-11-09n",
@@ -59,7 +59,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 293.7
+    "ageH": 294.7
    },
    {
     "file": "2026-11-13f",
@@ -73,7 +73,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 173.3
+    "ageH": 174.3
    },
    {
     "file": "2026-11-14-2",
@@ -87,7 +87,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 212.0
+    "ageH": 213.0
    },
    {
     "file": "2026-11-14w",
@@ -101,7 +101,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 176.7
+    "ageH": 177.7
    },
    {
     "file": "2026-11-15-2",
@@ -115,7 +115,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 197.8
+    "ageH": 198.8
    },
    {
     "file": "2026-11-15p1",
@@ -129,7 +129,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 151.3
+    "ageH": 152.3
    },
    {
     "file": "2026-11-15s",
@@ -143,7 +143,7 @@
     "weekday": "六",
     "slot": "2點",
     "check": "ok",
-    "ageH": 16.9
+    "ageH": 17.8
    },
    {
     "file": "2026-11-19m",
@@ -157,7 +157,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 151.4
+    "ageH": 152.4
    },
    {
     "file": "2026-11-20",
@@ -171,7 +171,7 @@
     "weekday": "五",
     "slot": "18點",
     "check": "ok",
-    "ageH": 25.7
+    "ageH": 26.7
    }
   ],
   "posts": [
@@ -198,7 +198,8 @@
     "snapAgeH": 48.1,
     "views7d": 97031,
     "late48": false,
-    "actualBucket": "E"
+    "actualBucket": "E",
+    "vsMedian": 39.59
    },
    {
     "file": "r20261030-1",
@@ -223,7 +224,8 @@
     "snapAgeH": 48.5,
     "views7d": 25508,
     "late48": false,
-    "actualBucket": "E"
+    "actualBucket": "E",
+    "vsMedian": 11.51
    },
    {
     "file": "2026-11-18c",
@@ -248,7 +250,8 @@
     "snapAgeH": 48.9,
     "views7d": 11680,
     "late48": false,
-    "actualBucket": "E"
+    "actualBucket": "E",
+    "vsMedian": 5.25
    },
    {
     "file": "2026-11-11",
@@ -273,7 +276,8 @@
     "snapAgeH": 48.1,
     "views7d": 11431,
     "late48": false,
-    "actualBucket": "E"
+    "actualBucket": "E",
+    "vsMedian": 5.11
    },
    {
     "file": "2026-11-14i",
@@ -298,7 +302,8 @@
     "snapAgeH": 49.6,
     "views7d": null,
     "late48": false,
-    "actualBucket": "E"
+    "actualBucket": "E",
+    "vsMedian": 5.06
    },
    {
     "file": "r20261030-2",
@@ -323,7 +328,8 @@
     "snapAgeH": 48.4,
     "views7d": 4398,
     "late48": false,
-    "actualBucket": "E"
+    "actualBucket": "E",
+    "vsMedian": 1.98
    },
    {
     "file": "2026-11-10p",
@@ -348,7 +354,8 @@
     "snapAgeH": 48.1,
     "views7d": null,
     "late48": false,
-    "actualBucket": "E"
+    "actualBucket": "E",
+    "vsMedian": 1.39
    },
    {
     "file": "r20261030-3",
@@ -373,7 +380,8 @@
     "snapAgeH": 48.4,
     "views7d": 2494,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.1
    },
    {
     "file": "2026-11-05-2",
@@ -398,7 +406,8 @@
     "snapAgeH": 48.3,
     "views7d": 2493,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.1
    },
    {
     "file": "2026-11-16c",
@@ -426,7 +435,8 @@
     "actualBucket": "D",
     "predHit": true,
     "predWithin1": true,
-    "vsPred": 1.17
+    "vsPred": 1.17,
+    "vsMedian": 1.06
    },
    {
     "file": "r20261030-4",
@@ -451,7 +461,8 @@
     "snapAgeH": 48.5,
     "views7d": 2259,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.01
    },
    {
     "file": "2026-11-06-3",
@@ -476,7 +487,8 @@
     "snapAgeH": 60.2,
     "views7d": 2313,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.01
    },
    {
     "file": "2026-11-10",
@@ -501,7 +513,8 @@
     "snapAgeH": 48.2,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 0.99
    },
    {
     "file": "2026-11-17r",
@@ -526,7 +539,8 @@
     "snapAgeH": 48.7,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 0.96
    },
    {
     "file": "2026-11-18t",
@@ -551,7 +565,8 @@
     "snapAgeH": 49.6,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 0.94
    },
    {
     "file": "2026-11-19r",
@@ -576,7 +591,8 @@
     "snapAgeH": 49.5,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 0.87
    },
    {
     "file": "2026-11-08-2",
@@ -601,7 +617,8 @@
     "snapAgeH": 48.3,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 0.86
    },
    {
     "file": "2026-11-04",
@@ -626,7 +643,8 @@
     "snapAgeH": 48.1,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 0.74
    },
    {
     "file": "2026-11-06-2",
@@ -651,7 +669,8 @@
     "snapAgeH": 48.4,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 0.73
    },
    {
     "file": "2026-11-04-2",
@@ -676,7 +695,8 @@
     "snapAgeH": 48.1,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 0.54
    },
    {
     "file": "2026-10-30",
@@ -701,7 +721,8 @@
     "snapAgeH": 52.7,
     "views7d": null,
     "late48": false,
-    "actualBucket": "C"
+    "actualBucket": "C",
+    "vsMedian": 0.43
    },
    {
     "file": "2026-11-06",
@@ -726,7 +747,8 @@
     "snapAgeH": 75.5,
     "views7d": 815,
     "late48": false,
-    "actualBucket": "C"
+    "actualBucket": "C",
+    "vsMedian": 0.36
    },
    {
     "file": "2026-10-31",
@@ -751,7 +773,8 @@
     "snapAgeH": 48.4,
     "views7d": null,
     "late48": false,
-    "actualBucket": "B"
+    "actualBucket": "B",
+    "vsMedian": 0.11
    },
    {
     "file": "2026-10-29",
@@ -776,7 +799,8 @@
     "snapAgeH": 96.9,
     "views7d": 201,
     "late48": false,
-    "actualBucket": "A"
+    "actualBucket": "A",
+    "vsMedian": 0.09
    }
   ],
   "views48": {
@@ -786,6 +810,65 @@
    "min": 192
   },
   "avgWatchSec": 8.2,
+  "outliers": [
+   {
+    "file": "2026-11-09b",
+    "title": "珠珠吸管掉進水溝，排哥跳下去救",
+    "kind": "感人救援",
+    "vsMedian": 39.59
+   },
+   {
+    "file": "2026-11-11",
+    "title": "天團看狗血鬧劇",
+    "kind": "生活共鳴",
+    "vsMedian": 5.11
+   },
+   {
+    "file": "2026-11-14i",
+    "title": "超高霧淇淋塔",
+    "kind": "巨大食物",
+    "vsMedian": 5.06
+   },
+   {
+    "file": "2026-11-18c",
+    "title": "天團被關進娃娃機",
+    "kind": "互動選擇",
+    "vsMedian": 5.25
+   },
+   {
+    "file": "r20261030-1",
+    "title": "珍珠寶寶滾進大雨裡",
+    "kind": "感人救援",
+    "vsMedian": 11.51
+   }
+  ],
+  "flops": [
+   {
+    "file": "2026-10-29",
+    "title": "土狗的陣頭夢",
+    "kind": "跳舞",
+    "vsMedian": 0.09
+   },
+   {
+    "file": "2026-10-30",
+    "title": "黏土芒果寶寶",
+    "kind": "跳舞",
+    "vsMedian": 0.43
+   },
+   {
+    "file": "2026-10-31",
+    "title": "天團萬聖節變裝",
+    "kind": "節日天氣",
+    "vsMedian": 0.11
+   },
+   {
+    "file": "2026-11-06",
+    "title": "阿包裝睡被媽媽抓包",
+    "kind": "童年共鳴",
+    "vsMedian": 0.36
+   }
+  ],
+  "shareRateMedianPct": 0.0,
   "shareRatePct": 0.01,
   "saveRatePct": 0.05,
   "sharesTotal": 7,
@@ -941,7 +1024,39 @@
     "2026-11-20": 84,
     "2026-11-21": 83
    }
-  }
+  },
+  "captionCheck": [
+   {
+    "file": "2026-11-15m.txt",
+    "issues": [
+     "hashtag 10 個（上限 5）"
+    ]
+   },
+   {
+    "file": "2026-11-17b.txt",
+    "issues": [
+     "hashtag 10 個（上限 5）"
+    ]
+   },
+   {
+    "file": "2026-11-18a.txt",
+    "issues": [
+     "hashtag 10 個（上限 5）"
+    ]
+   },
+   {
+    "file": "2026-11-21j.txt",
+    "issues": [
+     "hashtag 10 個（上限 5）"
+    ]
+   },
+   {
+    "file": "2026-11-22b.txt",
+    "issues": [
+     "hashtag 9 個（上限 5）"
+    ]
+   }
+  ]
  },
  "fur": {
   "n48": 16,
@@ -959,7 +1074,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 151.4
+    "ageH": 152.4
    },
    {
     "file": "2026-11-16o",
@@ -973,7 +1088,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 147.5
+    "ageH": 148.5
    },
    {
     "file": "2026-11-17h",
@@ -987,7 +1102,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 140.4
+    "ageH": 141.4
    },
    {
     "file": "2026-11-17j",
@@ -1001,7 +1116,7 @@
     "weekday": "日",
     "slot": "23點",
     "check": "ok",
-    "ageH": 139.2
+    "ageH": 140.1
    },
    {
     "file": "2026-11-17t",
@@ -1015,7 +1130,7 @@
     "weekday": "二",
     "slot": "2點",
     "check": "ok",
-    "ageH": 113.6
+    "ageH": 114.5
    },
    {
     "file": "2026-11-18g",
@@ -1029,7 +1144,7 @@
     "weekday": "六",
     "slot": "10點",
     "check": "ok",
-    "ageH": 8.6
+    "ageH": 9.6
    },
    {
     "file": "2026-11-20r",
@@ -1043,7 +1158,7 @@
     "weekday": "五",
     "slot": "14點",
     "check": "ok",
-    "ageH": 26.5
+    "ageH": 27.5
    },
    {
     "file": "2026-11-21k",
@@ -1057,7 +1172,7 @@
     "weekday": "六",
     "slot": "14點",
     "check": "ok",
-    "ageH": 3.8
+    "ageH": 4.8
    }
   ],
   "posts": [
@@ -1084,7 +1199,8 @@
     "snapAgeH": 49.6,
     "views7d": null,
     "late48": false,
-    "actualBucket": "E"
+    "actualBucket": "E",
+    "vsMedian": 15.75
    },
    {
     "file": "2026-11-16l",
@@ -1109,7 +1225,8 @@
     "snapAgeH": 48.1,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.71
    },
    {
     "file": "2026-11-17",
@@ -1134,7 +1251,8 @@
     "snapAgeH": 48.4,
     "views7d": 2271,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.57
    },
    {
     "file": "2026-11-17c",
@@ -1159,7 +1277,8 @@
     "snapAgeH": 48.8,
     "views7d": 2094,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.45
    },
    {
     "file": "2026-11-09",
@@ -1184,7 +1303,8 @@
     "snapAgeH": 48.3,
     "views7d": 1756,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.2
    },
    {
     "file": "2026-11-11e",
@@ -1209,7 +1329,8 @@
     "snapAgeH": 48.8,
     "views7d": 1551,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.07
    },
    {
     "file": "2026-11-18p",
@@ -1234,7 +1355,8 @@
     "snapAgeH": 49.4,
     "views7d": null,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 1.04
    },
    {
     "file": "2026-11-16s",
@@ -1262,7 +1384,8 @@
     "actualBucket": "D",
     "predHit": false,
     "predWithin1": true,
-    "vsPred": 1.95
+    "vsPred": 1.95,
+    "vsMedian": 1.02
    },
    {
     "file": "2026-11-14s",
@@ -1287,7 +1410,8 @@
     "snapAgeH": 48.3,
     "views7d": 1421,
     "late48": false,
-    "actualBucket": "D"
+    "actualBucket": "D",
+    "vsMedian": 0.98
    },
    {
     "file": "2026-11-08",
@@ -1312,7 +1436,8 @@
     "snapAgeH": 48.2,
     "views7d": 544,
     "late48": false,
-    "actualBucket": "C"
+    "actualBucket": "C",
+    "vsMedian": 0.38
    },
    {
     "file": "2026-11-11",
@@ -1337,7 +1462,8 @@
     "snapAgeH": 48.5,
     "views7d": null,
     "late48": false,
-    "actualBucket": "B"
+    "actualBucket": "B",
+    "vsMedian": 0.19
    },
    {
     "file": "2026-11-15",
@@ -1362,7 +1488,8 @@
     "snapAgeH": 48.3,
     "views7d": null,
     "late48": false,
-    "actualBucket": "B"
+    "actualBucket": "B",
+    "vsMedian": 0.18
    },
    {
     "file": "2026-11-13",
@@ -1387,7 +1514,8 @@
     "snapAgeH": 49.9,
     "views7d": null,
     "late48": false,
-    "actualBucket": "A"
+    "actualBucket": "A",
+    "vsMedian": 0.14
    },
    {
     "file": "2026-11-11-2",
@@ -1412,7 +1540,8 @@
     "snapAgeH": 48.0,
     "views7d": null,
     "late48": false,
-    "actualBucket": "A"
+    "actualBucket": "A",
+    "vsMedian": 0.1
    },
    {
     "file": "2026-11-10e",
@@ -1440,7 +1569,8 @@
     "actualBucket": "A",
     "predHit": false,
     "predWithin1": false,
-    "vsPred": 0.19
+    "vsPred": 0.19,
+    "vsMedian": 0.1
    },
    {
     "file": "2026-11-06",
@@ -1465,7 +1595,8 @@
     "snapAgeH": 60.9,
     "views7d": 142,
     "late48": false,
-    "actualBucket": "A"
+    "actualBucket": "A",
+    "vsMedian": 0.09
    }
   ],
   "views48": {
@@ -1475,6 +1606,59 @@
    "min": 136
   },
   "avgWatchSec": 6.8,
+  "outliers": [
+   {
+    "file": "2026-11-14c",
+    "title": "公司霧淇淋日",
+    "kind": "巨大食物",
+    "vsMedian": 15.75
+   }
+  ],
+  "flops": [
+   {
+    "file": "2026-11-06",
+    "title": "橘貓 EP1｜週一打卡差 1 秒",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "vsMedian": 0.09
+   },
+   {
+    "file": "2026-11-08",
+    "title": "橘貓 EP2｜下班前 5 分鐘開會",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "vsMedian": 0.38
+   },
+   {
+    "file": "2026-11-10e",
+    "title": "橘貓 EP12｜準時下班（英文）",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "vsMedian": 0.1
+   },
+   {
+    "file": "2026-11-11-2",
+    "title": "橘貓 11.11｜包裹全寄到公司（英文）",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "vsMedian": 0.1
+   },
+   {
+    "file": "2026-11-11",
+    "title": "橘貓 EP4｜老闆說明天放假",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "vsMedian": 0.19
+   },
+   {
+    "file": "2026-11-13",
+    "title": "橘貓 EP5｜監視器：老闆一走就飆椅子",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "vsMedian": 0.14
+   },
+   {
+    "file": "2026-11-15",
+    "title": "橘貓 EP7｜週五下班 vs 週一上班",
+    "kind": "橘貓社畜連續劇｜3D 擬人",
+    "vsMedian": 0.18
+   }
+  ],
+  "shareRateMedianPct": 0.01,
   "shareRatePct": 0.19,
   "saveRatePct": 0.04,
   "sharesTotal": 26,
@@ -1590,6 +1774,20 @@
     "2026-11-20": 105,
     "2026-11-21": 107
    }
-  }
+  },
+  "captionCheck": [
+   {
+    "file": "2026-11-15f.txt",
+    "issues": [
+     "hashtag 10 個（上限 5）"
+    ]
+   },
+   {
+    "file": "2026-11-21h.txt",
+    "issues": [
+     "hashtag 10 個（上限 5）"
+    ]
+   }
+  ]
  }
 }
