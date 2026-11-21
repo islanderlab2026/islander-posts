@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-21T04:39Z",
- "n": 33,
+ "generatedAt": "2026-11-21T05:39Z",
+ "n": 36,
  "slots": {
   "00": {
    "n": 3,
@@ -39,15 +39,18 @@
    ]
   },
   "12": {
-   "n": 3,
-   "reachMedian": 3,
-   "sharesSum": 0,
-   "savedSum": 0,
+   "n": 6,
+   "reachMedian": 53.5,
+   "sharesSum": 1,
+   "savedSum": 4,
    "enough": true,
    "posts": [
     "1115-set1-1",
     "1115-set1-2",
-    "1115-set1-3"
+    "1115-set1-3",
+    "1124a-soso",
+    "1124b-crowd",
+    "1124c-cow"
    ]
   },
   "15": {
