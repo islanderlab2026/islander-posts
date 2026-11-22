@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-22T03:34Z",
- "n": 37,
+ "generatedAt": "2026-11-22T04:41Z",
+ "n": 39,
  "slots": {
   "00": {
    "n": 3,
@@ -39,13 +39,15 @@
    ]
   },
   "11": {
-   "n": 1,
-   "reachMedian": 107,
-   "sharesSum": 0,
-   "savedSum": 1,
-   "enough": false,
+   "n": 3,
+   "reachMedian": 106,
+   "sharesSum": 1,
+   "savedSum": 2,
+   "enough": true,
    "posts": [
-    "1126a-flake"
+    "1126a-flake",
+    "1126b-thirdwheel",
+    "1126c-soaked"
    ]
   },
   "12": {
