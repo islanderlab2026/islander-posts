@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-11-23 01:25",
+ "generatedAt": "2026-11-23 02:21",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot：11/16 起依 6 個測試時段（2／6／10／14／18／22 點）取最近者，之前依 12／18／21／23 點；vsPred＝實際÷預測級距中點",
  "main": {
-  "n48": 24,
+  "n48": 25,
   "late48": 0,
   "pending": [
    {
@@ -17,7 +17,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 348.8,
+    "ageH": 349.8,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -40,7 +40,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 387.5,
+    "ageH": 388.4,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -63,7 +63,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 414.7,
+    "ageH": 415.6,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -86,7 +86,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 324.7,
+    "ageH": 325.6,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -109,7 +109,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 204.3,
+    "ageH": 205.2,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -132,7 +132,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 243.0,
+    "ageH": 243.9,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -155,7 +155,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 207.6,
+    "ageH": 208.5,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -178,7 +178,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 228.8,
+    "ageH": 229.7,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -201,7 +201,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 182.2,
+    "ageH": 183.2,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -211,22 +211,6 @@
      "viewsOk": false,
      "viewsErr": "400 100/33 Unsupported get request. Object with ID '17928420648199987' does not exist, cannot be loaded due to missing permissions, or does not support this operation"
     }
-   },
-   {
-    "file": "2026-11-15s",
-    "title": "打針哭最慘的居然是排哥",
-    "kind": "童年共鳴",
-    "score": 76,
-    "scoreVer": "v5.1",
-    "predView": null,
-    "experiment": null,
-    "postedTW": "11/21 01:39",
-    "weekday": "六",
-    "slot": "2點",
-    "check": "ok",
-    "ageH": 47.8,
-    "gone": false,
-    "diag": null
    },
    {
     "file": "2026-11-17b",
@@ -240,7 +224,7 @@
     "weekday": "日",
     "slot": "6點",
     "check": "ok",
-    "ageH": 20.1,
+    "ageH": 21.0,
     "gone": false,
     "diag": null
    },
@@ -256,7 +240,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 182.3,
+    "ageH": 183.2,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -279,7 +263,7 @@
     "weekday": "五",
     "slot": "18點",
     "check": "ok",
-    "ageH": 56.7,
+    "ageH": 57.6,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -302,7 +286,7 @@
     "weekday": "日",
     "slot": "10點",
     "check": "ok",
-    "ageH": 15.5,
+    "ageH": 16.5,
     "gone": false,
     "diag": null
    },
@@ -318,7 +302,7 @@
     "weekday": "六",
     "slot": "22點",
     "check": "ok",
-    "ageH": 27.7,
+    "ageH": 28.6,
     "gone": false,
     "diag": null
    }
@@ -348,7 +332,7 @@
     "views7d": 97031,
     "late48": false,
     "actualBucket": "E",
-    "vsMedian": 39.59
+    "vsMedian": 39.25
    },
    {
     "file": "r20261030-1",
@@ -374,7 +358,7 @@
     "views7d": 25508,
     "late48": false,
     "actualBucket": "E",
-    "vsMedian": 11.51
+    "vsMedian": 11.41
    },
    {
     "file": "2026-11-18c",
@@ -400,7 +384,7 @@
     "views7d": 11680,
     "late48": false,
     "actualBucket": "E",
-    "vsMedian": 5.25
+    "vsMedian": 5.21
    },
    {
     "file": "2026-11-11",
@@ -426,7 +410,7 @@
     "views7d": 11431,
     "late48": false,
     "actualBucket": "E",
-    "vsMedian": 5.11
+    "vsMedian": 5.06
    },
    {
     "file": "2026-11-14i",
@@ -452,7 +436,7 @@
     "views7d": 11226,
     "late48": false,
     "actualBucket": "E",
-    "vsMedian": 5.06
+    "vsMedian": 5.02
    },
    {
     "file": "r20261030-2",
@@ -478,7 +462,7 @@
     "views7d": 4398,
     "late48": false,
     "actualBucket": "E",
-    "vsMedian": 1.98
+    "vsMedian": 1.96
    },
    {
     "file": "2026-11-10p",
@@ -504,7 +488,33 @@
     "views7d": null,
     "late48": false,
     "actualBucket": "E",
-    "vsMedian": 1.39
+    "vsMedian": 1.37
+   },
+   {
+    "file": "2026-11-15s",
+    "title": "打針哭最慘的居然是排哥",
+    "kind": "童年共鳴",
+    "score": 76,
+    "scoreVer": "v5.1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/21 01:39",
+    "weekday": "六",
+    "slot": "2點",
+    "check": "ok",
+    "views48": 2835,
+    "reach48": 1833,
+    "avgWatchSec": 10.5,
+    "shares48": 0,
+    "saved48": 2,
+    "likes48": 15,
+    "shareRate": 0.0,
+    "saveRate": 0.11,
+    "snapAgeH": 48.7,
+    "views7d": null,
+    "late48": false,
+    "actualBucket": "D",
+    "vsMedian": 1.27
    },
    {
     "file": "r20261030-3",
@@ -530,7 +540,7 @@
     "views7d": 2494,
     "late48": false,
     "actualBucket": "D",
-    "vsMedian": 1.1
+    "vsMedian": 1.09
    },
    {
     "file": "2026-11-05-2",
@@ -556,7 +566,7 @@
     "views7d": 2493,
     "late48": false,
     "actualBucket": "D",
-    "vsMedian": 1.1
+    "vsMedian": 1.09
    },
    {
     "file": "2026-11-16c",
@@ -585,7 +595,7 @@
     "predHit": true,
     "predWithin1": true,
     "vsPred": 1.17,
-    "vsMedian": 1.06
+    "vsMedian": 1.05
    },
    {
     "file": "r20261030-4",
@@ -637,7 +647,7 @@
     "views7d": 2313,
     "late48": false,
     "actualBucket": "D",
-    "vsMedian": 1.01
+    "vsMedian": 1.0
    },
    {
     "file": "2026-11-10",
@@ -663,7 +673,7 @@
     "views7d": null,
     "late48": false,
     "actualBucket": "D",
-    "vsMedian": 0.99
+    "vsMedian": 0.98
    },
    {
     "file": "2026-11-17r",
@@ -689,7 +699,7 @@
     "views7d": null,
     "late48": false,
     "actualBucket": "D",
-    "vsMedian": 0.96
+    "vsMedian": 0.95
    },
    {
     "file": "2026-11-18t",
@@ -715,7 +725,7 @@
     "views7d": null,
     "late48": false,
     "actualBucket": "D",
-    "vsMedian": 0.94
+    "vsMedian": 0.93
    },
    {
     "file": "2026-11-19r",
@@ -741,7 +751,7 @@
     "views7d": null,
     "late48": false,
     "actualBucket": "D",
-    "vsMedian": 0.87
+    "vsMedian": 0.86
    },
    {
     "file": "2026-11-08-2",
@@ -767,7 +777,7 @@
     "views7d": null,
     "late48": false,
     "actualBucket": "D",
-    "vsMedian": 0.86
+    "vsMedian": 0.85
    },
    {
     "file": "2026-11-04",
@@ -793,7 +803,7 @@
     "views7d": null,
     "late48": false,
     "actualBucket": "D",
-    "vsMedian": 0.74
+    "vsMedian": 0.73
    },
    {
     "file": "2026-11-06-2",
@@ -871,7 +881,7 @@
     "views7d": null,
     "late48": false,
     "actualBucket": "C",
-    "vsMedian": 0.43
+    "vsMedian": 0.42
    },
    {
     "file": "2026-11-06",
@@ -953,8 +963,8 @@
    }
   ],
   "views48": {
-   "median": 2208,
-   "mean": 7617,
+   "median": 2227,
+   "mean": 7425,
    "max": 87419,
    "min": 192
   },
@@ -964,31 +974,31 @@
     "file": "2026-11-09b",
     "title": "珠珠吸管掉進水溝，排哥跳下去救",
     "kind": "感人救援",
-    "vsMedian": 39.59
+    "vsMedian": 39.25
    },
    {
     "file": "2026-11-11",
     "title": "天團看狗血鬧劇",
     "kind": "生活共鳴",
-    "vsMedian": 5.11
+    "vsMedian": 5.06
    },
    {
     "file": "2026-11-14i",
     "title": "超高霧淇淋塔",
     "kind": "巨大食物",
-    "vsMedian": 5.06
+    "vsMedian": 5.02
    },
    {
     "file": "2026-11-18c",
     "title": "天團被關進娃娃機",
     "kind": "互動選擇",
-    "vsMedian": 5.25
+    "vsMedian": 5.21
    },
    {
     "file": "r20261030-1",
     "title": "珍珠寶寶滾進大雨裡",
     "kind": "感人救援",
-    "vsMedian": 11.51
+    "vsMedian": 11.41
    }
   ],
   "flops": [
@@ -1002,7 +1012,7 @@
     "file": "2026-10-30",
     "title": "黏土芒果寶寶",
     "kind": "跳舞",
-    "vsMedian": 0.43
+    "vsMedian": 0.42
    },
    {
     "file": "2026-10-31",
@@ -1048,9 +1058,9 @@
     "median48": 3060
    },
    "童年共鳴": {
-    "n": 3,
-    "avg48": 2534,
-    "median48": 2436
+    "n": 4,
+    "avg48": 2609,
+    "median48": 2636
    },
    "時事投資": {
     "n": 1,
@@ -1100,9 +1110,9 @@
     "median48": 3060
    },
    "2點": {
-    "n": 1,
-    "avg48": 2117,
-    "median48": 2117
+    "n": 2,
+    "avg48": 2476,
+    "median48": 2476
    },
    "10點": {
     "n": 1,
@@ -1127,8 +1137,8 @@
     "median48": 2332
    }
   },
-  "scoreVsViews_spearman": 0.19,
-  "avgWatchVsViews_spearman": 0.69,
+  "scoreVsViews_spearman": 0.16,
+  "avgWatchVsViews_spearman": 0.7,
   "prediction": {
    "n": 1,
    "hitPct": 100,
@@ -1194,7 +1204,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 182.3,
+    "ageH": 183.2,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -1217,7 +1227,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 178.5,
+    "ageH": 179.4,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -1240,7 +1250,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 171.4,
+    "ageH": 172.3,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -1263,7 +1273,7 @@
     "weekday": "日",
     "slot": "23點",
     "check": "ok",
-    "ageH": 170.1,
+    "ageH": 171.0,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -1286,7 +1296,7 @@
     "weekday": "二",
     "slot": "2點",
     "check": "ok",
-    "ageH": 144.5,
+    "ageH": 145.4,
     "gone": true,
     "diag": {
      "day": "2026-11-22",
@@ -1309,7 +1319,7 @@
     "weekday": "六",
     "slot": "10點",
     "check": "ok",
-    "ageH": 39.5,
+    "ageH": 40.4,
     "gone": false,
     "diag": null
    },
@@ -1325,7 +1335,7 @@
     "weekday": "日",
     "slot": "18點",
     "check": "ok",
-    "ageH": 7.9,
+    "ageH": 8.9,
     "gone": false,
     "diag": null
    },
@@ -1341,7 +1351,7 @@
     "weekday": "六",
     "slot": "14點",
     "check": "ok",
-    "ageH": 34.7,
+    "ageH": 35.7,
     "gone": false,
     "diag": null
    },
@@ -1357,7 +1367,7 @@
     "weekday": "日",
     "slot": "22點",
     "check": "ok",
-    "ageH": 3.7,
+    "ageH": 4.7,
     "gone": false,
     "diag": null
    }
