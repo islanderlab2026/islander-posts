@@ -1,0 +1,32 @@
+{
+ "id": "goosebumps",
+ "hook": [
+  "English says",
+  "GOOSEBUMPS.",
+  "Chinese says..."
+ ],
+ "zh": "雞皮疙瘩",
+ "py": "jī pí gē da",
+ "literal": "chicken skin bumps",
+ "punch": [
+  "Same bumps.",
+  "Different bird.",
+  "Geese or chickens?",
+  "You decide."
+ ],
+ "cta": [
+  "Send this to",
+  "a friend who gets",
+  "chills at every song"
+ ],
+ "bg": [
+  72,
+  20,
+  34
+ ],
+ "accent": [
+  120,
+  205,
+  255
+ ]
+}

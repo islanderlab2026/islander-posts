@@ -1,0 +1,67 @@
+{
+ "id": "melons",
+ "label": "A OR B?",
+ "cover": [
+  "THE CHINESE",
+  "MELON FAMILY:",
+  "A OR B?"
+ ],
+ "sub": "pick the real meaning",
+ "items": [
+  {
+   "zh": "西瓜",
+   "py": "xīguā",
+   "literal": "west melon",
+   "options": [
+    "cucumber",
+    "watermelon"
+   ],
+   "correct": 1
+  },
+  {
+   "zh": "南瓜",
+   "py": "nánguā",
+   "literal": "south melon",
+   "options": [
+    "pumpkin",
+    "potato"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "木瓜",
+   "py": "mùguā",
+   "literal": "tree melon",
+   "options": [
+    "coconut",
+    "papaya"
+   ],
+   "correct": 1
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   104,
+   66,
+   200
+  ],
+  "accent": [
+   255,
+   214,
+   102
+  ],
+  "pyc": [
+   104,
+   66,
+   200
+  ]
+ }
+}

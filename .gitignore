@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+# 2026-11-22 資安防呆：公開存放庫的待發區絕不收明文影片、圖片、文案（只收 .enc 加密檔）
+queue/*.mp4
+queue/*.txt
+queue/fur/*.mp4
+queue/fur/*.txt
+queue/bear/*/*.mp4
+queue/bear/*/*.jpg
+queue/bear/*/*.jpeg
+queue/bear/*/*.png
+queue/bear/*/*.txt

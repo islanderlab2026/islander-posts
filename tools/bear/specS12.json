@@ -1,0 +1,33 @@
+{
+ "id": "soaked",
+ "hook": [
+  "In Chinese,",
+  "SOAKING WET",
+  "is literally..."
+ ],
+ "zh": "落湯雞",
+ "py": "luò tāng jī",
+ "literal": "chicken dropped in soup",
+ "punch": [
+  "Forgot your",
+  "umbrella again?",
+  "Hello,",
+  "soup chicken."
+ ],
+ "cta": [
+  "Send this to",
+  "the friend who",
+  "never brings",
+  "an umbrella"
+ ],
+ "bg": [
+  58,
+  22,
+  64
+ ],
+ "accent": [
+  190,
+  240,
+  90
+ ]
+}

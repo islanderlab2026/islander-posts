@@ -1,0 +1,32 @@
+{
+ "id": "fired",
+ "hook": [
+  "In Chinese,",
+  "GETTING FIRED",
+  "is literally..."
+ ],
+ "zh": "炒魷魚",
+ "py": "chǎo yóu yú",
+ "literal": "stir-frying squid",
+ "punch": [
+  "\"Pack up",
+  "your desk.\"",
+  "Boss just",
+  "fried your squid."
+ ],
+ "cta": [
+  "Send this to",
+  "the coworker who",
+  "is always late"
+ ],
+ "bg": [
+  30,
+  32,
+  36
+ ],
+ "accent": [
+  255,
+  120,
+  175
+ ]
+}

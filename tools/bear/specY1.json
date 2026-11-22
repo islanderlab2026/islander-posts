@@ -1,0 +1,61 @@
+{
+ "id": "vehicles",
+ "label": "GUESS THE VEHICLE",
+ "cover": [
+  "GUESS THE",
+  "VEHICLE FROM ITS",
+  "CHINESE NAME"
+ ],
+ "sub": "literal translation only",
+ "items": [
+  {
+   "zh": "火車",
+   "py": "huǒchē",
+   "literal": "fire car",
+   "answer": "train"
+  },
+  {
+   "zh": "腳踏車",
+   "py": "jiǎotàchē",
+   "literal": "foot-pedal car",
+   "answer": "bicycle"
+  },
+  {
+   "zh": "救護車",
+   "py": "jiùhùchē",
+   "literal": "rescue-care car",
+   "answer": "ambulance"
+  },
+  {
+   "zh": "飛機",
+   "py": "fēijī",
+   "literal": "flying machine",
+   "answer": "airplane"
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   0,
+   128,
+   128
+  ],
+  "accent": [
+   255,
+   214,
+   102
+  ],
+  "pyc": [
+   0,
+   128,
+   128
+  ]
+ }
+}

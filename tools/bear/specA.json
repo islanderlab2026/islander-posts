@@ -1,0 +1,8 @@
+{"id":"tone","slides":[
+ {"kind":"cover","title":["ONE WRONG TONE","IN CHINESE"],"emoji":"😳","sub":"and you're in big trouble"},
+ {"kind":"pair","a":{"zh":"問","simp":"问","py":"wèn","en":"ask","emoji":"🙋"},"b":{"zh":"吻","simp":"吻","py":"wěn","en":"kiss","emoji":"😘"},"meant":"Can I ask you something?","said":"Can I kiss you?"},
+ {"kind":"pair","a":{"zh":"水餃","simp":"水饺","py":"shuǐjiǎo","en":"dumplings","emoji":"🥟"},"b":{"zh":"睡覺","simp":"睡觉","py":"shuìjiào","en":"to sleep","emoji":"😴"},"meant":"I want dumplings.","said":"I want to sleep."},
+ {"kind":"pair","a":{"zh":"湯","simp":"汤","py":"tāng","en":"soup","emoji":"🍲"},"b":{"zh":"糖","simp":"糖","py":"táng","en":"sugar","emoji":"🍬"},"meant":"More soup, please.","said":"More sugar, please."},
+ {"kind":"pair","a":{"zh":"買","simp":"买","py":"mǎi","en":"buy","emoji":"🛍️"},"b":{"zh":"賣","simp":"卖","py":"mài","en":"sell","emoji":"💰"},"meant":"I want to buy it.","said":"I want to sell it."},
+ {"kind":"end","q":["Which one would","get YOU in trouble?"],"emoji":"👇","cta":["Send this to someone","learning Chinese"]}
+]}

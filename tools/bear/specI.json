@@ -1,0 +1,84 @@
+{
+ "id": "twoway",
+ "theme": "pastel",
+ "slides": [
+  {
+   "kind": "q_cover",
+   "emoji": "🔄",
+   "title": [
+    "ONE WORD,",
+    "TWO OPPOSITE",
+    "MEANINGS"
+   ],
+   "sub": [
+    "Context does all the work."
+   ]
+  },
+  {
+   "kind": "p_card",
+   "emoji": "🤝",
+   "zh": "借",
+   "simp": "借",
+   "py": "jiè",
+   "rows": [
+    [
+     "MEANS",
+     "borrow"
+    ],
+    [
+     "ALSO MEANS",
+     "lend"
+    ]
+   ],
+   "aside": "Same word for both sides."
+  },
+  {
+   "kind": "p_card",
+   "emoji": "🏠",
+   "zh": "租",
+   "simp": "租",
+   "py": "zū",
+   "rows": [
+    [
+     "MEANS",
+     "rent (from someone)"
+    ],
+    [
+     "ALSO MEANS",
+     "rent out"
+    ]
+   ],
+   "aside": "Tenant and landlord say the same thing."
+  },
+  {
+   "kind": "p_card",
+   "emoji": "🏫",
+   "zh": "上課",
+   "simp": "上课",
+   "py": "shàngkè",
+   "rows": [
+    [
+     "MEANS",
+     "attend class"
+    ],
+    [
+     "ALSO MEANS",
+     "teach class"
+    ]
+   ],
+   "aside": "Student or teacher? Same word."
+  },
+  {
+   "kind": "q_end",
+   "q": [
+    "Which one",
+    "confused you most?"
+   ],
+   "emoji": "🤯",
+   "cta": [
+    "Send this to someone",
+    "learning Chinese"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "soso",
+ "hook": [
+  "Chinese for",
+  "\"so-so\"",
+  "is literally..."
+ ],
+ "zh": "馬馬虎虎",
+ "py": "mǎ ma hū hū",
+ "literal": "horse horse tiger tiger",
+ "punch": [
+  "\"How was the movie?\"",
+  "\"Horse horse",
+  "tiger tiger.\"",
+  "= so-so"
+ ],
+ "cta": [
+  "Send this to",
+  "your most chill friend"
+ ],
+ "bg": [
+  48,
+  28,
+  20
+ ],
+ "accent": [
+  120,
+  230,
+  190
+ ]
+}

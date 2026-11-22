@@ -1,0 +1,32 @@
+{
+ "id": "icecream",
+ "hook": [
+  "This Chinese word",
+  "is secretly",
+  "English. Say it",
+  "out loud:"
+ ],
+ "zh": "冰淇淋",
+ "py": "bīngqílín",
+ "literal": "ice + qílín",
+ "punch": [
+  "qílín sounds like",
+  "\"cream\"",
+  "so...",
+  "ICE CREAM"
+ ],
+ "cta": [
+  "Send this to",
+  "an ice cream lover"
+ ],
+ "bg": [
+  22,
+  28,
+  48
+ ],
+ "accent": [
+  255,
+  210,
+  63
+ ]
+}

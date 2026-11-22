@@ -1,0 +1,58 @@
+name: post-bear
+# 2026-11-15 熊貓中文（bearcat.chinese）串接 GitHub 自動發輪播
+# 每 30 分鐘檢查一次 queue/bear/times.json，時間到了就發（一次一則）；沒到時間馬上結束
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "立刻發哪一則（queue/bear 底下的資料夾名稱，空白＝照時間）"
+        required: false
+permissions:
+  contents: write
+concurrency: post-bear
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    environment: ig-post
+    env:
+      HAS_BEAR: ${{ secrets.IG_TOKEN_BEAR != '' }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install requests
+      - name: 發熊貓中文輪播
+        if: env.HAS_BEAR == 'true'
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_BEAR }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_BEAR }}
+          ONLY: ${{ inputs.only }}
+          QUEUE_PRIVKEY: ${{ secrets.QUEUE_PRIVKEY }}
+          GH_TOKEN: ${{ github.token }}
+          PAGES_BASE: https://islanderlab2026.github.io/islander-posts
+        run: python scripts/post_carousel.py
+      - name: 數據收集（熊貓中文）
+        if: always() && env.HAS_BEAR == 'true'
+        continue-on-error: true
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN_BEAR }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID_BEAR }}
+          DONE: posted/bear
+          ACC: bear
+        run: python scripts/metrics.py
+      - name: 時段分析
+        if: always()
+        continue-on-error: true
+        run: python scripts/bear_times.py
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "islander-bot"
+          git config user.email "islander-bot@users.noreply.github.com"
+          python scripts/strip_media.py || true
+          git add -A
+          git diff --cached --quiet || git commit -m "bear $(date -u +%FT%H%M)"
+          git pull --rebase origin main && git push

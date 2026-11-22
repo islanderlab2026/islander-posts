@@ -1,0 +1,33 @@
+{
+ "id": "brag",
+ "hook": [
+  "In Chinese,",
+  "BRAGGING",
+  "is literally..."
+ ],
+ "zh": "吹牛",
+ "py": "chuī niú",
+ "literal": "inflating a cow",
+ "punch": [
+  "\"I could win",
+  "any game, easy.\"",
+  "Okay buddy,",
+  "stop inflating",
+  "the cow."
+ ],
+ "cta": [
+  "Send this to",
+  "your biggest",
+  "show-off friend"
+ ],
+ "bg": [
+  72,
+  20,
+  34
+ ],
+ "accent": [
+  120,
+  205,
+  255
+ ]
+}

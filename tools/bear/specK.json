@@ -1,0 +1,70 @@
+{
+ "id": "noeng",
+ "theme": "grid",
+ "slides": [
+  {
+   "kind": "g_cover",
+   "title": [
+    "CHINESE WORDS",
+    "ENGLISH DOESN'T",
+    "REALLY HAVE"
+   ],
+   "char": "緣",
+   "sub": "keep watching"
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "加",
+    "油"
+   ],
+   "py": "jiāyóu",
+   "en": "you got this!",
+   "aside": "Literally: add oil. Like fueling up a car."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "吃",
+    "苦"
+   ],
+   "py": "chīkǔ",
+   "en": "endure hardship",
+   "aside": "Literally: eat bitter."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "熱",
+    "鬧"
+   ],
+   "py": "rènao",
+   "simp": "热闹",
+   "en": "lively and bustling",
+   "aside": "Literally: hot and noisy. In a good way."
+  },
+  {
+   "kind": "g_char",
+   "chars": [
+    "緣",
+    "分"
+   ],
+   "py": "yuánfèn",
+   "simp": "缘分",
+   "en": "destined connection",
+   "aside": "Why you met your best friend."
+  },
+  {
+   "kind": "g_end",
+   "q": [
+    "Which one do you",
+    "wish English had?"
+   ],
+   "emoji": "🤔",
+   "cta": [
+    "Send this to someone",
+    "learning Chinese"
+   ]
+  }
+ ]
+}

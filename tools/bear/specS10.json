@@ -1,0 +1,32 @@
+{
+ "id": "flake",
+ "hook": [
+  "In Chinese,",
+  "standing someone up",
+  "is literally..."
+ ],
+ "zh": "放鴿子",
+ "py": "fàng gē zi",
+ "literal": "releasing the pigeons",
+ "punch": [
+  "\"Omw!\"",
+  "...never shows up.",
+  "They released",
+  "the pigeons."
+ ],
+ "cta": [
+  "Send this to",
+  "the friend who",
+  "always cancels"
+ ],
+ "bg": [
+  58,
+  22,
+  64
+ ],
+ "accent": [
+  190,
+  240,
+  90
+ ]
+}

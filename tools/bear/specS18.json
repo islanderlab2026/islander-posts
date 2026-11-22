@@ -1,0 +1,32 @@
+{
+ "id": "hindsight",
+ "hook": [
+  "In Chinese,",
+  "USELESS HINDSIGHT",
+  "is literally..."
+ ],
+ "zh": "馬後炮",
+ "py": "mǎ hòu pào",
+ "literal": "cannon behind the horse",
+ "punch": [
+  "\"I KNEW",
+  "that would",
+  "happen.\"",
+  "...after it happened."
+ ],
+ "cta": [
+  "Send this to",
+  "the friend who",
+  "always \"knew it\""
+ ],
+ "bg": [
+  30,
+  32,
+  36
+ ],
+ "accent": [
+  255,
+  120,
+  175
+ ]
+}

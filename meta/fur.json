@@ -1,0 +1,273 @@
+{
+ "_note": "orangecat.office.tw（原 furfriend.tw）每支片的評分與分類，key＝檔名主幹；產片上傳時同步新增。oldAccount true＝11/6 改版前柯基帳號的片（已封存），analyze.py 不計入。11/10 修正：同名檔名主幹已改成橘貓的片。",
+ "2026-10-30": {
+  "title": "短腿跟不上的一天",
+  "kind": "生活共鳴",
+  "score": 81,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-10-31-hw": {
+  "title": "萬聖節柯基",
+  "kind": "節日天氣",
+  "score": 84,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-05": {
+  "title": "柯基唱歌破音",
+  "kind": "反差才藝",
+  "score": 83,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-07": {
+  "title": "柯基跳芭蕾",
+  "kind": "反差才藝",
+  "score": 79,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-02": {
+  "title": "週一早上柯基擋門",
+  "kind": "生活共鳴",
+  "score": 84,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-09": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP3｜發年終那天",
+  "score": 87
+ },
+ "2026-11-03": {
+  "title": "柯基釣魚搶魚",
+  "kind": "反轉故事",
+  "score": 82,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-08": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP2｜下班前 5 分鐘開會",
+  "score": 81
+ },
+ "2026-10-31": {
+  "title": "柯基等門 EP1",
+  "kind": "感人故事",
+  "score": 78,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-04": {
+  "title": "柯基跳 breaking",
+  "kind": "反差才藝",
+  "score": 75,
+  "scoreVer": "v1",
+  "oldAccount": true
+ },
+ "2026-11-06": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP1｜週一打卡差 1 秒",
+  "score": 83
+ },
+ "2026-11-10": {
+  "title": "麻糬＋大金做咖啡大失敗",
+  "kind": "反轉故事",
+  "score": 70,
+  "scoreVer": "v2",
+  "scoreItems": {
+   "hook": 18,
+   "watch": 15,
+   "share": 14,
+   "quality": 11,
+   "timely": 12
+  },
+  "predView": "A",
+  "experiment": "C",
+  "oldAccount": true
+ },
+ "2026-11-11": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP4｜老闆說明天放假",
+  "score": 85
+ },
+ "2026-11-01": {
+  "oldAccount": true
+ },
+ "2026-11-04-2": {
+  "oldAccount": true
+ },
+ "2026-11-05-2": {
+  "oldAccount": true
+ },
+ "2026-11-06-2": {
+  "oldAccount": true
+ },
+ "2026-11-13": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP5｜監視器：老闆一走就飆椅子",
+  "score": 84
+ },
+ "2026-11-15": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 EP7｜週五下班 vs 週一上班",
+  "score": 88
+ },
+ "2026-11-11-2": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓 11.11｜包裹全寄到公司（英文）",
+  "score": 86
+ },
+ "2026-11-17": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v1106",
+  "title": "橘貓｜公司報名馬拉松（英文）",
+  "score": 85
+ },
+ "2026-11-10e": {
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "scoreVer": "v3.4",
+  "title": "橘貓 EP12｜準時下班（英文）",
+  "score": 82,
+  "predView": "C"
+ },
+ "2026-11-16s": {
+  "title": "Juju 烤焦蛋糕，Oreo 吃光還有驚喜",
+  "kind": "情侶戀愛",
+  "score": 93,
+  "scoreVer": "v4.1",
+  "scoreItems": {
+   "watch": 28,
+   "gene": 25,
+   "hook": 15,
+   "share": 15,
+   "quality": 10
+  },
+  "predView": "C",
+  "experiment": "好消息驚喜＋料理＋戀愛"
+ },
+ "2026-11-14c": {
+  "title": "公司霧淇淋日",
+  "kind": "巨大食物",
+  "score": 82,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-16l": {
+  "title": "便當被笑寒酸，最後全公司搶著吃",
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "score": 82,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-17c": {
+  "title": "Juju 躲進娃娃機裝玩偶躲主管",
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "score": 86,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-11e": {
+  "title": "Bonus day（重做）",
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "score": 85,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-18p": {
+  "title": "胖胖 Juju 撐竿跳，Oreo 送紙獎牌",
+  "kind": "運動反差",
+  "score": 84,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-14s": {
+  "title": "請假被拒，倒地假哭",
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "score": 82,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-15c1": {
+  "title": "Juju 生日驚喜派對",
+  "kind": "情侶戀愛",
+  "score": 88,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-16o": {
+  "title": "Oreo 當 Juju 的專屬攝影師",
+  "kind": "情侶戀愛",
+  "score": 92,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-17h": {
+  "title": "Juju 討抱，Oreo 闔上電腦",
+  "kind": "情侶戀愛",
+  "score": 86,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-17j": {
+  "title": "巨大 Juju 下班來接 Oreo",
+  "kind": "情侶戀愛",
+  "score": 84,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-17t": {
+  "title": "Juju 還在生氣，但尾巴繞住 Oreo",
+  "kind": "情侶戀愛",
+  "score": 82,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-20r": {
+  "title": "Juju 吊環十字支撐＋後空翻",
+  "kind": "運動反差",
+  "score": 84,
+  "scoreVer": "v4.1",
+  "kindNote": "2026-11-20 補分類"
+ },
+ "2026-11-18g": {
+  "title": "巨貓探窗，Juju 戳它鼻子",
+  "kind": "巨物反差",
+  "score": 84,
+  "scoreVer": "v5.1",
+  "kindNote": "2026-11-20 補排回"
+ },
+ "2026-11-15f": {
+  "title": "週五 5 點 vs 週一 9 點",
+  "kind": "橘貓社畜連續劇｜3D 擬人",
+  "score": 53,
+  "scoreVer": "v5.1",
+  "kindNote": "2026-11-20 補排回"
+ },
+ "2026-11-21k": {
+  "title": "電腦秀斗，Juju 越來越不耐煩到暴走",
+  "kind": "生活崩潰共鳴（爆款模仿）",
+  "score": 79,
+  "scoreVer": "v5.1"
+ },
+ "2026-11-21h": {
+  "title": "迷你 Juju 啃光巨大漢堡",
+  "kind": "巨大食物（爆款改編）",
+  "score": 77,
+  "scoreVer": "v5.1"
+ },
+ "2026-11-21r": {
+  "title": "公司龜兔賽跑，Juju 坐辦公椅反超",
+  "kind": "寓言反轉＋辦公室",
+  "score": 74,
+  "scoreVer": "v5.1"
+ }
+}

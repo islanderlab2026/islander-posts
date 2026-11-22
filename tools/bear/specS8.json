@@ -1,0 +1,32 @@
+{
+ "id": "nightcat",
+ "hook": [
+  "In Chinese,",
+  "a NIGHT OWL",
+  "is literally..."
+ ],
+ "zh": "夜貓子",
+ "py": "yè mao zi",
+ "literal": "night cat",
+ "punch": [
+  "3 a.m.",
+  "Still scrolling?",
+  "You're a",
+  "night cat."
+ ],
+ "cta": [
+  "Send this to",
+  "your friend who",
+  "never sleeps"
+ ],
+ "bg": [
+  14,
+  48,
+  44
+ ],
+ "accent": [
+  255,
+  140,
+  110
+ ]
+}

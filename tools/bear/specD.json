@@ -1,0 +1,82 @@
+{
+ "id": "twister",
+ "slides": [
+  {
+   "kind": "d_cover",
+   "emoji": "👅",
+   "title": [
+    "CHINESE",
+    "TONGUE",
+    "TWISTER"
+   ],
+   "sub": [
+    "Say each level 3× fast.",
+    "No mistakes."
+   ]
+  },
+  {
+   "kind": "d_level",
+   "label": "LEVEL 1",
+   "zh": "四是四",
+   "py": "sì shì sì",
+   "en": "Four is four.",
+   "aside": "Easy. Warming up."
+  },
+  {
+   "kind": "d_level",
+   "label": "LEVEL 2",
+   "zh": "十是十",
+   "py": "shí shì shí",
+   "en": "Ten is ten.",
+   "aside": "Same sounds. Different tones."
+  },
+  {
+   "kind": "d_level",
+   "label": "LEVEL 3",
+   "zh": "十四是十四",
+   "py": "shísì shì shísì",
+   "en": "Fourteen is fourteen.",
+   "aside": "Still with me?"
+  },
+  {
+   "kind": "d_level",
+   "label": "LEVEL 4",
+   "zh": "四十是四十",
+   "py": "sìshí shì sìshí",
+   "en": "Forty is forty.",
+   "aside": "Don't swap 14 and 40."
+  },
+  {
+   "kind": "d_final",
+   "label": "BOSS LEVEL",
+   "rows": [
+    [
+     "四是四，十是十",
+     "sì shì sì, shí shì shí"
+    ],
+    [
+     "十四是十四",
+     "shísì shì shísì"
+    ],
+    [
+     "四十是四十",
+     "sìshí shì sìshí"
+    ]
+   ],
+   "aside": "All of it. One breath."
+  },
+  {
+   "kind": "d_end",
+   "q": [
+    "Which level",
+    "beat you?"
+   ],
+   "emoji": "👇",
+   "cta": [
+    "Send this to someone who",
+    "thinks tones are easy"
+   ]
+  }
+ ],
+ "theme": "dark"
+}

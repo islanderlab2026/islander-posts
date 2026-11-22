@@ -1,0 +1,62 @@
+{
+ "id": "sports",
+ "label": "GUESS THE SPORT",
+ "cover": [
+  "GUESS THE",
+  "SPORT FROM ITS",
+  "CHINESE NAME"
+ ],
+ "sub": "literal translation only",
+ "items": [
+  {
+   "zh": "籃球",
+   "py": "lánqiú",
+   "literal": "basket ball",
+   "answer": "basketball"
+  },
+  {
+   "zh": "排球",
+   "py": "páiqiú",
+   "literal": "row ball",
+   "answer": "volleyball"
+  },
+  {
+   "zh": "桌球",
+   "py": "zhuōqiú",
+   "literal": "table ball",
+   "answer": "ping pong"
+  },
+  {
+   "zh": "足球",
+   "py": "zúqiú",
+   "literal": "foot ball",
+   "answer": "soccer",
+   "note": "Not the American kind."
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   236,
+   98,
+   46
+  ],
+  "accent": [
+   255,
+   226,
+   140
+  ],
+  "pyc": [
+   214,
+   78,
+   30
+  ]
+ }
+}

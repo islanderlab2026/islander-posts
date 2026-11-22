@@ -1,0 +1,133 @@
+{
+ "generatedAt": "2026-11-22T02:35Z",
+ "n": 36,
+ "slots": {
+  "00": {
+   "n": 3,
+   "reachMedian": 110,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": true,
+   "posts": [
+    "1117d-melons",
+    "1117e-nature",
+    "1117f-clothes"
+   ]
+  },
+  "01": {
+   "n": 3,
+   "reachMedian": 113,
+   "sharesSum": 4,
+   "savedSum": 11,
+   "enough": true,
+   "posts": [
+    "1117a-heart",
+    "1117b-noeng",
+    "1117c-love"
+   ]
+  },
+  "09": {
+   "n": 3,
+   "reachMedian": 98,
+   "sharesSum": 0,
+   "savedSum": 3,
+   "enough": true,
+   "posts": [
+    "1121a-home",
+    "1121b-animals3",
+    "1121c-food2"
+   ]
+  },
+  "12": {
+   "n": 6,
+   "reachMedian": 53.5,
+   "sharesSum": 1,
+   "savedSum": 4,
+   "enough": true,
+   "posts": [
+    "1115-set1-1",
+    "1115-set1-2",
+    "1115-set1-3",
+    "1124a-soso",
+    "1124b-crowd",
+    "1124c-cow"
+   ]
+  },
+  "15": {
+   "n": 3,
+   "reachMedian": 4,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": true,
+   "posts": [
+    "1116a-picto",
+    "1116b-quiz",
+    "1116c-twister"
+   ]
+  },
+  "17": {
+   "n": 6,
+   "reachMedian": 104.5,
+   "sharesSum": 1,
+   "savedSum": 2,
+   "enough": true,
+   "posts": [
+    "1120a-places",
+    "1120b-jobs",
+    "1120c-sports",
+    "1122a-animals2",
+    "1122b-everyday",
+    "1122c-electric"
+   ]
+  },
+  "19": {
+   "n": 3,
+   "reachMedian": 97,
+   "sharesSum": 0,
+   "savedSum": 1,
+   "enough": true,
+   "posts": [
+    "1119a-bugs",
+    "1119b-gadgets",
+    "1119c-vehicles"
+   ]
+  },
+  "21": {
+   "n": 1,
+   "reachMedian": 107,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": false,
+   "posts": [
+    "1123a-jealous"
+   ]
+  },
+  "22": {
+   "n": 3,
+   "reachMedian": 4,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": true,
+   "posts": [
+    "1117a-twoway",
+    "1117b-da",
+    "1117c-loan"
+   ]
+  },
+  "23": {
+   "n": 5,
+   "reachMedian": 105,
+   "sharesSum": 0,
+   "savedSum": 2,
+   "enough": true,
+   "posts": [
+    "1118a-food",
+    "1118b-objects",
+    "1118c-animals",
+    "1123b-idle",
+    "1123c-icecream"
+   ]
+  }
+ },
+ "best": "01"
+}

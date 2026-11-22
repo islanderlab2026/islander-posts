@@ -1,0 +1,32 @@
+{
+ "id": "oolong",
+ "hook": [
+  "In Chinese,",
+  "A TOTAL BLUNDER",
+  "is literally..."
+ ],
+ "zh": "烏龍",
+ "py": "wū lóng",
+ "literal": "black dragon",
+ "punch": [
+  "Own goal?",
+  "Wrong email?",
+  "That's an",
+  "OOLONG."
+ ],
+ "cta": [
+  "Send this to",
+  "the friend who",
+  "hit reply-all"
+ ],
+ "bg": [
+  22,
+  34,
+  64
+ ],
+ "accent": [
+  255,
+  200,
+  60
+ ]
+}

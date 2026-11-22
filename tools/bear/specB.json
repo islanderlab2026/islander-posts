@@ -1,0 +1,8 @@
+{"id":"sassy","slides":[
+ {"kind":"cover","title":["SASSY CHINESE,","TRANSLATED","LITERALLY"],"emoji":"😏","sub":"use with caution"},
+ {"kind":"phrase","zh":"想太多","simp":"想太多","py":"xiǎng tài duō","emoji":"🤯","literal":"Think too much.","means":"You're overthinking it."},
+ {"kind":"phrase","zh":"隨便","simp":"随便","py":"suíbiàn","emoji":"🤷","literal":"Follow convenience.","means":"Whatever."},
+ {"kind":"phrase","zh":"無言","simp":"无言","py":"wúyán","emoji":"😶","literal":"No words.","means":"I'm speechless."},
+ {"kind":"phrase","zh":"你很閒","simp":"你很闲","py":"nǐ hěn xián","emoji":"🙄","literal":"You are very idle.","means":"Don't you have anything better to do?"},
+ {"kind":"end","q":["Which one do you","need today?"],"emoji":"👇","cta":["Send this to your","sassiest friend"]}
+]}

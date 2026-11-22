@@ -1,0 +1,30 @@
+{
+ "id": "crowd",
+ "hook": [
+  "In Chinese,",
+  "a HUGE crowd",
+  "is literally..."
+ ],
+ "zh": "人山人海",
+ "py": "rén shān rén hǎi",
+ "literal": "people mountain people sea",
+ "punch": [
+  "Every concert.",
+  "Every theme park.",
+  "Every holiday."
+ ],
+ "cta": [
+  "Send this to",
+  "your concert buddy"
+ ],
+ "bg": [
+  48,
+  28,
+  20
+ ],
+ "accent": [
+  120,
+  230,
+  190
+ ]
+}

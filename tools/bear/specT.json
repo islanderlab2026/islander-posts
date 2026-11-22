@@ -1,0 +1,67 @@
+{
+ "id": "animals2",
+ "label": "A OR B?",
+ "cover": [
+  "GUESS THE",
+  "ANIMAL:",
+  "A OR B?"
+ ],
+ "sub": "pick the real meaning",
+ "items": [
+  {
+   "zh": "火雞",
+   "py": "huǒjī",
+   "literal": "fire chicken",
+   "options": [
+    "phoenix",
+    "turkey"
+   ],
+   "correct": 1
+  },
+  {
+   "zh": "海豚",
+   "py": "hǎitún",
+   "literal": "sea pig",
+   "options": [
+    "dolphin",
+    "seal"
+   ],
+   "correct": 0
+  },
+  {
+   "zh": "貓頭鷹",
+   "py": "māotóuyīng",
+   "literal": "cat-head eagle",
+   "options": [
+    "owl",
+    "lynx"
+   ],
+   "correct": 0
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   20,
+   110,
+   84
+  ],
+  "accent": [
+   255,
+   214,
+   102
+  ],
+  "pyc": [
+   20,
+   110,
+   84
+  ]
+ }
+}

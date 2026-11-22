@@ -1,0 +1,32 @@
+{
+ "id": "cheapskate",
+ "hook": [
+  "In Chinese,",
+  "A CHEAPSKATE",
+  "is literally..."
+ ],
+ "zh": "鐵公雞",
+ "py": "tiě gōng jī",
+ "literal": "an iron rooster",
+ "punch": [
+  "Why iron?",
+  "You can't pluck",
+  "a single feather",
+  "from it."
+ ],
+ "cta": [
+  "Send this to",
+  "the friend who",
+  "never pays"
+ ],
+ "bg": [
+  30,
+  32,
+  36
+ ],
+ "accent": [
+  255,
+  120,
+  175
+ ]
+}

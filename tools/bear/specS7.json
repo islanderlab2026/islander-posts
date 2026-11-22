@@ -1,0 +1,31 @@
+{
+ "id": "dino",
+ "hook": [
+  "In Chinese,",
+  "a DINOSAUR",
+  "is literally..."
+ ],
+ "zh": "恐龍",
+ "py": "kǒnglóng",
+ "literal": "terror dragon",
+ "punch": [
+  "T. rex?",
+  "Terror dragon.",
+  "Pretty accurate."
+ ],
+ "cta": [
+  "Send this to",
+  "a friend who",
+  "loves dinosaurs"
+ ],
+ "bg": [
+  14,
+  48,
+  44
+ ],
+ "accent": [
+  255,
+  140,
+  110
+ ]
+}

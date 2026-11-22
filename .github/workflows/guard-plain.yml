@@ -1,0 +1,9 @@
+name: guard-plain
+# 2026-11-22 資安防呆：有人推了明文影片、圖片、文案到待發區就亮紅燈
+on: { push: { branches: [main] } }
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sh tools/check_plain.sh

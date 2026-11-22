@@ -1,0 +1,61 @@
+{
+ "id": "gadgets",
+ "label": "GUESS THE GADGET",
+ "cover": [
+  "GUESS THE",
+  "GADGET FROM ITS",
+  "CHINESE NAME"
+ ],
+ "sub": "literal translation only",
+ "items": [
+  {
+   "zh": "耳機",
+   "py": "ěrjī",
+   "literal": "ear machine",
+   "answer": "headphones"
+  },
+  {
+   "zh": "相機",
+   "py": "xiàngjī",
+   "literal": "photo machine",
+   "answer": "camera"
+  },
+  {
+   "zh": "洗衣機",
+   "py": "xǐyījī",
+   "literal": "wash-clothes machine",
+   "answer": "washing machine"
+  },
+  {
+   "zh": "吸塵器",
+   "py": "xīchénqì",
+   "literal": "suck-dust device",
+   "answer": "vacuum cleaner"
+  }
+ ],
+ "end_q": [
+  "How many",
+  "did you get?"
+ ],
+ "end_cta": [
+  "Send this to a friend",
+  "to test them"
+ ],
+ "theme": {
+  "bg": [
+   0,
+   128,
+   128
+  ],
+  "accent": [
+   255,
+   214,
+   102
+  ],
+  "pyc": [
+   0,
+   128,
+   128
+  ]
+ }
+}
