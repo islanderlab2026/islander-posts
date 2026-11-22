@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-22T22:54Z",
- "n": 39,
+ "generatedAt": "2026-11-22T23:52Z",
+ "n": 42,
  "slots": {
   "00": {
    "n": 3,
@@ -24,6 +24,27 @@
     "1117a-heart",
     "1117b-noeng",
     "1117c-love"
+   ]
+  },
+  "06": {
+   "n": 1,
+   "reachMedian": 110,
+   "sharesSum": 0,
+   "savedSum": 1,
+   "enough": false,
+   "posts": [
+    "1127a-brag"
+   ]
+  },
+  "07": {
+   "n": 2,
+   "reachMedian": 110.5,
+   "sharesSum": 0,
+   "savedSum": 1,
+   "enough": false,
+   "posts": [
+    "1127b-suckup",
+    "1127c-goosebumps"
    ]
   },
   "09": {
