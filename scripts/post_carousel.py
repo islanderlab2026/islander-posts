@@ -65,7 +65,7 @@ def post_one(when, key):
             subprocess.run(["gh", "release", "delete", tmp["tag"], "--repo", REPO, "--yes", "--cleanup-tag"])
 
 def _post_one(when, key, folder, src, enc, imgs, cap, host):
-    if not 2 <= len(imgs) <= 10:
+    if not (folder / "reel_only").exists() and not 2 <= len(imgs) <= 10:  # 2026-11-23 只發 Reels 的不檢查圖片張數
         sys.exit(f"{key} 有 {len(imgs)} 張圖，輪播要 2–10 張，不發")
 
     def call(method, path, **params):
