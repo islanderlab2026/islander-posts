@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-23 11:39",
+ "generatedAt": "2026-11-23 12:53",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot：11/16 起依 6 個測試時段（2／6／10／14／18／22 點）取最近者，之前依 12／18／21／23 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 25,
@@ -17,7 +17,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 359.1,
+    "ageH": 360.3,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -40,7 +40,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 397.7,
+    "ageH": 398.9,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -63,7 +63,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 424.9,
+    "ageH": 426.1,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -86,7 +86,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 334.9,
+    "ageH": 336.1,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -109,7 +109,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 214.5,
+    "ageH": 215.7,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -132,7 +132,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 253.2,
+    "ageH": 254.4,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -155,7 +155,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 217.8,
+    "ageH": 219.1,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -178,7 +178,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 239.0,
+    "ageH": 240.2,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -201,7 +201,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 192.5,
+    "ageH": 193.7,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -224,7 +224,7 @@
     "weekday": "日",
     "slot": "6點",
     "check": "ok",
-    "ageH": 30.3,
+    "ageH": 31.5,
     "gone": false,
     "diag": null
    },
@@ -240,7 +240,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 192.6,
+    "ageH": 193.8,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -263,7 +263,7 @@
     "weekday": "五",
     "slot": "18點",
     "check": "ok",
-    "ageH": 66.9,
+    "ageH": 68.1,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -286,7 +286,7 @@
     "weekday": "日",
     "slot": "10點",
     "check": "ok",
-    "ageH": 25.8,
+    "ageH": 27.0,
     "gone": false,
     "diag": null
    },
@@ -302,7 +302,7 @@
     "weekday": "六",
     "slot": "22點",
     "check": "ok",
-    "ageH": 37.9,
+    "ageH": 39.2,
     "gone": false,
     "diag": null
    }
@@ -1204,7 +1204,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 192.5,
+    "ageH": 193.8,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -1227,7 +1227,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 188.7,
+    "ageH": 189.9,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -1250,7 +1250,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 181.6,
+    "ageH": 182.8,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -1273,7 +1273,7 @@
     "weekday": "日",
     "slot": "23點",
     "check": "ok",
-    "ageH": 180.3,
+    "ageH": 181.5,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -1296,7 +1296,7 @@
     "weekday": "二",
     "slot": "2點",
     "check": "ok",
-    "ageH": 154.7,
+    "ageH": 155.9,
     "gone": true,
     "diag": {
      "day": "2026-11-23",
@@ -1319,7 +1319,7 @@
     "weekday": "日",
     "slot": "18點",
     "check": "ok",
-    "ageH": 18.2,
+    "ageH": 19.4,
     "gone": false,
     "diag": null
    },
@@ -1335,7 +1335,7 @@
     "weekday": "六",
     "slot": "14點",
     "check": "ok",
-    "ageH": 45.0,
+    "ageH": 46.2,
     "gone": false,
     "diag": null
    },
@@ -1351,7 +1351,23 @@
     "weekday": "日",
     "slot": "22點",
     "check": "ok",
-    "ageH": 14.0,
+    "ageH": 15.2,
+    "gone": false,
+    "diag": null
+   },
+   {
+    "file": "2026-11-23k",
+    "title": "Juju 救 Oreo 救太用力（可靈版）",
+    "kind": "反差喜劇｜損友",
+    "score": 73,
+    "scoreVer": "v5.1",
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/23 12:53",
+    "weekday": "一",
+    "slot": "14點",
+    "check": "ok",
+    "ageH": 0.0,
     "gone": false,
     "diag": null
    }
