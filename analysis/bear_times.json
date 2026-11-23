@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-23T10:45Z",
- "n": 42,
+ "generatedAt": "2026-11-23T11:35Z",
+ "n": 45,
  "slots": {
   "00": {
    "n": 3,
@@ -113,16 +113,28 @@
     "1122c-electric"
    ]
   },
+  "18": {
+   "n": 2,
+   "reachMedian": 94.5,
+   "sharesSum": 0,
+   "savedSum": 4,
+   "enough": false,
+   "posts": [
+    "1125a-dino",
+    "1125b-nightcat"
+   ]
+  },
   "19": {
-   "n": 3,
-   "reachMedian": 97,
+   "n": 4,
+   "reachMedian": 95.5,
    "sharesSum": 0,
    "savedSum": 1,
    "enough": true,
    "posts": [
     "1119a-bugs",
     "1119b-gadgets",
-    "1119c-vehicles"
+    "1119c-vehicles",
+    "1125c-rookie"
    ]
   },
   "21": {
