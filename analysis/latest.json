@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-25 05:37",
+ "generatedAt": "2026-11-25 06:39",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot：11/16 起依 6 個測試時段（2／6／10／14／18／22 點）取最近者，之前依 12／18／21／23 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 27,
@@ -17,7 +17,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 401.0,
+    "ageH": 402.1,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -40,7 +40,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 439.7,
+    "ageH": 440.7,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -63,7 +63,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 466.9,
+    "ageH": 467.9,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -86,7 +86,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 376.9,
+    "ageH": 377.9,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -109,7 +109,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 256.5,
+    "ageH": 257.5,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -132,7 +132,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 295.1,
+    "ageH": 296.2,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -155,7 +155,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 259.8,
+    "ageH": 260.8,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -178,7 +178,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 281.0,
+    "ageH": 282.0,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -201,7 +201,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 234.4,
+    "ageH": 235.4,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -224,7 +224,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 234.5,
+    "ageH": 235.5,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -247,7 +247,7 @@
     "weekday": "五",
     "slot": "18點",
     "check": "ok",
-    "ageH": 108.9,
+    "ageH": 109.9,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -270,7 +270,7 @@
     "weekday": "六",
     "slot": "22點",
     "check": "ok",
-    "ageH": 79.9,
+    "ageH": 80.9,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -293,7 +293,7 @@
     "weekday": "一",
     "slot": "14點",
     "check": "ok",
-    "ageH": 38.8,
+    "ageH": 39.8,
     "gone": false,
     "diag": null
    },
@@ -309,7 +309,7 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 11.8,
+    "ageH": 12.8,
     "gone": false,
     "diag": null
    }
@@ -1270,7 +1270,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 234.5,
+    "ageH": 235.5,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -1293,7 +1293,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 230.6,
+    "ageH": 231.7,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -1316,7 +1316,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 223.6,
+    "ageH": 224.6,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -1339,7 +1339,7 @@
     "weekday": "日",
     "slot": "23點",
     "check": "ok",
-    "ageH": 222.3,
+    "ageH": 223.3,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -1362,7 +1362,7 @@
     "weekday": "二",
     "slot": "2點",
     "check": "ok",
-    "ageH": 196.7,
+    "ageH": 197.7,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -1385,7 +1385,7 @@
     "weekday": "日",
     "slot": "18點",
     "check": "ok",
-    "ageH": 60.1,
+    "ageH": 61.2,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -1408,7 +1408,7 @@
     "weekday": "日",
     "slot": "22點",
     "check": "ok",
-    "ageH": 55.9,
+    "ageH": 56.9,
     "gone": true,
     "diag": {
      "day": "2026-11-24",
@@ -1431,7 +1431,7 @@
     "weekday": "一",
     "slot": "14點",
     "check": "ok",
-    "ageH": 40.7,
+    "ageH": 41.8,
     "gone": false,
     "diag": null
    }
