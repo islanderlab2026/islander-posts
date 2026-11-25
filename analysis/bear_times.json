@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-25T04:19Z",
- "n": 51,
+ "generatedAt": "2026-11-25T05:40Z",
+ "n": 52,
  "slots": {
   "00": {
    "n": 3,
@@ -84,15 +84,16 @@
    ]
   },
   "12": {
-   "n": 6,
-   "reachMedian": 53.5,
+   "n": 7,
+   "reachMedian": 103,
    "sharesSum": 1,
-   "savedSum": 4,
+   "savedSum": 5,
    "enough": true,
    "posts": [
     "1115-set1-1",
     "1115-set1-2",
     "1115-set1-3",
+    "1123a-bearcat",
     "1124a-soso",
     "1124b-crowd",
     "1124c-cow"
