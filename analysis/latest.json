@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-26 12:46",
+ "generatedAt": "2026-11-26 13:42",
  "note": "views48＝發後 48 小時快照（ageH 為實際小時數）；slot：11/16 起依 6 個測試時段（2／6／10／14／18／22 點）取最近者，之前依 12／18／21／23 點；vsPred＝實際÷預測級距中點",
  "main": {
   "n48": 28,
@@ -17,7 +17,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 432.2,
+    "ageH": 433.1,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -40,7 +40,7 @@
     "weekday": "五",
     "slot": "21點",
     "check": "unknown",
-    "ageH": 470.8,
+    "ageH": 471.8,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -63,7 +63,7 @@
     "weekday": "四",
     "slot": "18點",
     "check": "ok",
-    "ageH": 498.0,
+    "ageH": 498.9,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -86,7 +86,7 @@
     "weekday": "一",
     "slot": "12點",
     "check": "ok",
-    "ageH": 408.0,
+    "ageH": 409.0,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -109,7 +109,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 287.6,
+    "ageH": 288.5,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -132,7 +132,7 @@
     "weekday": "四",
     "slot": "21點",
     "check": "ok",
-    "ageH": 326.3,
+    "ageH": 327.2,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -155,7 +155,7 @@
     "weekday": "六",
     "slot": "12點",
     "check": "ok",
-    "ageH": 291.0,
+    "ageH": 291.9,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -178,7 +178,7 @@
     "weekday": "五",
     "slot": "12點",
     "check": "ok",
-    "ageH": 312.1,
+    "ageH": 313.0,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -201,7 +201,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 265.6,
+    "ageH": 266.5,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -224,7 +224,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 265.7,
+    "ageH": 266.6,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -247,7 +247,7 @@
     "weekday": "五",
     "slot": "18點",
     "check": "ok",
-    "ageH": 140.0,
+    "ageH": 140.9,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -270,7 +270,7 @@
     "weekday": "六",
     "slot": "22點",
     "check": "ok",
-    "ageH": 111.1,
+    "ageH": 112.0,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -293,7 +293,7 @@
     "weekday": "二",
     "slot": "18點",
     "check": "ok",
-    "ageH": 43.0,
+    "ageH": 43.9,
     "gone": false,
     "diag": null
    },
@@ -309,7 +309,7 @@
     "weekday": "三",
     "slot": "22點",
     "check": "ok",
-    "ageH": 14.7,
+    "ageH": 15.7,
     "gone": false,
     "diag": null
    },
@@ -325,7 +325,7 @@
     "weekday": "四",
     "slot": "2點",
     "check": "ok",
-    "ageH": 11.3,
+    "ageH": 12.2,
     "gone": false,
     "diag": null
    }
@@ -1329,7 +1329,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 265.6,
+    "ageH": 266.6,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -1352,7 +1352,7 @@
     "weekday": "日",
     "slot": "12點",
     "check": "ok",
-    "ageH": 261.8,
+    "ageH": 262.7,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -1375,7 +1375,7 @@
     "weekday": "日",
     "slot": "21點",
     "check": "ok",
-    "ageH": 254.7,
+    "ageH": 255.6,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -1398,7 +1398,7 @@
     "weekday": "日",
     "slot": "23點",
     "check": "ok",
-    "ageH": 253.4,
+    "ageH": 254.4,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -1421,7 +1421,7 @@
     "weekday": "二",
     "slot": "2點",
     "check": "ok",
-    "ageH": 227.8,
+    "ageH": 228.8,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -1444,7 +1444,7 @@
     "weekday": "日",
     "slot": "18點",
     "check": "ok",
-    "ageH": 91.3,
+    "ageH": 92.2,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -1467,7 +1467,7 @@
     "weekday": "日",
     "slot": "22點",
     "check": "ok",
-    "ageH": 87.1,
+    "ageH": 88.0,
     "gone": true,
     "diag": {
      "day": "2026-11-26",
@@ -1477,6 +1477,22 @@
      "viewsOk": false,
      "viewsErr": "400 100/33 Unsupported get request. Object with ID '18417298237088279' does not exist, cannot be loaded due to missing permissions, or does not support this operation"
     }
+   },
+   {
+    "file": "2026-11-24c",
+    "title": "Juju mint candy soda (no rocket, slow-mo only)",
+    "kind": "實驗反應",
+    "score": 70,
+    "scoreVer": null,
+    "predView": null,
+    "experiment": null,
+    "postedTW": "11/26 13:42",
+    "weekday": "四",
+    "slot": "14點",
+    "check": "ok",
+    "ageH": 0.0,
+    "gone": false,
+    "diag": null
    },
    {
     "file": "2026-11-24h",
@@ -1490,7 +1506,7 @@
     "weekday": "三",
     "slot": "10點",
     "check": "ok",
-    "ageH": 26.7,
+    "ageH": 27.7,
     "gone": false,
     "diag": null
    }
