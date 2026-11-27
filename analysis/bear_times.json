@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-27T01:32Z",
- "n": 53,
+ "generatedAt": "2026-11-27T02:42Z",
+ "n": 54,
  "slots": {
   "00": {
    "n": 3,
@@ -70,6 +70,16 @@
     "1121b-animals3",
     "1121c-food2",
     "1124a-addoil"
+   ]
+  },
+  "10": {
+   "n": 1,
+   "reachMedian": 5,
+   "sharesSum": 0,
+   "savedSum": 0,
+   "enough": false,
+   "posts": [
+    "1125a-firetrio"
    ]
   },
   "11": {
