@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-11-28T01:41Z",
- "n": 54,
+ "generatedAt": "2026-11-28T09:27Z",
+ "n": 55,
  "slots": {
   "00": {
    "n": 3,
@@ -73,13 +73,14 @@
    ]
   },
   "10": {
-   "n": 1,
-   "reachMedian": 5,
+   "n": 2,
+   "reachMedian": 27.5,
    "sharesSum": 0,
    "savedSum": 0,
    "enough": false,
    "posts": [
-    "1125a-firetrio"
+    "1125a-firetrio",
+    "1126a-carefulslide"
    ]
   },
   "11": {
